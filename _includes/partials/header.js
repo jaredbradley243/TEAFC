@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     );
 
     // Toggle menu visibility
-    button.addEventListener("click", () => {
+    button.addEventListener("click", (event) => {
+      event.stopPropagation();
       const expanded = button.getAttribute("aria-expanded") === "true";
       button.setAttribute("aria-expanded", !expanded);
 
@@ -52,6 +53,24 @@ document.addEventListener("DOMContentLoaded", function () {
           otherIcon.classList.remove("rotate-180");
         }
       });
+    });
+
+    // Prevent clicks inside the menu from closing it
+    menu.addEventListener("click", (event) => {
+      event.stopPropagation();
+    });
+  });
+
+  // Close menu if clicked away
+  document.addEventListener("click", (event) => {
+    buttons.forEach((button) => {
+      const menu = button.nextElementSibling;
+      const icon = button.querySelector("svg");
+      if (button.getAttribute("aria-expanded") === "true") {
+        button.setAttribute("aria-expanded", "false");
+        menu.style.display = "none";
+        icon.classList.remove("rotate-180");
+      }
     });
   });
 });
