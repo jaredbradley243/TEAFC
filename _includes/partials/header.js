@@ -38,21 +38,23 @@ document.addEventListener("DOMContentLoaded", function () {
       // Toggle icon rotation
       icon.classList.toggle("rotate-180");
 
-      // Close other menus
-      buttons.forEach((otherButton) => {
-        if (otherButton !== button) {
-          const otherMenu = otherButton.nextElementSibling;
-          const otherIcon = otherButton.querySelector("svg");
+      // Close other menus if desktop
+      if (window.innerWidth >= 1024) {
+        buttons.forEach((otherButton) => {
+          if (otherButton !== button) {
+            const otherMenu = otherButton.nextElementSibling;
+            const otherIcon = otherButton.querySelector("svg");
 
-          otherButton.setAttribute("aria-expanded", "false");
-          otherMenu.classList.add("opacity-0", "translate-y-1");
-          otherMenu.classList.remove("opacity-100", "translate-y-0");
-          setTimeout(() => {
-            otherMenu.style.display = "none";
-          }, 200); // Match the duration of the transition
-          otherIcon.classList.remove("rotate-180");
-        }
-      });
+            otherButton.setAttribute("aria-expanded", "false");
+            otherMenu.classList.add("opacity-0", "translate-y-1");
+            otherMenu.classList.remove("opacity-100", "translate-y-0");
+            setTimeout(() => {
+              otherMenu.style.display = "none";
+            }, 200); // Match the duration of the transition
+            otherIcon.classList.remove("rotate-180");
+          }
+        });
+      }
     });
 
     // Prevent clicks inside the menu from closing it
@@ -61,16 +63,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Close menu if clicked away
-  document.addEventListener("click", (event) => {
-    buttons.forEach((button) => {
-      const menu = button.nextElementSibling;
-      const icon = button.querySelector("svg");
-      if (button.getAttribute("aria-expanded") === "true") {
-        button.setAttribute("aria-expanded", "false");
-        menu.style.display = "none";
-        icon.classList.remove("rotate-180");
-      }
+  // Close menu if clicked away if on desktop
+  if (window.innerWidth >= 1024) {
+    document.addEventListener("click", (event) => {
+      buttons.forEach((button) => {
+        const menu = button.nextElementSibling;
+        const icon = button.querySelector("svg");
+        if (button.getAttribute("aria-expanded") === "true") {
+          button.setAttribute("aria-expanded", "false");
+          menu.style.display = "none";
+          icon.classList.remove("rotate-180");
+        }
+      });
     });
-  });
+  }
 });
