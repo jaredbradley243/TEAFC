@@ -10,7 +10,7 @@
     position: absolute;
     width: 120%;
     height: 2px;
-    background-color: theme(colors.center-blue);
+    background-color: theme(colors.teafc-blue);
     bottom: -1px;
     left: 50%;
     transform: translateX(-50%);
