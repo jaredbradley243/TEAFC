@@ -1,5 +1,22 @@
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll('button[aria-expanded="false"]');
+  const mobileMenu = document.getElementById("mobile-menu");
+  const mobileMenuCloseButton = document.getElementById(
+    "mobile-menu-close-button"
+  );
+  const mobileMenuOpenButton = document.getElementById(
+    "mobile-menu-open-button"
+  );
+
+  mobileMenuOpenButton.addEventListener("click", (event) => {
+    event.stopPropagation();
+    mobileMenu.classList.toggle("hidden");
+  });
+
+  mobileMenuCloseButton.addEventListener("click", (event) => {
+    event.stopPropagation();
+    mobileMenu.classList.toggle("hidden");
+  });
 
   buttons.forEach((button) => {
     const menu = button.nextElementSibling;
@@ -9,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.classList.add(
       "transition",
       "ease-out",
-      "duration-20",
+      "duration-50",
       "opacity-0",
       "translate-y-1"
     );
@@ -26,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
         menu.classList.remove("opacity-100", "translate-y-0");
         setTimeout(() => {
           menu.style.display = "none";
-        }, 20); // Match the duration of the transition
+        }, 50); // Match the duration of the transition
       } else {
         menu.style.display = "block";
         setTimeout(() => {

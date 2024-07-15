@@ -12,7 +12,16 @@
       </a>
     </div>
     <div class="flex lg:hidden">
-      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+      <button
+        id="mobile-menu-open-button"
+        type="button"
+        class="-m-2.5
+        inline-flex
+        items-center
+        justify-center
+        rounded-md
+        p-2.5
+        text-gray-700">
         <span class="sr-only">Open main menu</span>
         <svg
           class="h-6 w-6"
@@ -242,7 +251,8 @@
   </nav>
   <!-- Mobile menu, show/hide based on menu open state. -->
   <div
-    class="lg:hidden"
+    id="mobile-menu"
+    class="hidden lg:hidden"
     role="dialog"
     aria-modal="true">
     <!-- Background backdrop, show/hide based on slide-over state. -->
@@ -256,7 +266,10 @@
             src="/assets/img/logo.svg"
             alt="">
         </a>
-        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+        <button
+          id="mobile-menu-close-button"
+          type="button"
+          class="-m-2.5 rounded-md p-2.5 text-gray-700">
           <span class="sr-only">Close menu</span>
           <svg
             class="h-6 w-6"
