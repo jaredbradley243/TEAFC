@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "npx postcss tailwind.css -o _site/css/styles.css",
     "watch:css": "npx postcss tailwind.css -o _site/css/styles.css --watch",
-    "dev": "concurrently \"npx eleventy --serve\" \"npm run watch:css\""
+    "dev": "concurrently \"npx eleventy --serve\" \"npm run watch:css\"",
+    "build": "npx postcss tailwind.css -o _site/css/styles.css && npx eleventy"
   },
   "keywords": [],
   "author": "",
