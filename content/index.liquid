@@ -1,0 +1,14 @@
+<!-- content/index.liquid -->
+
+<!-- Variables -->
+{% capture testimonial_content %}
+  {% include 'partials/testimonials.liquid' %}
+{% endcapture %}
+<!-- Content -->
+{% include 'partials/info-cards.liquid' %}
+{% include 'partials/branded-container.liquid'
+  , content: testimonial_content %}
+
+{% include 'partials/newsletter.liquid' %}
+
+<div class="mt-7 mb-7 text-center">END OF INDEX</div>
