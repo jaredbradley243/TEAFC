@@ -1,6 +1,3 @@
 layout: "layouts/base.liquid"
 title: "The Ed Ansner Family Center"
 description: "Welcome to the homepage."
-breadcrumbs:
-  - title: "Contact"
-    url: "/"

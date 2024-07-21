@@ -1,3 +1,6 @@
+# If modifying the site structure, do not forget to update the header.liquid and content/file.yaml
+
+# Labels
 first_link_title: "Home"
 second_link_title: "About"
 second_link_sub_menu_title1: "About Us"
@@ -9,8 +12,37 @@ third_link_sub_menu_title1: "Academy"
 third_link_sub_menu_description1: "This is the academy description"
 third_link_sub_menu_title2: "Enrichments"
 third_link_sub_menu_description2: "This is the Enrichments description"
+third_link_sub_menu_title3: "All Programs"
+third_link_sub_menu_description3: "This is the all programs description"
 fourth_link_title: "Mental Health"
 fifth_link_title: "Events"
 sixth_link_title: "Contact"
 seventh_link_title: "Donate"
 eighth_link_title: "Get Involved"
+
+# URLS
+# Main Pages
+home_url: /
+about_us_url: /about-us/
+our_team_url: /our-team/
+academy_url: /all-programs/academy/
+enrichments_url: /all-programs/enrichments/
+all_programs_url: /all-programs/
+mental_health_url: /mental-health/
+events_url: /events/
+contact_url: /contact/
+donate_url: /donate/
+get_involved_url: /get-involved/
+# Subpages
+# Programs
+art_w_avivah_url: /all-programs/enrichments/art-w-avivah/
+camped_url: /all-programs/enrichments/camped/
+virtual_classes_url: /all-programs/enrichments/virtual-classes/
+dating_spectrum_url: /all-programs/enrichments/dating-spectrum/
+# Mental Health
+family_therapy_url: /mental-health/family-therapy/
+one_on_one_therapy_url: /mental-health/1-on-1-therapy/
+caregiver_therapy_url: /mental-health/caregiver-therapy/
+art_sibling_group_therapy_url: /mental-health/art-sibling-group-therapy/
+relationship_coaching_url: /mental-health/relationship-coaching/
+life_coaching_url: /mental-health/life-coaching/

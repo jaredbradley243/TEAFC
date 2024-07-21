@@ -1,7 +1,7 @@
 layout: "layouts/base.liquid"
 title: "The Ed Ansner Family Center"
 description: "Welcome to the homepage."
-breadcrumb: ""
+permalink: /all-programs/academy/
 
 title_1_separate: "Our Academy"
 title_2_separate: "Dating Spectrum"
