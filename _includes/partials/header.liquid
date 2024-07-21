@@ -72,7 +72,7 @@
           <div class="p-4">
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ header.about_us_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.about_us_url }}" class="block font-semibold text-gray-900">
                   {{ header.second_link_sub_menu_title1 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -81,7 +81,7 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ header.our_team_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.our_team_url }}" class="block font-semibold text-gray-900">
                   {{ header.second_link_sub_menu_title2 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -123,7 +123,7 @@
           <div class="p-4">
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ header.academy_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.academy_url }}" class="block font-semibold text-gray-900">
                   {{ header.third_link_sub_menu_title1 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -132,7 +132,7 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ header.enrichments_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.enrichments_url }}" class="block font-semibold text-gray-900">
                   {{ header.third_link_sub_menu_title2 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -141,7 +141,7 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ header.all_programs_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.all_programs_url }}" class="block font-semibold text-gray-900">
                   {{ header.third_link_sub_menu_title3 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -151,11 +151,11 @@
           </div>
         </div>
       </div>
-      <a href="{{ header.mental_health_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.fourth_link_title }}</a>
-      <a href="{{ header.events_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.fifth_link_title }}</a>
-      <a href="{{ header.contact_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.sixth_link_title }}</a>
-      <a href="{{ header.donate_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.seventh_link_title }}</a>
-      <a href="{{ header.get_involved_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.eighth_link_title }}</a>
+      <a href="{{ navigation.mental_health_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.fourth_link_title }}</a>
+      <a href="{{ navigation.events_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.fifth_link_title }}</a>
+      <a href="{{ navigation.contact_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.sixth_link_title }}</a>
+      <a href="{{ navigation.donate_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.seventh_link_title }}</a>
+      <a href="{{ navigation.get_involved_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.eighth_link_title }}</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
   </nav>
@@ -225,11 +225,9 @@ header.first_link_title }}</a>
               </button>
               <!-- 'Product' sub-menu, show/hide based on menu state. -->
               <div class="hidden mt-2 space-y-2" id="disclosure-1">
-                <a href="{{
-header.about_us_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+                <a href="{{ navigation.about_us_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.second_link_sub_menu_title1 }}</a>
-                <a href="{{
-header.our_team_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+                <a href="{{ navigation.our_team_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.second_link_sub_menu_title2 }}</a>
               </div>
             </div>
@@ -259,32 +257,24 @@ header.second_link_sub_menu_title2 }}</a>
               </button>
               <!-- 'Product' sub-menu, show/hide based on menu state. -->
               <div class="hidden mt-2 space-y-2" id="disclosure-1">
-                <a href="{{
-header.academy_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+                <a href="{{ navigation.academy_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.third_link_sub_menu_title1 }}</a>
-                <a href="{{
-header.enrichments_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+                <a href="{{ navigation.enrichments_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.third_link_sub_menu_title2 }}</a>
-                <a href="{{
-header.enrichments_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+                <a href="{{ navigation.enrichments_url }}" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.third_link_sub_menu_title3 }}</a>
               </div>
             </div>
 
-            <a href="{{
-header.mental_health_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+            <a href="{{ navigation.mental_health_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.fourth_link_title }}</a>
-            <a href="{{
-header.events_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+            <a href="{{ navigation.events_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.fifth_link_title }}</a>
-            <a href="{{
-header.contact_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+            <a href="{{ navigation.contact_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.sixth_link_title }}</a>
-            <a href="{{
-header.donate_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+            <a href="{{ navigation.donate_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.seventh_link_title }}</a>
-            <a href="{{
-header.get_involved_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
+            <a href="{{ navigation.get_involved_url }}" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">{{
 header.eighth_link_title }}</a>
           </div>
         </div>

@@ -1,0 +1,30 @@
+# If modifying the site structure, do not forget to update "navigation.liquid", "content/file.yaml", "header.yaml"
+
+# Labels
+# Column 1
+column1_title: "About"
+column1_first_link_label: "About Us"
+column1_second_link_label: "Our Team"
+
+# Column 2
+column2_title: "Programs"
+column2_first_link_label: "Academy"
+column2_second_link_label: "Enrichments"
+column2_third_link_label: "All Programs"
+
+# Column 3
+column3_title: "Mental Health"
+
+# Column 4
+column4_title: "Other Links"
+column4_first_link_label: "Events"
+column4_second_link_label: "Contact"
+column4_third_link_label: "Donate"
+column4_fourth_link_label: "Get Involved"
+
+# Social Media
+social1: ""
+socail2: ""
+social3: ""
+social4: ""
+social5: ""
