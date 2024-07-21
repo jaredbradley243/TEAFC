@@ -15,6 +15,15 @@ module.exports = function (eleventyConfig) {
   // Pass through the assets folder
   eleventyConfig.addPassthroughCopy("assets");
 
+  // Filters
+  eleventyConfig.addFilter("titleCase", function (str) {
+    return str
+      .toLowerCase()
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  });
+
   return {
     dir: {
       input: "content", // Content directory
