@@ -1,6 +1,7 @@
 layout: "layouts/base.liquid"
 title: "The Ed Ansner Family Center"
 description: "Welcome to the homepage."
+permalink: /programs/enrichments/
 breadcrumbs:
   - title: "Enrichments"
     url: "/"
