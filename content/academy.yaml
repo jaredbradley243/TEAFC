@@ -1,8 +1,11 @@
+# Head
 layout: "layouts/base.liquid"
-title: "The Ed Ansner Family Center"
-description: "Welcome to the homepage."
+title: "Inclusive Academy for All Abilities | The Ed Asner Family Center"
+description: >
+  "Join our inclusive academy at The Ed Asner Family Center, combining job training, adaptive skills, and expressive arts for neurodivergent individuals. 
+  Our all-abilities program fosters growth and development in a supportive environment."
 permalink: /all-programs/academy/
-
+# Page Content
 title_1_separate: "Our Academy"
 title_2_separate: "Dating Spectrum"
 content_1_separate: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
