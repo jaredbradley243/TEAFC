@@ -1,4 +1,4 @@
 layout: "layouts/base.liquid"
 title: "The Ed Ansner Family Center"
 description: "Welcome to the homepage."
-permalink: /all-programs/enrichments/
+permalink: "{{ navigation.enrichments_url }}"

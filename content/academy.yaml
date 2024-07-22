@@ -4,7 +4,7 @@ title: "Inclusive Academy for All Abilities | The Ed Asner Family Center"
 description: >
   "Join our inclusive academy at The Ed Asner Family Center, combining job training, adaptive skills, and expressive arts for neurodivergent individuals. 
   Our all-abilities program fosters growth and development in a supportive environment."
-permalink: /all-programs/academy/
+permalink: "{{ navigation.academy_url }}"
 # Page Content
 title_1_separate: "Our Academy"
 title_2_separate: "Dating Spectrum"

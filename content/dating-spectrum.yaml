@@ -1,4 +1,4 @@
 layout: "layouts/base.liquid"
 title: ""
 description: ""
-permalink: /programs/enrichments/dating-spectrum/
+permalink: "{{ navigation.dating_spectrum_url }}"
