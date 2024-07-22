@@ -14,9 +14,12 @@
         <h5 class="font-bold">About</h5>
         <p class="mt-1 text-base font-semibold md:text-xl leading-7 text-gray-600">{{ quad.content_1_separate }}</p>
         <div>
-          <button class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange">
+          <button type="button" class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
             <p class="text-white px-16 py-1 font-bold">Join In</p>
           </button>
+          {% comment %} <button class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange">
+            <p class="text-white px-16 py-1 font-bold">Join In</p>
+          </button> {% endcomment %}
         </div>
       </div>
     </div>
@@ -34,15 +37,15 @@
         <h5 class="font-bold">About</h5>
         <p class="mt-1 text-base font-semibold md:text-xl leading-7 text-gray-600">{{ quad.content_2_separate }}</p>
         <ul class="mx-7 mt-4">
-          <li class="list-disc text-2xl">{{ quad.content_2-bullet_1 }}</li>
-          <li class="list-disc text-2xl">{{ quad.content_2-bullet_2 }}</li>
-          <li class="list-disc text-2xl">{{ quad.content_2-bullet_3 }}</li>
-          <li class="list-disc text-2xl">{{ quad.content_2-bullet_4 }}</li>
+          <li class="list-disc text-xl">{{ quad.content_2_bullet_1 }}</li>
+          <li class="list-disc text-xl">{{ quad.content_2_bullet_2 }}</li>
+          <li class="list-disc text-xl">{{ quad.content_2_bullet_3 }}</li>
+          <li class="list-disc text-xl">{{ quad.content_2_bullet_4 }}</li>
         </ul>
         <div>
-        <button class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange">
+          <button type="button" class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
             <p class="text-white px-16 py-1 font-bold">Join In</p>
-        </button>
+          </button>
         </div>
       </div>
     </div>
