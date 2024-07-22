@@ -1,6 +1,5 @@
 layout: "layouts/base.liquid"
-title: "The Ed Ansner Family Center"
-description: "Welcome to the homepage."
-breadcrumbs:
-  - title: "Events"
-    url: "/"
+title: "Events for Neurodivergent Community | The Ed Asner Family Center"
+description: >-
+  "Discover upcoming events at The Ed Asner Family Center. Our events are designed to engage, 
+  educate, and support neurodivergent individuals, fostering a sense of community and inclusion."

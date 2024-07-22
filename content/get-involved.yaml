@@ -1,6 +1,5 @@
 layout: "layouts/base.liquid"
-title: "The Ed Ansner Family Center"
-description: "Welcome to the homepage."
-breadcrumbs:
-  - title: "Get Involved"
-    url: "/"
+title: "Get Involved | Volunteer and Support | The Ed Asner Family Center"
+description: >-
+  "Learn how you can get involved with The Ed Asner Family Center. Discover volunteer opportunities, 
+  support groups, and other ways to contribute to our mission of supporting neurodivergent individuals."

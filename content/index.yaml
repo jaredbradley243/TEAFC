@@ -1,11 +1,10 @@
 layout: "layouts/base.liquid"
-title: "The Ed Ansner Family Center"
-description: "Welcome to the homepage."
-breadcrumbs:
-  - title: "Homepage"
-    url: "/"
-
-
+title: "The Ed Asner Family Center | Supporting Neurodivergent Individuals"
+description: >-
+  "Welcome to The Ed Asner Family Center, a nonprofit organization dedicated to enriching the 
+  lives of neurodivergent individuals, including those with autism. Explore our diverse programs, 
+  including day camps, expressive arts, enrichment activities, academy, and mental health services. 
+  Join us in creating a supportive and inclusive community."
 current_event_header: "Our Current Events"
 current_event_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 event_1_title: "Funko"
