@@ -9,6 +9,9 @@ module.exports = {
         "teafc-light-blue": "#EAFAFF",
         "teafc-light-orange": "#FFCD91",
       },
+      aspectRatio: {
+        "16/9": "16 / 9",
+      },
     },
   },
   plugins: [],

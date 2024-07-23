@@ -1,0 +1,28 @@
+<div class="bg-white px-6 py-8 sm:pt-4 sm:pb-12 lg:px-8">
+  <div class="mx-auto max-w-2xl text-center">
+    <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl"> {{ get-involved.section_title |  upcase }} </h2>
+    <p class="mt-6 text-base font-medium leading-8 text-gray-900"> {{ get-involved.section_desc }} </p>
+  </div>
+  <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-8 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:gap-0.5">
+      <div class="flex flex-col gap-4 rounded-xl bg-white/5 p-6">
+        <div class="bg-red-800 rounded-lg overflow-hidden flex justify-center">
+          <img class="aspect-square object-cover max-h-52" src="https://i.imgur.com/89EXIqI.png" alt="">
+        </div>
+        <div class="text-base leading-6 flex flex-col gap-2 flex-grow">
+          <h3 class="text-xl font-bold text-gray-700">{{ get-involved.card_1_title | upcase}}</h3>
+          <div class="w-1/1 h-0.5 bg-gray-300 "></div>
+          <p class="text-lg text-gray-500">{{ get-involved.card_1_desc }}</p>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4 rounded-xl bg-white/5 p-6">
+        <div class="bg-red-800 rounded-lg overflow-hidden flex justify-center">
+          <img class="aspect-square object-cover  max-h-52" src="https://i.imgur.com/89EXIqI.png" alt="">
+        </div>
+        <div class="text-base leading-6 flex flex-col gap-2 flex-grow">
+          <h3 class="text-xl font-bold text-gray-700">{{ get-involved.card_2_title | upcase }}</h3>
+          <div class="w-1/1 h-0.5 bg-gray-300 "></div>
+          <p class="text-lg text-gray-500">{{ get-involved.card_2_desc }}</p>
+        </div>
+      </div>
+    </div>
+</div>
