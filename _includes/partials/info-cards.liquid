@@ -3,13 +3,18 @@
   <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"></div>
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="flex flex-col mx-auto lg:mx-0">
-      <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">{{ info-cards.section_title |  upcase }} </h2>
-      <p class="mt-6 text-lg leading-8 text-gray-500"> {{ info-cards.section_desc }} </p>
+      <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">{{ info-cards.section_title | upcase }}</h2>
+      <p class="mt-6 text-lg leading-8 text-gray-500">
+        {{ section_desc }}
+      </p>
     </div>
     <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
       <div class="flex flex-col gap-4 rounded-xl bg-white/5 p-6 ring-2 ring-inset ring-teafc-orange">
         <div class="bg-red-800 rounded-lg overflow-hidden flex justify-center">
-          <img class="aspect-square object-cover  max-h-40" src="https://i.imgur.com/89EXIqI.png" alt="">
+          <img
+            class="aspect-square object-cover  max-h-40"
+            src="https://i.imgur.com/89EXIqI.png"
+            alt="">
         </div>
         <div class="text-base leading-6 flex flex-col gap-2 flex-grow">
           <h3 class="font-semibold text-gray-700">{{ info-cards.card_1_title }}</h3>
@@ -19,13 +24,16 @@
         </div>
         <div>
           <button type="button" class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
-            <p class="text-white px-16 py-1 font-bold"> {{ info-cards.uni_btn_txt }} </p>
+            <a href="{{ navigation.get_involved_url }}" class="text-white px-16 py-1 font-bold"> {{ info-cards.uni_btn_txt }} </a>
           </button>
         </div>
       </div>
       <div class="flex flex-col gap-4 rounded-xl bg-white/5 p-6 ring-2 ring-inset ring-teafc-orange">
         <div class="bg-red-800 rounded-lg overflow-hidden flex justify-center">
-          <img class="aspect-square object-cover  max-h-40" src="https://i.imgur.com/89EXIqI.png" alt="">
+          <img
+            class="aspect-square object-cover  max-h-40"
+            src="https://i.imgur.com/89EXIqI.png"
+            alt="">
         </div>
         <div class="text-base leading-6 flex flex-col gap-2 flex-grow">
           <h3 class="font-semibold text-gray-700">{{ info-cards.card_2_title }}</h3>
@@ -35,13 +43,16 @@
         </div>
         <div>
           <button type="button" class="mt- border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
-            <p class="text-white px-16 py-1 font-bold"> {{ info-cards.uni_btn_txt }} </p>
+            <a href="{{ navigation.get_involved_url }}" class="text-white px-16 py-1 font-bold"> {{ info-cards.uni_btn_txt }}</a>
           </button>
         </div>
       </div>
       <div class="flex flex-col gap-4 rounded-xl bg-white/5 p-6 ring-2 ring-inset ring-teafc-orange">
         <div class="bg-red-800 rounded-lg overflow-hidden flex justify-center">
-          <img class="aspect-square object-cover  max-h-40" src="https://i.imgur.com/89EXIqI.png" alt="">
+          <img
+            class="aspect-square object-cover  max-h-40"
+            src="https://i.imgur.com/89EXIqI.png"
+            alt="">
         </div>
         <div class="text-base leading-6 flex flex-col gap-2 flex-grow">
           <h3 class="font-semibold text-gray-700">{{ info-cards.card_3_title }}</h3>
@@ -51,7 +62,7 @@
         </div>
         <div>
           <button type="button" class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
-            <p class="text-white px-16 py-1 font-bold"> {{ info-cards.uni_btn_txt }} </p>
+            <a href="{{ navigation.get_involved_url }}" class="text-white px-16 py-1 font-bold"> {{ info-cards.uni_btn_txt }} </a>
           </button>
         </div>
       </div>
