@@ -14,21 +14,20 @@
     <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:mt-20 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
       <figure class="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 xl:col-start-2 xl:row-end-1">
         <blockquote class="p-6 text-lg font-semibold leading-7 tracking-tight text-gray-900 sm:p-12 sm:text-xl sm:leading-8">
-          <p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.”</p>
+          <p>“{{ testimonials.testimonial_1_testimony }}”</p>
         </blockquote>
         <figcaption class="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
           <img
             class="h-10 w-10 flex-none rounded-full bg-gray-50"
-            src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80"
+            src="{{ testimonials.testimonial_1_photo }}"
             alt="">
           <div class="flex-auto">
-            <div class="font-semibold">Brenna Goyette</div>
-            <div class="text-gray-600">@brennagoyette</div>
+            <div class="font-semibold">{{ testimonials.testimonial_1_name }}</div>
           </div>
-          <img
-            class="h-10 w-auto flex-none"
-            src="https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg"
-            alt="">
+        {% comment %} <img
+                      class="h-10 w-auto flex-none"
+                      src="https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg"
+                    alt=""> {% endcomment %}
         </figcaption>
       </figure>
       <div class="space-y-8 xl:contents xl:space-y-0">
