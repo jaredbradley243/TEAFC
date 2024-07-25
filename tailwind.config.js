@@ -24,7 +24,7 @@ module.exports = {
       maxWidth: {
         "40%": "40%",
         "50%": "50%"
-      }
+      },
     },
   },
   plugins: [],

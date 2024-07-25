@@ -16,4 +16,15 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .accordion-header {
+    @apply py-4 px-6 cursor-pointer
+  }
+  .accordion-header.active p {
+    @apply transition ease-in-out duration-300;
+    transform: rotateX('180deg')
+  }
+  .accordion-body {
+    @apply max-h-0 overflow-hidden transition-all duration-200 ease-out
+  }
 }
+
