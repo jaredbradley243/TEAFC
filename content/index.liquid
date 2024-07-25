@@ -1,9 +1,6 @@
 <!-- content/index.liquid -->
 
 <!-- Variables -->
-{% capture hero %}
-   {% include 'partials/hero.liquid' %}
-{% endcapture %}
 {% capture current-events-content %}
   {% include 'partials/current-events.liquid' %}
 {% endcapture %}
@@ -11,12 +8,10 @@
   {% include 'partials/testimonials.liquid' %}
 {% endcapture %}
 <!-- Content -->
-{% include 'partials/white-container.liquid'
-  , content: hero %}
 {% include 'partials/branded-container.liquid'
   , content: current-events-content %}
 {% include 'partials/info-cards.liquid' %}
 {% include 'partials/get-involved.liquid' %}
 {% include 'partials/branded-container.liquid'
-  ,  content: testimonial_content %}
+  , content: testimonial_content %}
 {% include 'partials/newsletter.liquid' %}
