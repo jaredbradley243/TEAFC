@@ -7,6 +7,7 @@ module.exports = {
         "teafc-blue": "#0C95D4",
         "teafc-orange": "#FF8B00",
         "teafc-light-blue": "#EAFAFF",
+        "teafc-light-blue-50-opacity": "#EAFAFF",
         "teafc-light-orange": "#FFCD91",
       },
       aspectRatio: {
@@ -19,11 +20,11 @@ module.exports = {
       },
       minWidth: {
         "40%": "40%",
-        "50%": "50%"
+        "50%": "50%",
       },
       maxWidth: {
         "40%": "40%",
-        "50%": "50%"
+        "50%": "50%",
       },
     },
   },
