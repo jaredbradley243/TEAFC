@@ -21,7 +21,7 @@
         justify-center
         rounded-md
         p-2.5
-        text-gray-700">
+        text-gray-700 focus:outline-none sm:focus:ring-1 sm:focus:ring-black">
         <span class="sr-only">Open main menu</span>
         <svg
           class="h-6 w-6"
@@ -151,11 +151,16 @@
           </div>
         </div>
       </div>
-      <a href="{{ navigation.mental_health_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.fourth_link_title }}</a>
-      <a href="{{ navigation.events_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.fifth_link_title }}</a>
-      <a href="{{ navigation.contact_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.sixth_link_title }}</a>
-      <a href="{{ navigation.donate_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.seventh_link_title }}</a>
-      <a href="{{ navigation.get_involved_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{ header.eighth_link_title }}</a>
+      <a href="{{ navigation.mental_health_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{
+header.fourth_link_title }}</a>
+      <a href="{{ navigation.events_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{
+header.fifth_link_title }}</a>
+      <a href="{{ navigation.contact_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{
+header.sixth_link_title }}</a>
+      <a href="{{ navigation.donate_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{
+header.seventh_link_title }}</a>
+      <a href="{{ navigation.get_involved_url }}" class="text-sm font-semibold leading-6 text-gray-900">{{
+header.eighth_link_title }}</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end"></div>
   </nav>
