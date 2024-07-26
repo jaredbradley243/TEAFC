@@ -1,3 +1,4 @@
+# PAGE META
 layout: "layouts/base.liquid"
 title: "The Ed Asner Family Center | Supporting Neurodivergent Individuals"
 description: >-
@@ -5,23 +6,27 @@ description: >-
   lives of neurodivergent individuals, including those with autism. Explore our diverse programs, 
   including day camps, expressive arts, enrichment activities, academy, and mental health services. 
   Join us in creating a supportive and inclusive community."
+# CURRENT EVENTS
 current_event_header: "Our Current Events"
 current_event_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 event_1_title: "Funko"
 event_1_text: "At The Academy, we believe that hands-on experience in real-world workplace settings is crucial for our participants. To facilitate this, The Ed Asner Family Center collaborates with local corporations to provide internship opportunities for our participants. These internships offer valuable insights into different aspects of working in a corporate environment, encompassing corporate culture and other significant elements of the rofessional world. For 2024, we are thrilled to announce Funko as our partnering organization, and we take immense pride in this collaboration."
-
+# PROGRAMS
+programs_title: "OUR PROGRAM HIGHLIGHTS"
+programs_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+# Card 1
 card_1_img: "/assets/img/funko.png"
 card_1_title: "Academy"
 card_1_date_time: "Date & Time"
 card_1_desc: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
 card_1_btn_txt: "Learn More"
-
+# Card 2
 card_2_img: "/assets/img/camp2.png"
 card_2_title: "Enrichments"
 card_2_date_time: "Date & Time"
 card_2_desc: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
 card_2_btn_txt: "Learn More"
-
+# Card 3
 card_3_img: "/assets/img/mental-health.jpg"
 card_3_title: "Mental Health"
 card_3_date_time: "Date & Time"
