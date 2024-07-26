@@ -5,11 +5,8 @@
 <!-- Content -->
 {% include 'partials/branded-container.liquid'
   , content: current-events-content %}
-{% include 'partials/info-cards.liquid'
-  , section_desc: section_desc %}
 
-
-{% comment %} Heading for info cards {% endcomment %}
+<!-- Heading for info cards -->
 <div class="relative isolate overflow-hidden bg-white py-16 sm:py-20">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"></div>
   <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu"></div>
@@ -21,7 +18,27 @@
       </p>
     </div>
     <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-      {% comment %} CARDS GO HERE {% endcomment %}
+      <!-- Card 1 -->
+    {% include "partials/info-card.liquid"
+      , card_img: card_1_img
+      , card_title: card_1_title
+      , card_date_time: card_1_date_time
+      , card_desc: card_1_desc
+      , btn_txt: card_1_btn_txt %}
+      <!-- Card 2 -->
+    {% include "partials/info-card.liquid"
+      , card_img: card_2_img
+      , card_title: card_2_title
+      , card_date_time: card_2_date_time
+      , card_desc: card_2_desc
+      , btn_txt: card_2_btn_txt %}
+      <!-- Card 3 -->
+      {% include "partials/info-card.liquid"
+        , card_img: card_3_img
+        , card_title: card_3_title
+        , card_date_time: card_3_date_time
+        , card_desc: card_3_desc
+        , btn_txt: card_3_btn_txt %}
     </div>
   </div>
 </div>

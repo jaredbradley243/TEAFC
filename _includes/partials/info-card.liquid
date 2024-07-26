@@ -1,0 +1,20 @@
+<!-- _includes/partials/info-card.liquid -->
+<div class="flex flex-col gap-4 rounded-xl bg-white/5 p-6 ring-2 ring-inset ring-teafc-orange">
+  <div class="rounded-lg overflow-hidden flex justify-center">
+    <img
+      class="w-full aspect-square object-cover object-top max-h-40"
+      src="{{ card_img }}"
+      alt="">
+  </div>
+  <div class="text-base leading-6 flex flex-col gap-2 flex-grow">
+    <h3 class="font-semibold text-gray-700">{{ card_title }}</h3>
+    <p class="text-gray-500">{{ card_date_time }}</p>
+    <div class="w-1/1 h-0.5 bg-gray-300 "></div>
+    <p class="text-gray-500">{{ card_desc }}</p>
+  </div>
+  <div class="flex">
+    <a href="{{ navigation.get_involved_url }}" class="focus-visible:outline focus-visible:outline-2 focus-visible:outline-teafc-orange focus-visible:outline-offset-2 rounded-lg bg-teafc-orange px-12 py-2.5 border-teafc-orange shadow-sm hover:bg-teafc-orange text-white text-sm font-semibold">
+      {{ btn_txt }}
+    </a>
+  </div>
+</div>

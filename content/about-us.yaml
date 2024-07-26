@@ -10,14 +10,20 @@ description: >-
 section_title: "Our Program Highlights"
 section_desc: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
 
+card_1_img: "/assets/img/funko.png"
 card_1_title: "Academy"
-card_2_title: "Enrichments"
-card_3_title: "Mental Health"
-
 card_1_date_time: "Date & Time"
-card_2_date_time: "Date & Time"
-card_3_date_time: "Date & Time"
-
 card_1_desc: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
+card_1_btn_txt: "Learn More"
+
+card_2_img: "/assets/img/camp2.png"
+card_2_title: "Enrichments"
+card_2_date_time: "Date & Time"
 card_2_desc: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
+card_2_btn_txt: "Learn More"
+
+card_3_img: "/assets/img/mental-health.jpg"
+card_3_title: "Mental Health"
+card_3_date_time: "Date & Time"
 card_3_desc: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
+card_3_btn_txt: "Learn More"
