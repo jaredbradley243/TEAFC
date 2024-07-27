@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --teafc-blue: #0C95D4;
+  --teafc-orange: #FF8B00;
+  --teafc-light-blue: #EAFAFF;
+  --teafc-light-orange: #FFCD91;
+}
+
 @layer components {
   .active-nav-link {
     position: relative;
@@ -25,6 +32,33 @@
   }
   .accordion-body {
     @apply max-h-0 overflow-hidden transition-all duration-200 ease-out
+  }
+  .slider {
+    scrollbar-width: thin; /* Width of the scrollbar for Firefox */
+    scrollbar-color: var(--teafc-light-orange) var(--teafc-blue);
+  }
+  .slider img {
+    aspect-ratio: 1/1;
+    flex: 1 0 33%;
+    max-height: 40rem;
+    scroll-snap-align: start;
+    object-fit: cover;
+  }
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2d3034bc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
