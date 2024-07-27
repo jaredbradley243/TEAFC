@@ -7,6 +7,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const mobileMenuOpenButton = document.getElementById(
     "mobile-menu-open-button"
   );
+  const currentUrl = window.location.pathname;
+  const navLinks = document.querySelectorAll("#nav-links > a");
+
+  navLinks.forEach((link) => {
+    if (link.getAttribute("href") === currentUrl) {
+      link.classList.add("active-nav-link");
+    }
+  });
 
   mobileMenuOpenButton.addEventListener("click", (event) => {
     event.stopPropagation();
