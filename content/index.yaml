@@ -6,16 +6,21 @@ description: >-
   lives of neurodivergent individuals, including those with autism. Explore our diverse programs, 
   including day camps, expressive arts, enrichment activities, academy, and mental health services. 
   Join us in creating a supportive and inclusive community."
+
 # HERO
 hero_heading: "We help neurodivergent individuals thrive"
 hero_subheading: "Award-winning programs for neurodivergent individuals and their families."
 hero_btn: "Learn More"
 hero_img: /assets/img/camp2.png
+# display_button is a boolean
+display_btn: "true"
+
 # CURRENT EVENTS
 current_event_header: "Our Current Events"
 current_event_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 event_1_title: "Funko"
 event_1_text: "At The Academy, we believe that hands-on experience in real-world workplace settings is crucial for our participants. To facilitate this, The Ed Asner Family Center collaborates with local corporations to provide internship opportunities for our participants. These internships offer valuable insights into different aspects of working in a corporate environment, encompassing corporate culture and other significant elements of the rofessional world. For 2024, we are thrilled to announce Funko as our partnering organization, and we take immense pride in this collaboration."
+
 # PROGRAMS
 programs_title: "OUR PROGRAM HIGHLIGHTS"
 programs_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
