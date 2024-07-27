@@ -22,11 +22,27 @@
     {% include 'partials/banner.liquid' %}
     {% include 'partials/header.liquid' %}
     {% include 'partials/breadcrumbs.liquid' %}
+    <!-- INDEX PAGE HERO -->
     {% if page.url == '/' or page.url == '/index.html' %}
-      <div class="w-full bg-teafc-light-blue">
-        {% include 'partials/index-hero.liquid' %}
+      <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
+        {% include 'partials/hero.liquid' 
+          , hero_heading: hero_heading
+          , hero_subheading: hero_subheading
+          , hero_btn: hero_btn
+        %}
       </div>
     {% endif %}
+    <!-- ABOUT US HERO -->
+    {% if page.url == '/about-us/' or page.url == '/about-us.html/' %}
+      <div class="w-full bg-white">
+        {% include 'partials/hero.liquid' 
+          , hero_heading: hero_heading
+          , hero_subheading: hero_subheading
+          , hero_btn: hero_btn
+        %}
+      </div>
+    {% endif %}
+    <!-- ALL OTHER CONTENT -->
     <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
       <main>
         {{ content }}
