@@ -6,6 +6,11 @@ description: >-
   lives of neurodivergent individuals, including those with autism. Explore our diverse programs, 
   including day camps, expressive arts, enrichment activities, academy, and mental health services. 
   Join us in creating a supportive and inclusive community."
+# HERO
+hero_heading: "We help neurodivergent individuals thrive"
+hero_subheading: "Award-winning programs for neurodivergent individuals and their families."
+hero_btn: "Learn More"
+hero_img: /assets/img/camp2.png
 # CURRENT EVENTS
 current_event_header: "Our Current Events"
 current_event_text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
