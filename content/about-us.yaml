@@ -38,6 +38,48 @@ card_3_date_time: "Date & Time"
 card_3_desc: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
 card_3_btn_txt: "Learn More"
 
+# OUR VALUES
+accordions:
+  - accordion_title: "Accordion 1"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 2"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 3"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 4"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 5"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 6"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 7"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 8"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
 # FOUNDERS SECTION
 founders_img: "/assets/img/matt-navah.jpg"
 founders_heading: "OUR FOUNDERS"
