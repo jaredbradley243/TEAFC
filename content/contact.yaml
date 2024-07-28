@@ -4,3 +4,54 @@ description: >-
   "Get in touch with The Ed Asner Family Center. Find our contact information, 
   including phone number, email, and location, and reach out to learn more about our 
   programs and services."
+
+# HERO
+hero_heading: "CONTACT"
+hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+hero_btn: "Learn More"
+hero_img: /assets/img/who-we-are2.jpg
+# display_btn is a boolean
+display_btn: "false"
+swap_col: "false"
+
+# FAQ
+accordions:
+  - accordion_title: "Accordion 1"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 2"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 3"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 4"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 5"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 6"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 7"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 8"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
