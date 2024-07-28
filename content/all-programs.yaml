@@ -5,3 +5,29 @@ description: >-
   support and enrich the lives of neurodivergent individuals, including those with autism. 
   Our programs include day camps, expressive arts, enrichment activities, academy, 
   and mental health services."
+
+# OUR VALUES
+specialists:
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "John Doe"
+    specialist_position: "Senior Software Engineer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Jane Smith"
+    specialist_position: "Frontend Developer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Alice Johnson"
+    specialist_position: "Backend Developer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Bob Brown"
+    specialist_position: "DevOps Engineer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Charlie Davis"
+    specialist_position: "UI/UX Designer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Eve Wilson"
+    specialist_position: "Full Stack Developer"
