@@ -4,3 +4,102 @@ description: >-
   "Access mental health services at The Ed Asner Family Center, including individual therapy, 
   family therapy, support groups, and workshops. Our services are tailored for neurodivergent 
   individuals, including those with autism."
+
+# HERO
+hero_heading: "MENTAL HEALTH"
+hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+hero_btn: "Learn More"
+hero_img: /assets/img/who-we-are2.jpg
+# display_btn is a boolean
+display_btn: "false"
+swap_col: "false"
+
+# OUR SERVICES SECTION
+what_we_do_title: "OUR SERVICES"
+what_we_do_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+# Card 1
+card_1_img: "/assets/img/funko.png"
+card_1_title: "Academy"
+card_1_date_time: "Date & Time"
+card_1_desc: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
+card_1_btn_txt: "Learn More"
+# Card 2
+card_2_img: "/assets/img/camp2.png"
+card_2_title: "Enrichments"
+card_2_date_time: "Date & Time"
+card_2_desc: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
+card_2_btn_txt: "Learn More"
+# Card 3
+card_3_img: "/assets/img/mental-health.jpg"
+card_3_title: "Mental Health"
+card_3_date_time: "Date & Time"
+card_3_desc: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
+card_3_btn_txt: "Learn More"
+
+# MENTAL HEALTH FAQ
+accordions:
+  - accordion_title: "Accordion 1"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 2"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 3"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 4"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 5"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 6"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 7"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 8"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+# OUR SPECIALISTS
+specialists:
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "John Doe"
+    specialist_position: "Senior Software Engineer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Jane Smith"
+    specialist_position: "Frontend Developer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Alice Johnson"
+    specialist_position: "Backend Developer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Bob Brown"
+    specialist_position: "DevOps Engineer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Charlie Davis"
+    specialist_position: "UI/UX Designer"
+
+  - specialist_img: "/assets/img/atticus.webp"
+    specialist_name: "Eve Wilson"
+    specialist_position: "Full Stack Developer"
