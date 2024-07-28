@@ -8,12 +8,13 @@ description: >-
   enrichment activities, academy, and mental health services."
 
 # HERO
-hero_heading: "We help neurodivergent individuals thrive"
-hero_subheading: "Award-winning programs for neurodivergent individuals and their families."
+hero_heading: "WHO WE ARE"
+hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
 hero_btn: "Learn More"
-hero_img: /assets/img/camp2.png
+hero_img: /assets/img/who-we-are2.jpg
 # display_btn is a boolean
 display_btn: "false"
+swap_col: "false"
 
 # WHAT WE DO SECTION
 what_we_do_title: "WHAT WE DO"
@@ -36,3 +37,9 @@ card_3_title: "Mental Health"
 card_3_date_time: "Date & Time"
 card_3_desc: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
 card_3_btn_txt: "Learn More"
+
+# FOUNDERS SECTION
+founders_img: "/assets/img/matt-navah.jpg"
+founders_heading: "OUR FOUNDERS"
+founders_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+founders_swap_col: true
