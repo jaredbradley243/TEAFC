@@ -1,25 +1,34 @@
 <div class="space-y-2">
-    <div class="max-w-2xl mx-auto h-96">
-        <div class="bg-teafc-orange rounded-xl border-teafc-orange border-2">
-            <button class="accordion-header w-full" role="button" aria-controls="panel-1" name="accordion-1">
-                <div class="flex items-center justify-between">
-                    <span class="font-semibold text-lg text-white">Accordion 1</span>
-                    <p class="text-3xl text-white">+</p>
-                </div>
-            </button>
+  <div class="max-w-2xl mx-auto">
+    <div class="bg-teafc-orange rounded-xl border-teafc-orange border-2">
+      <button
+        class="accordion-header w-full"
+        role="button"
+        aria-controls="panel-1"
+        name="accordion-1">
+        <div class="flex items-center justify-between">
+          <span class="font-semibold text-lg text-white">Accordion 1</span>
+          <p class="text-3xl text-white">+</p>
+        </div>
+      </button>
 
-            <div class="accordion-body px-4 rounded-b-xl border-t max-h-0 bg-white border-teafc-orange" 
-            id="panel-1" role="region" aria-labelledby="accordion-1">
-                <div class="flex flex-col gap-3 mt-2 mb-4 rounded-2xl">
-                    <h2 class="text-2xl">Subheading</h2>
-                    <p> {{ info-cards.card_3_desc }} </p>
-                    <button type="button" class="border-2 rounded-lg 
+      <div
+        class="accordion-body px-4 rounded-b-xl border-t max-h-0 bg-white border-teafc-orange"
+        id="panel-1"
+        role="region"
+        aria-labelledby="accordion-1">
+        <div class="flex flex-col gap-3 mt-2 mb-4 rounded-2xl">
+          <h2 class="text-2xl">Subheading</h2>
+          <p>
+            {{ info-cards.card_3_desc }}
+          </p>
+          <button type="button" class="border-2 rounded-lg 
                     border-teafc-orange shadow-sm w-60">
-                        <a href="{{ navigation.get_involved_url }}" class="text-black px-16 py-1 font-bold">
-                        {{ info-cards.uni_btn_txt }}</a>
-                    </button>
-                </div>
-            </div>
-        </div>  
+            <a href="{{ navigation.get_involved_url }}" class="text-black px-16 py-1 font-bold">
+              {{ info-cards.uni_btn_txt }}</a>
+          </button>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
