@@ -36,8 +36,8 @@
     {% endif %}
     <!-- ABOUT US HERO -->
     {% if page.url == '/about-us/' or page.url == '/about-us.html/' %}
-      <div class="w-full bg-white">
-        <div class="mx-auto max-w-7xl lg:px-12 lg:py-8 bg-teafc-blue">
+      <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
+        {% comment %} <div class="mx-auto max-w-7xl lg:px-12 lg:py-8"> {% endcomment %}
           {% include 'partials/hero.liquid' 
             , hero_heading: hero_heading
             , hero_subheading: hero_subheading
