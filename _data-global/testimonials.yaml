@@ -6,7 +6,7 @@ testimonial_1_testimony: >-
   TEAFC is unlike any program I've been part of; it's unique. The staff really supports each of 
   us in a special way, showing they want to connect and genuinely support me. Working at the 
   Funko museum has been incredible, teaching me independence and helping me aim for my first job.
-testimonial_1_photo: assets/img/armand.png
+testimonial_1_photo: /assets/img/armand.png
 testimonial_1_name: "Armand"
 testimonial_1_affiliation: "Academy Participant"
 
@@ -15,7 +15,7 @@ testimonial_2_testimony: >-
   new friends. I don't have to worry about problems here. Art class has improved my skills, 
   and music has let me create original songs. Learning K-pop and break dancing in dance class 
   has been so much fun. It's a place where I feel truly comfortable and supported.
-testimonial_2_photo: assets/img/spencer.webp
+testimonial_2_photo: /assets/img/spencer.webp
 testimonial_2_name: "Spencer"
 testimonial_2_affiliation: "Academy Participant"
 
@@ -26,6 +26,6 @@ testimonial_3_testimony: >-
   with old ones, and the invaluable life skills learned through unique opportunities like working 
   at the Funko museum.
 
-testimonial_3_photo: assets/img/atticus.webp
+testimonial_3_photo: /assets/img/atticus.webp
 testimonial_3_name: "Atticus"
 testimonial_3_affiliation: "Academy Participant"
