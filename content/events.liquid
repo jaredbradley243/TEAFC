@@ -1,1 +1,12 @@
+{% for event in events %}
+  {% include 'partials/event.liquid' 
+    , event_date: event.event_date
+    , event_title: event.event_title
+    , event_paragraph: event.event_paragraph
+    , event_location: event.event_location
+    , event_img: event.event_img
+  %}
+
+{% endfor %}
+
 {% include 'partials/img-slider.liquid' %}

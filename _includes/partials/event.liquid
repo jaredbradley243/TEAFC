@@ -1,0 +1,20 @@
+<div id="col-container" class="flex flex-col mx-auto max-w-7xl pb-10 pt-10 sm:pb-10 my-10 bg-teafc-light-blue rounded-3xl">
+  <div id="content-container" class="flex justify-center sm:justify-between flex-wrap-reverse sm:flex-nowrap gap-4 px-10 ">
+    <div id="text-content-container" class="flex flex-col gap-2 sm:w-1/2 md:w-2/3 max-w-full">
+      <div id="time" class="flex ">{{ event_date }}</div>
+      <div id="title" class="flex ">{{ event_title }}</div>
+      <div id="paragraph" class="flex ">{{ event_paragraph }}</div>
+      <div id="by-who" class="flex ">TEAFC</div>
+      <div id="place" class="flex ">{{ event_location }}</div>
+    </div>
+    <div id="image-container" class="flex justify-center sm:justify-end max-w-full sm:w-1/2 md:w-1/3 lg:h-56">
+      {% comment %} 👇 Probably don't need this div  {% endcomment %}
+      <div class="flex justify-center">
+        <img
+          src="{{ event_img }}"
+          alt=""
+          class="rounded-2xl aspect-square">
+      </div>
+    </div>
+  </div>
+</div>
