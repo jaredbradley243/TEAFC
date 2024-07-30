@@ -3,3 +3,76 @@ title: "Get Involved | Volunteer and Support | The Ed Asner Family Center"
 description: >-
   "Learn how you can get involved with The Ed Asner Family Center. Discover volunteer opportunities, 
   support groups, and other ways to contribute to our mission of supporting neurodivergent individuals."
+
+# HERO
+hero_heading: "MENTAL HEALTH"
+hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+hero_btn: "Learn More"
+hero_img: /assets/img/who-we-are2.jpg
+# display_btn is a boolean
+display_btn: "false"
+swap_col: "false"
+
+# OUR SERVICES SECTION
+what_we_do_title: "OUR SERVICES"
+what_we_do_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+# Card 1
+card_1_img: "/assets/img/funko.png"
+card_1_title: "Volunteer"
+# card_1_date_time: "Date & Time"
+card_1_desc: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
+card_1_btn_txt: "Learn More"
+# Card 2
+card_2_img: "/assets/img/camp2.png"
+card_2_title: "Donate"
+# card_2_date_time: "Date & Time"
+card_2_desc: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
+card_2_btn_txt: "Learn More"
+
+# MENTAL HEALTH FAQ
+accordions:
+  - accordion_title: "Accordion 1"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 2"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 3"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 4"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 5"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 6"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 7"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+  - accordion_title: "Accordion 8"
+    accordion_subtitle: "subheading"
+    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    accordion_cta: "Contact Us"
+
+# MESSAGE SECTION
+founders_img: "/assets/img/matt-navah.jpg"
+founders_heading: "OUR FOUNDERS"
+founders_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+founders_swap_col: true
