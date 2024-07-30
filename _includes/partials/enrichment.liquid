@@ -1,0 +1,17 @@
+<div id="col-container" class="flex flex-col mx-auto max-w-7xl pb-10 pt-10 sm:pb-10 my-10 rounded-3xl">
+  <div id="content-container" class="flex flex-wrap-reverse sm:flex-nowrap gap-4">
+    <div id="image-container" class="flex lg:h-56 basis-1/4">
+      {% comment %} 👇 Probably don't need this div  {% endcomment %}
+      <div class="flex justify-center">
+        <img
+          src="{{ enrichment_img }}"
+          alt=""
+          class="rounded-2xl aspect-[4/3]">
+      </div>
+    </div>
+    <div id="text-content-container" class="flex flex-col gap-2 basis-2/4 flex-auto">
+      <div id="title" class="flex ">{{ enrichment_title }}</div>
+      <div id="paragraph" class="flex ">{{ enrichment_paragraph }}</div>
+    </div>
+  </div>
+</div>
