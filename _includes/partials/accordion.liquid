@@ -3,17 +3,28 @@
     <div class="bg-teafc-orange rounded-xl border-teafc-orange border-2">
       <button
         class="accordion-header w-full"
+        id="accordion-1"
         role="button"
         aria-controls="panel-1"
+        aria-expanded="false"
         name="accordion-1">
         <div class="flex items-center justify-between">
           <span class="font-semibold text-lg text-white">{{ accordion_title }}</span>
-          <p class="text-3xl text-white">+</p>
+          <svg
+            class="h-5 w-5 flex-none text-white transform"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true">
+            <path
+              fill-rule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+              clip-rule="evenodd" />
+          </svg>
         </div>
       </button>
 
       <div
-        class="accordion-body px-4 rounded-b-xl border-t max-h-0 bg-white border-teafc-orange"
+        class="accordion-body px-4 rounded-b-xl border-t bg-white border-teafc-orange"
         id="panel-1"
         role="region"
         aria-labelledby="accordion-1">

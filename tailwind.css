@@ -26,12 +26,11 @@
   .accordion-header {
     @apply py-4 px-6 cursor-pointer
   }
-  .accordion-header.active p {
-    @apply transition ease-in-out duration-300;
-    transform: rotateX('180deg')
+  .accordion-header.active svg {
+    @apply transition ease-in-out duration-200 rotate-180;
   }
   .accordion-body {
-    @apply max-h-0 overflow-hidden transition-all duration-200 ease-out
+    @apply max-h-0 overflow-hidden;
   }
   .slider {
     scrollbar-width: thin; /* Width of the scrollbar for Firefox */
