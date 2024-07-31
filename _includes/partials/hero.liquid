@@ -12,7 +12,18 @@
 {% if swap_col_lower == "true" %}
   {% assign swap_col_class = "order-1" %}
 {% else %}
-  {% assign swap_col_class = "" %}
+  {% assign swap_col_class = "" %}{% endif %}
+
+{% comment %} IMG Rounding logic for large Screens {% endcomment %}
+{% assign img_round_lower = img_round_large_screens | downcase %}
+{% if img_round_lower == "left" %}
+  {% assign img_round_class = "lg:rounded-r-none lg:rounded-l-2xl" %}
+{% elsif img_round_lower == "right" %}
+  {% assign img_round_class = "lg:rounded-r-2xl lg:rounded-l-none" %}
+{% elsif img_round_lower == "both" %}
+  {% assign img_round_class = "lg:rounded-2xl" %}
+{% else %}
+  {% assign img_round_class = "" %}
 {% endif %}
 
 <!-- HERO LEFT -->
@@ -34,7 +45,7 @@
       <img
         src="{{ hero_img }}"
         alt=""
-        class="rounded-2xl lg:rounded-r-none lg:rounded-l-2xl">
+        class="{{ img_round_class }}">
     </div>
   </div>
 </div>
