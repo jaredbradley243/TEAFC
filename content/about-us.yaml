@@ -15,6 +15,7 @@ hero_img: /assets/img/who-we-are2.jpg
 # display_btn is a boolean
 display_btn: "false"
 swap_col: "false"
+# options: left, right, both, ""
 img_round_large_screens: "both"
 
 # WHAT WE DO SECTION
