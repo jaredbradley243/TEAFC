@@ -22,44 +22,13 @@
     {% include 'partials/banner.liquid' %}
     {% include 'partials/header.liquid' %}
     {% include 'partials/breadcrumbs.liquid' %}
-    <!-- INDEX PAGE HERO -->
-    {% if page.url == '/' or page.url == '/index.html' %}
-      <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
-        {% include 'partials/hero.liquid' 
-          , hero_heading: hero_heading
-          , hero_subheading: hero_subheading
-          , hero_btn: hero_btn
-          , display_button: display_button
-          , swap_col: swap_col
-          , img_round_large_screens: img_round_large_screens
-        %}
-      </div>
-    {% endif %}
-    <!-- ABOUT US HERO -->
-    {% if page.url == '/about-us/' or page.url == '/about-us.html/' %}
-      <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
-        {% comment %} <div class="mx-auto max-w-7xl lg:px-12 lg:py-8"> {% endcomment %}
-          {% include 'partials/hero.liquid' 
-            , hero_heading: hero_heading
-            , hero_subheading: hero_subheading
-            , hero_btn: hero_btn
-            , display_button: display_button
-            , swap_col: swap_col
-            , img_round_large_screens: img_round_large_screens
-          %}
-        </div>
-      </div>
-    {% endif %}
-    <!-- ALL OTHER CONTENT -->
-    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <main>
-        {{ content }}
-      </main>
-      <footer>
-        {% include 'partials/branded-container.liquid'
-          , content: footer_content %}
-      </footer>
-    </div>
+    <main>
+      {{ content }}
+    </main>
+    <footer>
+      {% include 'partials/branded-container.liquid'
+        , content: footer_content %}
+    </footer>
     <script src="/js/bundle.js" defer></script>
   </body>
 </html>

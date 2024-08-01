@@ -1,7 +1,19 @@
-<!-- Variables -->
+<!-- VARIABLES -->
 {% capture current-events-content %}
   {% include 'partials/current-events.liquid' %}
 {% endcapture %}
+<!-- CONTENT -->
+<!-- Hero -->
+<div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
+  {% include 'partials/hero.liquid' 
+    , hero_heading: hero_heading
+    , hero_subheading: hero_subheading
+    , hero_btn: hero_btn
+    , display_button: display_button
+    , swap_col: swap_col
+    , img_round_large_screens: img_round_large_screens
+  %}
+</div>
 <!-- Heading for info cards -->
 <div class="relative isolate overflow-hidden bg-white py-16 sm:py-20">
   <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"></div>
