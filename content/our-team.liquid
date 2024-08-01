@@ -1,4 +1,6 @@
-{% include 'partials/team-members-container.liquid' 
+{% include 'partials/accordion-separator.liquid' %}
+
+{% comment %} {% include 'partials/team-members-container.liquid' 
   , team_members: board_members
 %}
 
@@ -8,6 +10,6 @@
 
 {% include 'partials/team-members-container.liquid' 
   , team_members: specialists
-%}
+%} {% endcomment %}
 
 {% include "partials/newsletter.liquid" %}

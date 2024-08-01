@@ -1,23 +1,21 @@
-const accordionHeader = document.querySelectorAll('.accordion-header')
+document.addEventListener('DOMContentLoaded', function () {
+    const accordionHeaders = document.querySelectorAll('.accordion-header');
 
-accordionHeader.forEach(accordionHeader => {
-    accordionHeader.addEventListener("click", event => {
-        accordionHeader.classList.toggle("active")
-        const accordionBody = accordionHeader.nextElementSibling
-        const expanded = accordionHeader.getAttribute('aria-expanded') === 'true';
-        if(!expanded) {
-            accordionBody.style.maxHeight = accordionBody.scrollHeight + "px"
-        }
-        else {
-            accordionBody.style.maxHeight = '0px'
-        }
-    })
-    const accordionBody = accordionHeader.nextElementSibling;
-        accordionBody.addEventListener('transitionend', () => {
-            if (accordionHeader.getAttribute('aria-expanded') === 'false') {
-                accordionBody.style.maxHeight = '';
-            } else {
+    accordionHeaders.forEach(accordionHeader => {
+        const accordionBody = accordionHeader.nextElementSibling;
+
+        accordionHeader.addEventListener('click', event => {
+            const isExpanded = accordionHeader.getAttribute('aria-expanded') === 'true';
+
+            if (!isExpanded) {
                 accordionBody.style.maxHeight = accordionBody.scrollHeight + 'px';
+                accordionHeader.setAttribute('aria-expanded', 'true');
+            } else {
+                accordionBody.style.maxHeight = '0px';
+                accordionHeader.setAttribute('aria-expanded', 'false');
             }
-        })
-})
+
+            accordionHeader.classList.toggle('active');
+        });
+    });
+});
