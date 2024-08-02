@@ -26,27 +26,30 @@ event_1_text: "At The Academy, we believe that hands-on experience in real-world
 # PROGRAMS
 programs_title: "OUR PROGRAM HIGHLIGHTS"
 programs_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
-# Card 1
-card_1_img: "/assets/img/funko.png"
-card_1_title: "Academy"
-card_1_date_time: "Spring & Fall"
-card_1_desc: >-
-  Join our inclusive academy at The Ed Asner Family Center, combining job training, 
-  adaptive skills, and expressive arts for neurodivergent individuals.
-card_1_btn_txt: "Learn More"
-# Card 2
-card_2_img: "/assets/img/camp2.png"
-card_2_title: "Enrichments"
-card_2_date_time: "Year-round"
-card_2_desc: >-
-  Discover our enrichment programs at The Ed Asner Family Center, including CampED, Dance, Art, 
-  Robotics, and more!
-card_2_btn_txt: "Learn More"
-# Card 3
-card_3_img: "/assets/img/mental-health.jpg"
-card_3_title: "Mental Health"
-card_3_date_time: "Year-round"
-card_3_desc: >-
-  Access mental health services at The Ed Asner Family Center, including individual therapy, 
-  family therapy, support groups, and workshops.
-card_3_btn_txt: "Learn More"
+info_cards:
+  # Card 1
+  - info_card_img: "/assets/img/funko.png"
+    info_card_title: "Academy"
+    info_card_date_time: "Spring & Fall"
+    info_card_paragraph: >-
+      Join our inclusive academy at The Ed Asner Family Center, combining job training, 
+      adaptive skills, and expressive arts for neurodivergent individuals.
+    info_card_btn_txt: "Learn More"
+
+  # Card 2
+  - info_card_img: "/assets/img/camp2.png"
+    info_card_title: "Enrichments"
+    info_card_date_time: "Year-round"
+    info_card_paragraph: >-
+      Discover our enrichment programs at The Ed Asner Family Center, including CampED, Dance, Art, 
+      Robotics, and more!
+    info_card_btn_txt: "Learn More"
+
+  # Card 3
+  - info_card_img: "/assets/img/mental-health.jpg"
+    info_card_title: "Mental Health"
+    info_card_date_time: "Year-round"
+    info_card_paragraph: >-
+      Access mental health services at The Ed Asner Family Center, including individual therapy, 
+      family therapy, support groups, and workshops.
+    info_card_btn_txt: "Learn More"

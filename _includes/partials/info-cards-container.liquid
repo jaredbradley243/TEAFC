@@ -1,0 +1,20 @@
+<!-- _includes/partials/info-cards-container.liquid -->
+<div class="container-md">
+  <div class="mx-auto flex flex-col lg:mx-0">
+    <div class="mx-auto flex flex-col lg:mx-0">
+      <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">{{ what_we_do_title }}</h2>
+      <p class="mt-6 text-lg leading-8 text-gray-500">{{ what_we_do_subtitle }}</p>
+    </div>
+    <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
+      {% for info_card in info_cards %}
+        {% include 'partials/info-card.liquid',
+          info_card_img: info_card.info_card_img,
+          info_card_title: info_card.info_card_title,
+          info_card_date_time: info_card.info_card_date_time,
+          info_card_paragraph: info_card.info_card_paragraph,
+          info_card_btn_txt: info_card.info_card_btn_txt
+        %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

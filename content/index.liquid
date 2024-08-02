@@ -1,10 +1,5 @@
 <!-- content/index.liquid -->
-
-<!-- Variables -->
-{% capture testimonial_content %}
-  {% include 'partials/testimonials.liquid' %}
-{% endcapture %}
-<!-- Content -->
+<!-- Hero -->
 <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
   {% include 'partials/hero.liquid',
     hero_heading: hero_heading,
@@ -18,41 +13,12 @@
 
 {% include 'partials/current-events.liquid' %}
 
-<!-- Heading for info cards -->
-<div class="container-md">
-  <div class="mx-auto flex flex-col lg:mx-0">
-    <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-6xl">{{ programs_title }}</h2>
-    <p class="mt-6 text-lg leading-8 text-gray-500">{{ programs_subtitle }}</p>
-  </div>
-  <div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
-    <!-- Card 1 -->
-    {% include 'partials/info-card.liquid',
-      card_img: card_1_img,
-      card_title: card_1_title,
-      card_date_time: card_1_date_time,
-      card_desc: card_1_desc,
-      btn_txt: card_1_btn_txt
-    %}
-    <!-- Card 2 -->
-    {% include 'partials/info-card.liquid',
-      card_img: card_2_img,
-      card_title: card_2_title,
-      card_date_time: card_2_date_time,
-      card_desc: card_2_desc,
-      btn_txt: card_2_btn_txt
-    %}
-    <!-- Card 3 -->
-    {% include 'partials/info-card.liquid',
-      card_img: card_3_img,
-      card_title: card_3_title,
-      card_date_time: card_3_date_time,
-      card_desc: card_3_desc,
-      btn_txt: card_3_btn_txt
-    %}
-  </div>
-</div>
+{% include 'partials/info-cards-container.liquid' %}
 
 {% include 'partials/get-involved.liquid' %}
+
 {% include 'partials/testimonials.liquid' %}
+
 {% include 'partials/newsletter.liquid' %}
+
 {% include 'partials/img-slider.liquid' %}
