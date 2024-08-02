@@ -12,11 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <title>{{ title }}</title>
-    <meta name="description" content={{ description }}>
+    <meta name="description" content="{{ description }}">
     <link
       rel="icon"
       type="image/x-icon"
-      href="/assets/img/logo.svg">
+      href="/assets/img/logo.svg"
+    >
   </head>
   <body>
     {% include 'partials/banner.liquid' %}
@@ -26,8 +27,7 @@
       {{ content }}
     </main>
     <footer>
-      {% include 'partials/branded-container.liquid'
-        , content: footer_content %}
+      {% include 'partials/footer.liquid' %}
     </footer>
     <script src="/js/bundle.js" defer></script>
   </body>
