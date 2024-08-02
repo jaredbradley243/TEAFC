@@ -6,16 +6,14 @@
 {% include 'partials/quad-single-line.liquid' %}
 
 {% for enrichment in enrichments %}
-  {% include 'partials/enrichment.liquid' 
-    , enrichment_title: enrichment.event_title
-    , enrichment_paragraph: enrichment.event_paragraph
-    , enrichment_img: enrichment.event_img
+  {% include 'partials/enrichment.liquid',
+    enrichment_title: enrichment.event_title,
+    enrichment_paragraph: enrichment.event_paragraph,
+    enrichment_img: enrichment.event_img
   %}
-
 {% endfor %}
 
-{% include 'partials/branded-container.liquid'
-  , content: testimonial_content %}
+{% include 'partials/testimonials.liquid' %}
 
 {% include 'partials/newsletter.liquid' %}
 
