@@ -1,15 +1,19 @@
-{% include 'partials/accordion-separator.liquid' %}
-
-{% comment %} {% include 'partials/team-members-container.liquid' 
-  , team_members: board_members
+{% include 'partials/team-members-container.liquid',
+  team_members: board_members,
+  team_member_heading: bod_heading,
+  team_member_subheading: bod_subheading
 %}
 
-{% include 'partials/team-members-container.liquid' 
-  , team_members: staff_members
+{% include 'partials/team-members-container.liquid',
+  team_members: staff_members,
+  team_member_heading: staff_heading,
+  team_member_subheading: staff_subheading
 %}
 
-{% include 'partials/team-members-container.liquid' 
-  , team_members: specialists
-%} {% endcomment %}
+{% include 'partials/team-members-container.liquid',
+  team_members: specialists,
+  team_member_heading: specialist_heading,
+  team_member_subheading: specialist_subheading
+%}
 
-{% include "partials/newsletter.liquid" %}
+{% include 'partials/newsletter.liquid' %}

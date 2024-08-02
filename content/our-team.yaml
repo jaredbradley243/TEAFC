@@ -5,7 +5,10 @@ description: >-
   experienced staff are committed to supporting neurodivergent individuals, including those with 
   autism."
 
-# BOARD OF DIRECTOS
+# BOARD OF DIRECTORS
+bod_heading: "Member Position"
+bod_subheading: "Member Description"
+
 board_members:
   - team_member_img: "/assets/img/atticus.webp"
     team_member_name: "Ed Asner"
@@ -38,6 +41,9 @@ board_members:
     team_member_description: "Mark Hamill is a board member at The Ed Asner Family Center, bringing his passion for supporting neurodivergent individuals to the board."
 
 # STAFF MEMBERS
+staff_heading: "This is the staff heading"
+staff_subheading: "This is the staff sub"
+
 staff_members:
   - team_member_img: "/assets/img/atticus.webp"
     team_member_name: "John Doe"
@@ -70,6 +76,9 @@ staff_members:
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
 # SPECIALISTS
+specialist_heading: "This is the special heading"
+specialist_subheading: "This is the special sub"
+
 specialists:
   - team_member_img: "/assets/img/atticus.webp"
     team_member_name: "Dr. Emily Parker"
