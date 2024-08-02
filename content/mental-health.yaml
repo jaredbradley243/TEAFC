@@ -15,26 +15,27 @@ display_btn: "false"
 swap_col: "false"
 
 # OUR SERVICES SECTION
-what_we_do_title: "OUR SERVICES"
-what_we_do_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
-# Card 1
-card_1_img: "/assets/img/funko.png"
-card_1_title: "Academy"
-card_1_date_time: "Date & Time"
-card_1_desc: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
-card_1_btn_txt: "Learn More"
-# Card 2
-card_2_img: "/assets/img/camp2.png"
-card_2_title: "Enrichments"
-card_2_date_time: "Date & Time"
-card_2_desc: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
-card_2_btn_txt: "Learn More"
-# Card 3
-card_3_img: "/assets/img/mental-health.jpg"
-card_3_title: "Mental Health"
-card_3_date_time: "Date & Time"
-card_3_desc: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
-card_3_btn_txt: "Learn More"
+info_card_title: "OUR SERVICES"
+info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+info_cards:
+  # Card 1
+  - info_card_img: "/assets/img/funko.png"
+    info_card_title: "Academy"
+    info_card_date_time: "Date & Time"
+    info_card_paragraph: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
+    info_card_btn_txt: "Learn More"
+  # Card 2
+  - info_card_img: "/assets/img/camp2.png"
+    info_card_title: "Enrichments"
+    info_card_date_time: "Date & Time"
+    info_card_paragraph: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
+    info_card_btn_txt: "Learn More"
+  # Card 3
+  - info_card_img: "/assets/img/mental-health.jpg"
+    info_card_title: "Mental Health"
+    info_card_date_time: "Date & Time"
+    info_card_paragraph: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
+    info_card_btn_txt: "Learn More"
 
 # MENTAL HEALTH FAQ
 accordions:
