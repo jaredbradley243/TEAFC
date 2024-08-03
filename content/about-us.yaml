@@ -26,6 +26,8 @@ top_divider: false
 bottom_divider: true
 
 # INFO CARDS
+info_card_title: "WHAT WE DO"
+info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
   # Card 1
   - info_card_img: "/assets/img/funko.png"
