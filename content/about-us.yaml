@@ -20,9 +20,9 @@ hero_img_round_large_screens: "both"
 hero_under_header: true
 
 # WHAT WE DO SECTION
-what_we_do_title: "WHAT WE DO"
+what_we_do_title: "OUR PARTNERS"
 what_we_do_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
-top_divider: true
+top_divider: false
 bottom_divider: true
 
 # INFO CARDS
