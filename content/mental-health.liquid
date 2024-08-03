@@ -3,7 +3,15 @@
   {% include 'partials/testimonials.liquid' %}
 {% endcapture %}
 <!-- Content -->
-{% include 'partials/hero.liquid' %}
+{% include 'partials/hero.liquid',
+  hero_heading: hero_heading,
+  hero_subheading: hero_subheading,
+  hero_btn: hero_btn,
+  display_btn: hero_display_btn,
+  swap_col: hero_swap_col,
+  img_round_large_screens: hero_img_round_large_screens,
+  under_header: hero_under_header
+%}
 
 {% include 'partials/info-cards-container.liquid' %}
 

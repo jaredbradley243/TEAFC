@@ -13,9 +13,10 @@ hero_subheading: "Award-winning programs for neurodivergent individuals and thei
 hero_btn: "Learn More"
 hero_img: /assets/img/camp2.png
 # display_button is a boolean
-display_btn: "true"
+hero_display_btn: true
 # options: left, right, both, ""
-img_round_large_screens: "left"
+hero_img_round_large_screens: "left"
+hero_under_header: true
 
 # CURRENT EVENTS
 current_event_header: "Our Current Events"

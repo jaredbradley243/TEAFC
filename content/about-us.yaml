@@ -13,14 +13,18 @@ hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d
 hero_btn: "Learn More"
 hero_img: /assets/img/who-we-are2.jpg
 # display_btn is a boolean
-display_btn: "false"
-swap_col: "false"
+hero_display_btn: false
+hero_swap_col: false
 # options: left, right, both, ""
-img_round_large_screens: "both"
+hero_img_round_large_screens: "both"
+hero_under_header: true
 
 # WHAT WE DO SECTION
 what_we_do_title: "WHAT WE DO"
 what_we_do_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+top_divider: true
+bottom_divider: true
+
 # INFO CARDS
 info_cards:
   # Card 1
@@ -94,4 +98,6 @@ accordions:
 founders_img: "/assets/img/matt-navah.jpg"
 founders_heading: "OUR FOUNDERS"
 founders_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+founders_display_btn: false
 founders_swap_col: true
+founders_under_header: false

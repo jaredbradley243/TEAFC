@@ -10,9 +10,11 @@ hero_heading: "CONTACT"
 hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
 hero_btn: "Learn More"
 hero_img: /assets/img/who-we-are2.jpg
-# display_btn is a boolean
-display_btn: "false"
-swap_col: "false"
+# display_button is a boolean
+hero_display_btn: true
+# options: left, right, both, ""
+hero_img_round_large_screens: "left"
+hero_under_header: true
 
 # FAQ
 accordions:
