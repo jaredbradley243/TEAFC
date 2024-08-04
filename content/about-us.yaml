@@ -19,11 +19,24 @@ hero_swap_col: false
 hero_img_round_large_screens: "both"
 hero_under_header: true
 
-# WHAT WE DO SECTION
-what_we_do_title: "OUR PARTNERS"
-what_we_do_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
-top_divider: false
-bottom_divider: true
+# PARTNERS SECTION
+partners_top_divider: false
+partners_bottom_divider: true
+partners_title: "OUR PARTNERS"
+partners_subtitle: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
+  Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. 
+  Proin venenatis felis id metus varius, in porta elit vulputate.
+partners:
+  # Zooz
+  - img: "/assets/img/zooz.svg"
+    img_alt_tag: "Official Zooz Logo"
+    # Funko
+  - img: "/assets/img/funko.svg"
+    img_alt_tag: "Official Funko Logo"
+    # Straight Up Abilities
+  - img: "/assets/img/straight-up-abilities.svg"
+    img_alt_tag: "Official Straight Up Abilities Logo"
 
 # INFO CARDS
 info_card_title: "WHAT WE DO"
@@ -61,7 +74,9 @@ info_cards:
 
 # OUR VALUES
 accordion_heading: "OUR VALUES"
-accordion_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+accordion_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
   - accordion_title: "Accordion 1"
     accordion_subtitle: "subheading"

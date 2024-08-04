@@ -15,7 +15,13 @@
 
 {% include 'partials/accordions-container.liquid', heading: accordion_heading, subheading: accordion_subheading %}
 
-{% include 'partials/logo-cloud.liquid' %}
+{% include 'partials/logo-cloud-container.liquid',
+  logos: partners,
+  top_divider: partners_top_divider,
+  bottom_divider: partners_bottom_divider,
+  title: partners_title,
+  subtitle: partners_subtitle
+%}
 
 {% include 'partials/hero.liquid',
   hero_img: founders_img,
