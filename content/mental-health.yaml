@@ -84,6 +84,34 @@ accordions:
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
+# INSURANCE SECTION
+insurance_top_divider: top
+insurance_bottom_divider: false
+insurance_title: "ACCEPTED INSURANCE"
+insurance_subtitle: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
+  Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. 
+  Proin venenatis felis id metus varius, in porta elit vulputate.
+insurance:
+  # Magellan
+  - img: "/assets/img/magellan.svg"
+    img_alt_tag: ""
+  # Blue Shield California
+  - img: "/assets/img/bsc.svg"
+    img_alt_tag: ""
+    # Cigna
+  - img: "/assets/img/cigna.svg"
+    img_alt_tag: ""
+    # Health Net
+  - img: "/assets/img/healthnet.svg"
+    # Beacon
+    img_alt_tag: ""
+  - img: "/assets/img/beacon.svg"
+    img_alt_tag: ""
+    # Sag Aftra
+  - img: "/assets/img/sag-aftra.svg"
+    img_alt_tag: ""
+
 # OUR SPECIALISTS
 specialists:
   - specialist_img: "/assets/img/atticus.webp"
