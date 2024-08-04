@@ -43,6 +43,10 @@ info_cards:
     link_key: ""
 
 # MENTAL HEALTH FAQ
+accordion_heading: "Mental Health FAQ"
+accordion_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
   - accordion_title: "Accordion 1"
     accordion_subtitle: "subheading"
