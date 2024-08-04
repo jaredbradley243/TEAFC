@@ -24,6 +24,11 @@ module.exports = function (eleventyConfig) {
       .join(" ");
   });
 
+  // Returns the value at 'key' or empty string if not found
+  eleventyConfig.addFilter("getByKey", function (object, key) {
+    return object[key] || "";
+  });
+
   return {
     dir: {
       input: "content", // Content directory
