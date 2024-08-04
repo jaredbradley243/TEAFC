@@ -37,6 +37,8 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. 
       Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
     info_card_btn_txt: "Learn More"
+    link_key: "academy_url"
+
   # Card 2
   - info_card_img: "/assets/img/camp2.png"
     info_card_title: "Enrichments"
@@ -45,6 +47,8 @@ info_cards:
       Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. 
       Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam.
     info_card_btn_txt: "Learn More"
+    link_key: "enrichments_url"
+
   # Card 3
   - info_card_img: "/assets/img/mental-health.jpg"
     info_card_title: "Mental Health"
@@ -53,6 +57,7 @@ info_cards:
       Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. 
       Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
     info_card_btn_txt: "Learn More"
+    link_key: "mental_health_url"
 
 # OUR VALUES
 accordion_heading: "OUR VALUES"
@@ -62,41 +67,49 @@ accordions:
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 2"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 3"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 4"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 5"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 6"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 7"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
   - accordion_title: "Accordion 8"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
+    accordion_link_key: ""
 
 # FOUNDERS SECTION
 founders_img: "/assets/img/matt-navah.jpg"
