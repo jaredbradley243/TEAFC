@@ -1,4 +1,8 @@
-{% if not img_slider_bottom_padding %}
+<!-- /partials/img-slider.liquid -->
+
+{% comment %} Bottom padding logic {% endcomment %}
+{% assign img_slider_bottom_padding_lower = img_slider_bottom_padding | downcase %}
+{% if img_slider_bottom_padding_lower != 'true' %}
   {% assign img_slider_bottom_padding_class = 'pb-0' %}
 {% endif %}
 <div class="container-lg {{ img_slider_bottom_padding_class }}">

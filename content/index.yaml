@@ -59,4 +59,7 @@ info_cards:
     link_key: "mental_health_url"
 
 # IMG SLIDER
-img_slider_bottom_padding: false
+img_slider_bottom_padding: "false"
+
+# FOOTER
+footer_top_padding: "false"

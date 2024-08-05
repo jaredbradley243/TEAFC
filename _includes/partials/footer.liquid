@@ -1,6 +1,12 @@
+{% comment %} Bottom padding logic {% endcomment %}
+{% assign footer_top_padding_lower = footer_top_padding | downcase %}
+{% if footer_top_padding_lower == 'false' %}
+  {% assign footer_top_padding_class = 'pt-0' %}
+{% endif %}
+
 <footer class="" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
-  <div class="container-lg pb-0">
+  <div class="container-lg {{ footer_top_padding_class }}">
     <div class="bg-teafc-blue px-6 pb-8 pt-16 sm:px-6 sm:pt-24 lg:px-16 lg:pt-32">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <div class="space-y-8">
