@@ -17,6 +17,10 @@ hero_img_round_large_screens: "left"
 hero_under_header: true
 
 # FAQ
+accordion_heading: "FREQUENTLY ASKED QUESTIONS"
+accordion_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
   - accordion_title: "Accordion 1"
     accordion_subtitle: "subheading"
