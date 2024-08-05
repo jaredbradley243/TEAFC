@@ -6,8 +6,10 @@ description: >-
   autism."
 
 # BOARD OF DIRECTORS
-bod_heading: "Member Position"
-bod_subheading: "Member Description"
+bod_heading: "OUR BOARD OF DIRECTORS"
+bod_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 board_members:
   - team_member_img: "/assets/img/atticus.webp"
@@ -40,9 +42,48 @@ board_members:
     team_member_position: "Board Member"
     team_member_description: "Mark Hamill is a board member at The Ed Asner Family Center, bringing his passion for supporting neurodivergent individuals to the board."
 
+# ADVISORY BOARD
+advisory_board_heading: "OUR ADVISORY BOARD"
+advisory_board_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
+
+advisory_board:
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "John Doe"
+    team_member_position: "Senior Software Engineer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Jane Smith"
+    team_member_position: "Frontend Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Alice Johnson"
+    team_member_position: "Backend Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Bob Brown"
+    team_member_position: "DevOps Engineer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Charlie Davis"
+    team_member_position: "UI/UX Designer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Eve Wilson"
+    team_member_position: "Full Stack Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
 # STAFF MEMBERS
-staff_heading: "This is the staff heading"
-staff_subheading: "This is the staff sub"
+staff_heading: "OUR STAFF"
+staff_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 staff_members:
   - team_member_img: "/assets/img/atticus.webp"
@@ -76,8 +117,10 @@ staff_members:
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
 # SPECIALISTS
-specialist_heading: "This is the special heading"
-specialist_subheading: "This is the special sub"
+specialist_heading: "OUR SPECIALISTS"
+specialist_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 specialists:
   - team_member_img: "/assets/img/atticus.webp"
@@ -109,3 +152,40 @@ specialists:
     team_member_name: "James Brown"
     team_member_position: "Clinical Social Worker"
     team_member_description: "James Brown is a clinical social worker dedicated to providing emotional and social support to families and individuals."
+
+# MENTAL HEALTH SPECIALISTS
+mental_health_staff_heading: "OUR MENTAL HEALTH STAFF"
+mental_health_staff_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
+
+mental_health_staff:
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "John Doe"
+    team_member_position: "Senior Software Engineer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Jane Smith"
+    team_member_position: "Frontend Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Alice Johnson"
+    team_member_position: "Backend Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Bob Brown"
+    team_member_position: "DevOps Engineer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Charlie Davis"
+    team_member_position: "UI/UX Designer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.webp"
+    team_member_name: "Eve Wilson"
+    team_member_position: "Full Stack Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."

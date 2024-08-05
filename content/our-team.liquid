@@ -5,6 +5,12 @@
 %}
 
 {% include 'partials/team-members-container.liquid',
+  team_members: advisory_board,
+  team_member_heading: advisory_board_heading,
+  team_member_subheading: advisory_board_subheading
+%}
+
+{% include 'partials/team-members-container.liquid',
   team_members: staff_members,
   team_member_heading: staff_heading,
   team_member_subheading: staff_subheading
@@ -14,6 +20,12 @@
   team_members: specialists,
   team_member_heading: specialist_heading,
   team_member_subheading: specialist_subheading
+%}
+
+{% include 'partials/team-members-container.liquid',
+  team_members: mental_health_staff,
+  team_member_heading: mental_health_staff_heading,
+  team_member_subheading: mental_health_staff_subheading
 %}
 
 {% include 'partials/newsletter.liquid' %}
