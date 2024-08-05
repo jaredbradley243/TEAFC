@@ -1,8 +1,3 @@
-<!-- Variables -->
-{% capture testimonial_content %}
-  {% include 'partials/testimonials.liquid' %}
-{% endcapture %}
-<!-- Content -->
 {% include 'partials/hero.liquid',
   hero_heading: hero_heading,
   hero_subheading: hero_subheading,
@@ -27,6 +22,6 @@
 
 {% include 'partials/specialists-container.liquid' %}
 
-{% include 'partials/branded-container.liquid', content: testimonial_content %}
+{% include 'partials/testimonials.liquid' %}
 
 {% include 'partials/newsletter.liquid' %}

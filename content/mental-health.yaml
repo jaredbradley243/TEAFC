@@ -89,8 +89,8 @@ accordions:
     accordion_cta: "Contact Us"
 
 # INSURANCE SECTION
-insurance_top_divider: top
-insurance_bottom_divider: false
+insurance_top_divider: true
+insurance_bottom_divider: true
 insurance_title: "ACCEPTED INSURANCE"
 insurance_subtitle: >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
