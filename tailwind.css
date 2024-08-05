@@ -35,13 +35,13 @@
     transition: max-height 0.25s ease-in-out;
   }
   .container-lg {
-    @apply mx-auto lg:max-w-[76rem];
+    @apply mx-auto py-10 lg:max-w-[76rem];
   }
   .container-md {
-    @apply mx-auto lg:max-w-[72rem];
+    @apply mx-auto py-10 lg:max-w-[72rem];
   }
   .container-sm {
-    @apply mx-auto lg:max-w-[69rem];
+    @apply mx-auto py-10 lg:max-w-[69rem];
   }
   .slider {
     scrollbar-width: thin; /* Width of the scrollbar for Firefox */
