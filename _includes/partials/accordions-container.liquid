@@ -1,16 +1,18 @@
 <!-- _includes/partials/accordions-container.liquid -->
-<div class="container-sm flex flex-col">
-  <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-4xl">{{ heading }}</h2>
-  <p class="mt-6 text-lg text-gray-500">{{ subheading }}</p>
-</div>
-<div class="container-sm my-20 grid grid-cols-1 gap-4 gap-x-16 sm:grid-cols-2">
-  {% for accordion in accordions %}
-    {% include 'partials/accordion.liquid',
-      accordion_title: accordion.accordion_title,
-      accordion_subtitle: accordion.accordion_subtitle,
-      accordion_paragraph: accordion.accordion_paragraph,
-      accordion_btn_txt: accordion.accordion_cta,
-      accordion_link_key: accordion.accordion_link_key
-    %}
-  {% endfor %}
+<div class="container-sm">
+  <div class="flex flex-col">
+    <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-4xl">{{ heading }}</h2>
+    <p class="mt-6 text-lg text-gray-500">{{ subheading }}</p>
+  </div>
+  <div class="mt-10 grid grid-cols-1 gap-4 gap-x-16 sm:grid-cols-2">
+    {% for accordion in accordions %}
+      {% include 'partials/accordion.liquid',
+        accordion_title: accordion.accordion_title,
+        accordion_subtitle: accordion.accordion_subtitle,
+        accordion_paragraph: accordion.accordion_paragraph,
+        accordion_btn_txt: accordion.accordion_cta,
+        accordion_link_key: accordion.accordion_link_key
+      %}
+    {% endfor %}
+  </div>
 </div>
