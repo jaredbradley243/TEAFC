@@ -1,28 +1,33 @@
-<div
-  class="container-lg slider-wrapper relative my-0 flex flex-col overflow-hidden"
-  role="region"
-  aria-label="Image Slider"
->
-  <div class="slider flex overflow-x-auto scroll-smooth" aria-live="polite" aria-atomic="true">
-    <img class="" src="/assets/img/armand.png" alt="{{ img-slider.img_1 }}" id="slide-1" tabindex="0">
-    <img class="" src="/assets/img/donate.jpg" alt="{{ img-slider.img_2 }}" id="slide-2" tabindex="0">
-    <img class="" src="/assets/img/spencer.webp" alt="{{ img-slider.img_3 }}" id="slide-3" tabindex="0">
-    <img class="" src="/assets/img/camp.png" alt="{{ img-slider.img_4 }}" id="slide-4" tabindex="0">
-    <img class="" src="/assets/img/camp2.png" alt="{{ img-slider.img_5 }}" id="slide-5" tabindex="0">
-    <img class="" src="/assets/img/funko.png" alt="{{ img-slider.img_6 }}" id="slide-6" tabindex="0">
+{% if not img_slider_bottom_padding %}
+  {% assign img_slider_bottom_padding_class = 'pb-0' %}
+{% endif %}
+<div class="container-lg {{ img_slider_bottom_padding_class }}">
+  <div
+    class="slider-wrapper relative my-0 flex flex-col overflow-hidden"
+    role="region"
+    aria-label="Image Slider"
+  >
+    <div class="slider flex overflow-x-auto scroll-smooth" aria-live="polite" aria-atomic="true">
+      <img class="" src="/assets/img/armand.png" alt="{{ img-slider.img_1 }}" id="slide-1" tabindex="0">
+      <img class="" src="/assets/img/donate.jpg" alt="{{ img-slider.img_2 }}" id="slide-2" tabindex="0">
+      <img class="" src="/assets/img/spencer.webp" alt="{{ img-slider.img_3 }}" id="slide-3" tabindex="0">
+      <img class="" src="/assets/img/camp.png" alt="{{ img-slider.img_4 }}" id="slide-4" tabindex="0">
+      <img class="" src="/assets/img/camp2.png" alt="{{ img-slider.img_5 }}" id="slide-5" tabindex="0">
+      <img class="" src="/assets/img/funko.png" alt="{{ img-slider.img_6 }}" id="slide-6" tabindex="0">
+    </div>
+    <button
+      class="slider-button slide-left left-2 px-4 py-2"
+      aria-label="Scroll left"
+      aria-controls="image-slider"
+    >
+      <img src="/assets/img/arrow-left.svg" alt="left slider arrow">
+    </button>
+    <button
+      class="slider-button slide-right right-2 px-4 py-2"
+      aria-label="Scroll right"
+      aria-controls="image-slider"
+    >
+      <img src="/assets/img/arrow-right.svg" alt="right slider arrow">
+    </button>
   </div>
-  <button
-    class="slider-button slide-left left-2 px-4 py-2"
-    aria-label="Scroll left"
-    aria-controls="image-slider"
-  >
-    <img src="/assets/img/arrow-left.svg" alt="left slider arrow">
-  </button>
-  <button
-    class="slider-button slide-right right-2 px-4 py-2"
-    aria-label="Scroll right"
-    aria-controls="image-slider"
-  >
-    <img src="/assets/img/arrow-right.svg" alt="right slider arrow">
-  </button>
 </div>
