@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll('button[aria-expanded="false"]');
+  const buttons = document.querySelectorAll('#mobile-menu button[aria-expanded="false"], #nav-links button[aria-expanded="false"]');
   const mobileMenu = document.getElementById("mobile-menu");
   const mobileMenuCloseButton = document.getElementById(
     "mobile-menu-close-button"
