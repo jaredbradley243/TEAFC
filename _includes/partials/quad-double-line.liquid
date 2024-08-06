@@ -1,56 +1,68 @@
-<div class="py-12 sm:py-24">
-  <div class="flex flex-col gap-8 sm:gap-2 lg:gap-4 mx-auto max-w-7xl px-6 sm:px-0">
-
-    <div class="flex flex-col gap-4 mx-auto min-w-1/1 sm:flex-row-reverse lg:mx-0 lg:max-w-none">
-
-      <div class="basis-1/2 bg-red-800 rounded-lg my-auto flex align-middle">
-        <img class="aspect-square object-cover h-auto" src="https://i.imgur.com/89EXIqI.png" alt="">
+<div class="container-lg">
+  <div class="py-12 sm:py-24">
+    <div class="mx-auto flex max-w-7xl flex-col gap-8 px-6 sm:gap-2 sm:px-0 lg:gap-4">
+      <div class="min-w-1/1 mx-auto flex flex-col gap-4 sm:flex-row-reverse lg:mx-0 lg:max-w-none">
+        <div class="my-auto flex basis-1/2 rounded-lg bg-red-800 align-middle">
+          <img
+            class="aspect-square h-auto object-cover"
+            src="https://i.imgur.com/89EXIqI.png"
+            alt=""
+          >
+        </div>
+        <div class="flex basis-1/2 flex-col gap-1.5 sm:gap-0.5">
+          <h3 class="mt-6 text-4xl font-bold leading-8 text-gray-900">{{ quad.title_1_separate }}</h3>
+          <div class="w-1/1 mt-2 h-1 bg-teafc-orange"></div>
+          <p class="text-base font-normal">{{ quad.content_1_time_date }}</p>
+          <p class="text-base font-normal">{{ quad.content_1_location }}</p>
+          <div class="w-1/1 h-0.5 bg-teafc-orange"></div>
+          <h5 class="font-bold">About</h5>
+          <p class="mt-1 text-base font-semibold leading-7 text-gray-600 md:text-xl">{{ quad.content_1_separate }}</p>
+          <div>
+            <button type="button" class="mt-2 rounded-lg border-4 border-teafc-orange bg-teafc-orange shadow-sm ">
+              <p class="px-16 py-1 font-bold text-white">
+                {{ quad.uni_btn_txt }}
+              </p>
+            </button>
+            {% comment %}
+              <button class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange">
+                  <p class="text-white px-16 py-1 font-bold">Join In</p>
+              </button>
+            {% endcomment %}
+          </div>
+        </div>
       </div>
-      <div class="flex flex-col basis-1/2 gap-1.5 sm:gap-0.5">
-        <h3 class="mt-6 text-4xl font-bold leading-8 text-gray-900">{{ quad.title_1_separate }}</h3>
-        <div class="w-1/1 h-1 bg-teafc-orange mt-2"></div>
-        <p class="text-base font-normal">{{ quad.content_1_time_date }}</p>
-        <p class="text-base font-normal">{{ quad.content_1_location }}</p>
-        <div class="w-1/1 h-0.5 bg-teafc-orange"></div>
-        <h5 class="font-bold">About</h5>
-        <p class="mt-1 text-base font-semibold md:text-xl leading-7 text-gray-600">{{ quad.content_1_separate }}</p>
-        <div>
-          <button type="button" class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
-            <p class="text-white px-16 py-1 font-bold"> {{ quad.uni_btn_txt }} </p>
-          </button>
-          {% comment %} <button class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange">
-            <p class="text-white px-16 py-1 font-bold">Join In</p>
-          </button> {% endcomment %}
+
+      <div class="min-w-1/1 mx-auto flex flex-col gap-4 sm:flex-row lg:mx-0 lg:max-w-none">
+        <div class="my-auto flex basis-1/2 rounded-lg bg-red-800 align-middle">
+          <img
+            class="aspect-square h-auto object-cover"
+            src="https://i.imgur.com/89EXIqI.png"
+            alt=""
+          >
+        </div>
+        <div class="flex basis-1/2 flex-col gap-1.5 sm:gap-0.5">
+          <h3 class="mt-6 text-4xl font-bold leading-8 text-gray-900">{{ quad.title_2_separate }}</h3>
+          <div class="w-1/1 mt-2 h-1 bg-teafc-orange"></div>
+          <p class="text-base font-normal">{{ quad.content_2_time_date }}</p>
+          <p class="text-base font-normal">{{ quad.content_1_location }}</p>
+          <div class="w-1/1 h-0.5 bg-teafc-orange"></div>
+          <h5 class="font-bold">About</h5>
+          <p class="mt-1 text-base font-semibold leading-7 text-gray-600 md:text-xl">{{ quad.content_2_separate }}</p>
+          <ul class="mx-7 mt-4">
+            <li class="list-disc text-xl">{{ quad.content_2_bullet_1 }}</li>
+            <li class="list-disc text-xl">{{ quad.content_2_bullet_2 }}</li>
+            <li class="list-disc text-xl">{{ quad.content_2_bullet_3 }}</li>
+            <li class="list-disc text-xl">{{ quad.content_2_bullet_4 }}</li>
+          </ul>
+          <div>
+            <button type="button" class="mt-2 rounded-lg border-4 border-teafc-orange bg-teafc-orange shadow-sm ">
+              <p class="px-16 py-1 font-bold text-white">
+                {{ quad.uni_btn_txt }}
+              </p>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="flex flex-col gap-4 mx-auto min-w-1/1 sm:flex-row lg:mx-0 lg:max-w-none">
-
-      <div class="basis-1/2 bg-red-800 rounded-lg my-auto flex align-middle">
-        <img class="aspect-square object-cover h-auto" src="https://i.imgur.com/89EXIqI.png" alt="">
-      </div>
-      <div class="flex flex-col basis-1/2 gap-1.5 sm:gap-0.5">
-        <h3 class="mt-6 text-4xl font-bold leading-8 text-gray-900">{{ quad.title_2_separate }}</h3>
-        <div class="w-1/1 h-1 bg-teafc-orange mt-2"></div>
-        <p class="text-base font-normal">{{ quad.content_2_time_date }}</p>
-        <p class="text-base font-normal">{{ quad.content_1_location }}</p>
-        <div class="w-1/1 h-0.5 bg-teafc-orange"></div>
-        <h5 class="font-bold">About</h5>
-        <p class="mt-1 text-base font-semibold md:text-xl leading-7 text-gray-600">{{ quad.content_2_separate }}</p>
-        <ul class="mx-7 mt-4">
-          <li class="list-disc text-xl">{{ quad.content_2_bullet_1 }}</li>
-          <li class="list-disc text-xl">{{ quad.content_2_bullet_2 }}</li>
-          <li class="list-disc text-xl">{{ quad.content_2_bullet_3 }}</li>
-          <li class="list-disc text-xl">{{ quad.content_2_bullet_4 }}</li>
-        </ul>
-        <div>
-          <button type="button" class="mt-2 border-4 rounded-lg bg-teafc-orange border-teafc-orange shadow-sm ">
-            <p class="text-white px-16 py-1 font-bold"> {{ quad.uni_btn_txt }} </p>
-          </button>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>
