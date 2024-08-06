@@ -129,7 +129,20 @@ accordions:
 # FOUNDERS SECTION
 founders_img: "/assets/img/matt-navah.jpg"
 founders_heading: "OUR FOUNDERS"
-founders_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+founders_subheading: >- 
+  Our family began a transformative journey with our youngest son Eddy's autism diagnosis, 
+  one of our three children on the spectrum. This personal experience connected us to the 
+  challenges families facing autism endure. We felt compelled to make a difference, inspired by 
+  our own journey and the loss of our four parents, including the beloved family member after whom
+  our center is named, Ed Anser. We founded The Ed Asner Family Center (TEAFC) to provide a sanctuary for 
+  families like ours. Our center symbolizes the resilience and unity of our family, often called 
+  the "Brady Bunch of Autism." It stands as a testament to the strength that love and solidarity 
+  bring in navigating autism. At TEAFC, we've created a community of empathy, understanding, and 
+  inclusivity. Our programs, including camps, support groups, enrichment activities, and unique 
+  adult initiatives like THE DATING Spectrum, meet the varied needs of the autistic community and 
+  their families. Our commitment is deeply rooted in personal experience, and our vision is to 
+  create a world where everyone is embraced and valued for their unique abilities.
 founders_display_btn: false
 founders_swap_col: true
 founders_under_header: false
+founders_img_round_large_screens: "both"
