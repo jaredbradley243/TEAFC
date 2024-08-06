@@ -36,17 +36,13 @@
           <p>
             {{ accordion_paragraph }}
           </p>
-          <div
-            role="button"
-            class="
-              flex w-60
-              justify-center rounded-lg border-2 border-teafc-orange shadow-sm
-            "
+          <a
+            href="{{ navigation | getByKey: accordion_link_key }}"
+            role="link"
+            class="w-60 rounded-lg border-2 border-teafc-orange px-16 py-1 text-center font-bold text-black shadow-sm"
           >
-            <a href="{{ navigation | getByKey: accordion_link_key }}" class="px-16 py-1 font-bold text-black">
-              {{ accordion_btn_txt -}}
-            </a>
-          </div>
+            {{ accordion_btn_txt -}}
+          </a>
         </div>
       </div>
     </div>
