@@ -1,4 +1,22 @@
 <!-- _includes/partials/info-cards-container.liquid -->
+{% assign info_card_count = info_cards | size %}
+{% assign info_card_mod = info_card_count | modulo: 2 %}
+
+{% if info_card_count <= 4 %}
+  {% assign grid_col_num = info_card_count %}
+  {% if info_card_mod == 1 %}
+    {% assign md_grid_col = 1 %}
+  {% elsif info_card_mod == 0 %}
+    {% assign md_grid_col = 2 %}
+  {% endif %}
+{% elsif info_card_mod == 0 %}
+  {% assign grid_col_num = 4 %}
+  {% assign md_grid_col = 2 %}
+{% elsif info_card_mod != 0 %}
+  {% assign grid_col_num = 3 %}
+  {% assign md_grid_col = 1 %}
+{% endif %}
+
 <div class="container-md flex flex-col">
   <div class="flex flex-col">
     <h2 class="text-center text-3xl font-bold tracking-tight text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">
@@ -6,7 +24,7 @@
     </h2>
     <p class="text=base mt-6 text-gray-500 lg:text-lg">{{ info_card_subtitle }}</p>
   </div>
-  <div class="mx-auto mt-16 grid max-w-full grid-cols-1 gap-6 p-6 sm:mt-10 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-4 lg:gap-8">
+  <div class="mx-auto mt-16 grid max-w-full grid-cols-1 gap-6 p-6 sm:mt-10 sm:grid-cols-{{md_grid_col}} lg:mx-0 lg:max-w-none lg:grid-cols-{{grid_col_num}} lg:gap-8">
     {% for info_card in info_cards %}
       {% include 'partials/info-card.liquid',
         info_card_img: info_card.info_card_img,
