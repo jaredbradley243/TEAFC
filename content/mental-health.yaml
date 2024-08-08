@@ -41,6 +41,15 @@ info_cards:
     info_card_paragraph: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
     info_card_btn_txt: "Learn More"
     link_key: ""
+  # Card 4
+  - info_card_img: "/assets/img/volunteer.png"
+    info_card_title: "CampED"
+    info_card_date_time: "Summer"
+    info_card_paragraph: >-
+      Join our inclusive summer camp at The Ed Asner Family Center, 
+      combining expressive arts and fun for for the whole family.
+    info_card_btn_txt: "Learn More"
+    link_key: ""
 
 # MENTAL HEALTH FAQ
 accordion_heading: "Mental Health FAQ"
