@@ -17,28 +17,63 @@ hero_img_round_large_screens: "left"
 hero_under_header: true
 
 # OUR SERVICES SECTION
+info_card_grid_col_num: 3
+info_card_md_grid_col_num: 2
 info_card_title: "OUR SERVICES"
 info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
   # Card 1
   - info_card_img: "/assets/img/funko.png"
-    info_card_title: "Academy"
-    info_card_date_time: "Date & Time"
-    info_card_paragraph: "Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur."
+    info_card_title: "Family therapy"
+    # info_card_date_time: "Date & Time"
+    info_card_paragraph: >-
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 2
   - info_card_img: "/assets/img/camp2.png"
-    info_card_title: "Enrichments"
-    info_card_date_time: "Date & Time"
-    info_card_paragraph: "Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam. Quod possimus sit modi rerum exercitationem quaerat atque tenetur ullam."
+    info_card_title: "1-on-1 Therapy"
+    # info_card_date_time: "Date & Time"
+    info_card_paragraph: >-
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 3
   - info_card_img: "/assets/img/mental-health.jpg"
-    info_card_title: "Mental Health"
-    info_card_date_time: "Date & Time"
-    info_card_paragraph: "Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit. Ratione et porro eligendi est sed ratione rerum itaque. Placeat accusantium impedit eum odit."
+    info_card_title: "Caregiver Therapy"
+    # info_card_date_time: "Date & Time"
+    info_card_paragraph: >-
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+    info_card_btn_txt: "Learn More"
+    link_key: ""
+  # Card 4
+  - info_card_img: "/assets/img/mental-health.jpg"
+    info_card_title: "Art Sibling Group Therapy"
+    # info_card_date_time: "Date & Time"
+    info_card_paragraph: >-
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+    info_card_btn_txt: "Learn More"
+    link_key: ""
+  # Card 5
+  - info_card_img: "/assets/img/mental-health.jpg"
+    info_card_title: "Relationship Coaching"
+    # info_card_date_time: "Date & Time"
+    info_card_paragraph: >-
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+    info_card_btn_txt: "Learn More"
+    link_key: ""
+  # Card 6
+  - info_card_img: "/assets/img/mental-health.jpg"
+    info_card_title: "Life Coaching"
+    # info_card_date_time: "Date & Time"
+    info_card_paragraph: >-
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
+      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
     link_key: ""
 
