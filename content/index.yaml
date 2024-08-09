@@ -1,6 +1,6 @@
 # PAGE META
 layout: "layouts/base.liquid"
-title: "The Ed Asner Family Center | Supporting Neurodivergent Individuals"
+title: "The Ed Asner Family Center | Supporting Neurodivergent People"
 description: >-
   "Welcome to The Ed Asner Family Center, a nonprofit organization dedicated to enriching the 
   lives of neurodivergent individuals, including those with autism. Explore our diverse programs, 
@@ -9,7 +9,7 @@ description: >-
 
 # HERO
 hero_heading: "We help neurodivergent individuals thrive"
-hero_subheading: "Award-winning programs for neurodivergent individuals and their families."
+hero_subheading: "Award-winning programs for neurodivergent people and their families."
 hero_btn: "Learn More"
 hero_img: /assets/img/camp2.png
 # display_button is a boolean
@@ -25,6 +25,8 @@ event_1_title: "Funko"
 event_1_text: "At The Academy, we believe that hands-on experience in real-world workplace settings is crucial for our participants. To facilitate this, The Ed Asner Family Center collaborates with local corporations to provide internship opportunities for our participants. These internships offer valuable insights into different aspects of working in a corporate environment, encompassing corporate culture and other significant elements of the rofessional world. For 2024, we are thrilled to announce Funko as our partnering organization, and we take immense pride in this collaboration."
 
 # PROGRAMS
+# options: lg, md, sm
+info_card_container_width: "lg"
 info_card_grid_col_num: 4
 info_card_md_grid_col_num: 2
 info_card_title: "OUR PROGRAM HIGHLIGHTS"
