@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll('#mobile-menu button[aria-expanded="false"], #nav-links button[aria-expanded="false"]');
+  const buttons = document.querySelectorAll(
+    '#mobile-menu button[aria-expanded="false"], #nav-links button[aria-expanded="false"]',
+  );
   const mobileMenu = document.getElementById("mobile-menu");
   const mobileMenuCloseButton = document.getElementById(
-    "mobile-menu-close-button"
+    "mobile-menu-close-button",
   );
   const mobileMenuOpenButton = document.getElementById(
-    "mobile-menu-open-button"
+    "mobile-menu-open-button",
   );
   const currentUrl = window.location.pathname;
   const navLinks = document.querySelectorAll("#nav-links > a");
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "ease-out",
       "duration-50",
       "opacity-0",
-      "translate-y-1"
+      "translate-y-1",
     );
 
     // Toggle menu visibility
@@ -102,4 +104,13 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
+  // Close menu if clicked away if on mobile
+  // if (window.innerWidth <= 1024) {
+  //   document.addEventListener("click", (event) => {
+  //     mobileMenu.classList.toggle("hidden");
+  //   });
+  // }
+  // mobileMenu.addEventListener("click", (event) => {
+  //   event.stopPropagation();
+  // });
 });
