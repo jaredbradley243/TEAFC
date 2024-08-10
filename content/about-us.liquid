@@ -1,32 +1,36 @@
 <!-- content/about-us.liquid -->
 <!-- Hero -->
 <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
-  {% include 'partials/hero.liquid'
-    , hero_heading: hero_heading
-    , hero_subheading: hero_subheading
-    , hero_btn: hero_btn
-    , display_btn: hero_display_btn
-    , swap_col: hero_swap_col
-    , img_round_large_screens: hero_img_round_large_screens
-    , under_header: hero_under_header
+  {% include 'partials/hero.liquid',
+    hero_heading: hero_heading,
+    hero_subheading: hero_subheading,
+    hero_btn: hero_btn,
+    display_btn: hero_display_btn,
+    swap_col: hero_swap_col,
+    img_round_large_screens: hero_img_round_large_screens,
+    under_header: hero_under_header
   %}
 </div>
 {% include 'partials/info-cards-container.liquid' %}
 
-{% include 'partials/accordions-container.liquid'
-  , heading: accordion_heading
-  , subheading: accordion_subheading %}{% include 'partials/logo-cloud-container.liquid'
-  , logos: partners
-  , top_divider: partners_top_divider
-  , bottom_divider: partners_bottom_divider
-  , title: partners_title
-  , subtitle: partners_subtitle
+{% include 'partials/accordions-container.liquid', heading: accordion_heading, subheading: accordion_subheading -%}
+{%- include 'partials/logo-cloud-container.liquid',
+  logos: partners,
+  top_divider: partners_top_divider,
+  bottom_divider: partners_bottom_divider,
+  title: partners_title,
+  subtitle: partners_subtitle,
+  grid_cols_sm_num: 3,
+  grid_cols_md_num: 3,
+  grid_cols_lg_num: 3,
+  logo_cloud_col_span_sm: 1,
+  logo_cloud_col_span_lg: 1
 %}
 
-{% include 'partials/founders.liquid'
-  , hero_img: founders_img
-  , hero_heading: founders_heading
-  , hero_subheading: founders_subheading
+{% include 'partials/founders.liquid',
+  hero_img: founders_img,
+  hero_heading: founders_heading,
+  hero_subheading: founders_subheading
 %}
 
 {% include 'partials/newsletter.liquid' %}
