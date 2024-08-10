@@ -9,7 +9,7 @@
   </div>
   <div class="mt-14 flex flex-col gap-6 sm:flex-row lg:max-w-none lg:gap-12">
     <div class="flex flex-1 flex-col gap-4 rounded-xl bg-white/5">
-      <div class="flex justify-center overflow-hidden rounded-lg bg-red-800">
+      <div class="flex justify-center overflow-hidden rounded-lg">
         <img
           class="aspect-square max-h-52 w-full object-cover object-top"
           src="{{ get-involved.card_1_img }}"
@@ -21,9 +21,17 @@
         <div class="w-1/1 h-0.5 bg-gray-300 "></div>
         <p class="text-gray-500">{{ get-involved.card_1_desc }}</p>
       </div>
+      <div class="flex self-center pt-4">
+        <a
+          href="{{ navigation.contact_url }}"
+          class="rounded-lg border-teafc-orange bg-teafc-orange px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+        >
+          {{ get-involved.card_1_btn_txt }}
+        </a>
+      </div>
     </div>
     <div class="flex flex-1 flex-col gap-4 rounded-xl bg-white/5">
-      <div class="flex justify-center overflow-hidden rounded-lg bg-red-800">
+      <div class="flex justify-center overflow-hidden rounded-lg">
         <img
           class="aspect-square max-h-52 w-full object-cover object-center"
           src="{{ get-involved.card_2_img }}"
@@ -34,6 +42,14 @@
         <h3 class="font-semibold text-gray-700">{{ get-involved.card_2_title | upcase }}</h3>
         <div class="w-1/1 h-0.5 bg-gray-300 "></div>
         <p class="text-gray-500">{{ get-involved.card_2_desc }}</p>
+      </div>
+      <div class="flex self-center pt-4">
+        <a
+          href="{{ navigation.donate_url }}"
+          class="rounded-lg border-teafc-orange bg-teafc-orange px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+        >
+          {{ get-involved.card_2_btn_txt }}
+        </a>
       </div>
     </div>
   </div>
