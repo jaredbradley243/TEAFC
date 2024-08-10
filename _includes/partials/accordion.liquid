@@ -32,14 +32,14 @@
         aria-labelledby="accordion-1"
       >
         <div class="mb-4 mt-2 flex flex-col gap-3 rounded-2xl">
-          <h2 class="text-2xl">{{ accordion_subtitle }}</h2>
-          <p>
+          <h2 class="text-xl font-semibold text-gray-700">{{ accordion_subtitle }}</h2>
+          <p class="text-gray-500">
             {{ accordion_paragraph }}
           </p>
           <a
             href="{{ navigation | getByKey: accordion_link_key }}"
             role="link"
-            class="w-60 rounded-lg border-2 border-teafc-orange px-16 py-1 text-center font-bold text-black shadow-sm"
+            class="w-60 rounded-lg border-2 border-teafc-orange px-12 py-2.5 text-center text-sm font-semibold  text-gray-700 shadow-sm hover:bg-teafc-light-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
           >
             {{ accordion_btn_txt -}}
           </a>
