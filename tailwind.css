@@ -35,13 +35,13 @@
     transition: max-height 0.25s ease-in-out;
   }
   .container-lg {
-    @apply mx-auto px-6 py-5 lg:max-w-[76rem] lg:px-0 lg:py-10;
+    @apply mx-auto px-6 py-5 lg:max-w-[76rem] lg:py-10 xl:px-0;
   }
   .container-md {
-    @apply mx-auto px-6 py-5 lg:max-w-[72rem] lg:px-0 lg:py-10;
+    @apply mx-auto px-6 py-5 lg:max-w-[72rem] lg:py-10 xl:px-0;
   }
   .container-sm {
-    @apply mx-auto px-6 py-5 lg:max-w-[69rem] lg:px-0 lg:py-10;
+    @apply mx-auto px-6 py-5 lg:max-w-[69rem] lg:py-10 xl:px-0;
   }
   .slider {
     scrollbar-width: thin; /* Width of the scrollbar for Firefox */
