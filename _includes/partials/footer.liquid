@@ -7,15 +7,54 @@
 <footer class="" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
   <div class="container-lg px-0 pb-0 {{ footer_top_padding_class }}">
-    <div class="bg-teafc-blue px-6 pb-8 pt-16 sm:px-6 sm:pt-24 lg:px-16 lg:pt-16">
-      <div class="grid-cols-[auto,_1fr,_1fr,_1fr] xl:grid xl:gap-8">
-        <div class="max-w-56 space-y-8">
+    <div class="flex flex-col bg-teafc-blue px-6 pb-8 pt-16 sm:px-6 sm:pt-24 lg:px-16">
+      <div class="flex flex-col gap-8">
+        <div class="max-w-2xl self-center text-center">
+          <h2 class="text-3xl font-bold tracking-tight text-white sm:text-3xl lg:text-3xl">
+            Compassion. Inclusivity. Wellness.
+          </h2>
+          <p class="mt-6 text-base text-white lg:text-lg">
+            We empower our families and individuals, providing them with the tools and support needed to thrive in every
+            aspect of their lives.
+          </p>
+        </div>
+        <div class="flex justify-center gap-4">
+          <a
+            href="{{ navigation.contact_url }}/"
+            target="_blank"
+            class="flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+          >
+            Enroll
+          </a>
+          <a
+            href="{{ navigation.donate_url }}/"
+            target="_blank"
+            class="flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+          >
+            Donate Now
+          </a>
+        </div>
+      </div>
+      <div class="mt-16 flex flex-col items-center justify-between gap-8 border-t border-white pt-8 text-white/10 sm:mt-20 xl:flex-row xl:gap-0">
+        <div class="flex flex-1">
           <img
             class="h-14"
             src="/assets/img/logo-white.svg"
             alt="The Ed Asner Family Center"
           >
-          <p class="text-sm leading-6 text-white">Making the world a better place one smile at a time.</p>
+        </div>
+        <div class="flex flex-col items-center gap-4">
+          <p class="text-xs leading-5 text-white">&copy; 2024 The Ed Ansner Family Center</p>
+          <div class="flex flex-col items-center">
+            <p class="text-xs leading-5 text-white">The Ed Asner Family Center is a 501 c3 non profit Corporation.</p>
+            <p class="text-xs leading-5 text-white">Tax ID number 82-4043883</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <p class="text-xs leading-5 text-white">DDS Phone number: 916-654-1987</p>
+            <p class="text-xs leading-5 text-white">www.dds.ca.gov/complaints</p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center gap-8 xl:flex-1 xl:items-end">
           <div class="flex space-x-6">
             <a href="#" class="text-white hover:text-white">
               <span class="sr-only">Facebook</span>
@@ -85,112 +124,13 @@
               </svg>
             </a>
           </div>
-        </div>
-        <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 class="text-sm font-bold leading-6 text-white">{{ footer.column1_title }}</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li>
-                  <a href="{{ navigation.about_us_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column1_first_link_label -}}
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ navigation.our_team_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column1_second_link_label -}}
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-bold leading-6 text-white">{{ footer.column2_title }}</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li>
-                  <a href="{{ navigation.academy_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column2_first_link_label -}}
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ navigation.enrichments_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column2_second_link_label -}}
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ navigation.all_programs_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column2_third_link_label -}}
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
-            <div>
-              <h3 class="text-sm font-bold leading-6 text-white">{{ footer.column3_title }}</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li>
-                  <a href="#" class="text-sm leading-6 text-white hover:text-white">Placeholder</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm leading-6 text-white hover:text-white">Placeholder</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm leading-6 text-white hover:text-white">Placeholder</a>
-                </li>
-              </ul>
-            </div>
-            <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-bold leading-6 text-white">{{ footer.column4_title }}</h3>
-              <ul role="list" class="mt-6 space-y-4">
-                <li>
-                  <a href="{{ navigation.events_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column4_first_link_label -}}
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ navigation.contact_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column4_second_link_label -}}
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ navigation.donate_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column4_third_link_label -}}
-                  </a>
-                </li>
-                <li>
-                  <a href="{{ navigation.get_involved_url }}" class="text-sm leading-6 text-white hover:text-white">
-                    {{- footer.column4_fourth_link_label -}}
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <a href="{{ navigation.donate_url }}" target="_blank" class="flex justify-center">
-          <div class="mt-8 flex max-w-[40rem] flex-col gap-8 rounded-xl bg-white p-8 xl:mt-0 ">
-            <div class="text-center text-2xl font-bold text-teafc-orange">Your donations change lives!</div>
-            <div
-              class="flex justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
-            >
-              Donate Now
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="border-whtext-white/10 mt-16 flex justify-between border-t pt-8 sm:mt-20 lg:mt-8">
-        <div class="flex flex-1 flex-col gap-4">
-          <p class="text-xs leading-5 text-white">&copy; 2024 The Ed Ansner Family Center</p>
-          <p class="text-xs leading-5 text-white">
-            The Ed Asner Family Center is a 501 c3 non profit Corporation. Tax ID number 82-4043883
-          </p>
-        </div>
-        <div class="flex flex-1 flex-col items-end gap-4 ">
-          <div class="flex gap-4 text-white">
-            <a href="#" class="text-xs leading-5 text-white">Accessibility</a>
-            <a href="#" class="text-xs leading-5 text-white">Terms & Conditions</a>
-            <a href="#" class="text-xs leading-5 text-white">Privacy Policy</a>
-          </div>
-          <p class="text-xs leading-5 text-white">DDS Phone number: 916-654-1987 www.dds.ca.gov/complaints</p>
+          <a
+            href="{{ navigation.donate_url }}/"
+            target="_blank"
+            class="flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+          >
+            Donate Now
+          </a>
         </div>
       </div>
     </div>
