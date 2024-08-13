@@ -78,6 +78,8 @@ info_cards:
     link_key: ""
 
 # MENTAL HEALTH FAQ
+accordion_mobile_grid_col_num: 1
+accordion_grid_col_num: 2
 accordion_heading: "Mental Health FAQ"
 accordion_subheading: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
