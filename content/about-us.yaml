@@ -92,22 +92,31 @@ accordion_subheading: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
-  - accordion_title: "Accordion 1"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "Compassion"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      At The Ed Asner Family Center, we believe in approaching every interaction with empathy and understanding, 
+      ensuring that each individual feels heard and valued. Our compassionate environment supports not just the 
+      individual needs but also fosters a supportive atmosphere that empowers families and caregivers.
+    accordion_cta: null
     accordion_link_key: ""
 
-  - accordion_title: "Accordion 2"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "Inclusivity"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      We are committed to creating an inclusive space where people of all abilities and backgrounds can thrive without barriers. 
+      Our programs are designed to be accessible to everyone, celebrating the diversity of our community and promoting equal 
+      opportunities for participation and growth.
+    accordion_cta: null
     accordion_link_key: ""
 
-  - accordion_title: "Accordion 3"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "Wellness"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      Our focus on wellness encompasses both mental and physical health, providing holistic support tailored to the unique needs 
+      of our community members. We strive to offer a range of services that promote overall well-being, helping individuals and 
+      their families achieve balance and health in every aspect of their lives.
+    accordion_cta: null
     accordion_link_key: ""
 
 # FOUNDERS SECTION
