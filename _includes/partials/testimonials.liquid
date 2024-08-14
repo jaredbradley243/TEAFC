@@ -6,12 +6,12 @@
         <h2 class="text-3xl font-bold tracking-tight text-white lg:text-4xl">{{ testimonials.title }}</h2>
         <p class="text-lg font-light leading-8 tracking-tight text-white ">{{ testimonials.subtitle }}</p>
       </div>
-      <div class="grid w-full grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:grid-cols-2 sm:px-6">
-        <figure class="rounded-2xl bg-white shadow-lg ring-1 ring-gray-900/5 sm:col-span-2">
-          <blockquote class="p-6 text-sm font-normal leading-6 tracking-tight text-gray-900 sm:p-6 sm:text-lg sm:leading-8 ">
+      <div class="flex w-full max-w-full snap-x snap-mandatory grid-cols-1 grid-rows-1 gap-6 overflow-x-auto text-sm leading-6 text-gray-900 sm:grid sm:grid-cols-2 sm:gap-8 sm:px-6">
+        <figure class="flex h-full max-w-[85%] flex-shrink-0 snap-start flex-col justify-between rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5 sm:col-span-2 sm:max-w-none sm:p-0">
+          <blockquote class="text-gray-900 sm:p-6 sm:text-lg sm:font-normal sm:leading-8 sm:tracking-tight">
             <p>{{ testimonials.testimonial_1_testimony }}</p>
           </blockquote>
-          <figcaption class="flex flex-wrap items-center gap-x-4 gap-y-4 border-t border-gray-900/10 px-6 py-4 sm:flex-nowrap">
+          <figcaption class="mt-6 flex items-center gap-x-4 sm:mt-0 sm:gap-y-4 sm:border-t sm:border-gray-900/10 sm:px-6 sm:py-4">
             <img
               class="h-20 w-20 flex-none rounded-full bg-gray-50"
               src="{{ testimonials.testimonial_1_photo }}"
@@ -23,7 +23,7 @@
             </div>
           </figcaption>
         </figure>
-        <figure class="flex h-full flex-col justify-between rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+        <figure class="flex h-full max-w-[85%] flex-shrink-0 snap-start flex-col justify-between rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5 sm:max-w-none">
           <blockquote class="text-gray-900">
             <p>{{ testimonials.testimonial_2_testimony }}</p>
           </blockquote>
@@ -39,7 +39,7 @@
             </div>
           </figcaption>
         </figure>
-        <figure class="flex h-full flex-col justify-between rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+        <figure class="flex h-full max-w-[85%] flex-shrink-0 snap-start flex-col justify-between rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5 sm:max-w-none">
           <blockquote class="text-gray-900">
             <p>{{ testimonials.testimonial_3_testimony }}</p>
           </blockquote>
