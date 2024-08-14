@@ -9,7 +9,7 @@ description: >-
 hero_heading: "MENTAL HEALTH"
 hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
 hero_btn: "Learn More"
-hero_img: /assets/img/who-we-are2.jpg
+hero_img: /assets/img/who-we-are2.avif
 # hero_display_btn is a boolean
 hero_display_btn: false
 hero_swap_col: false
@@ -23,7 +23,7 @@ info_card_title: "OUR SERVICES"
 info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
   # Card 1
-  - info_card_img: "/assets/img/funko.png"
+  - info_card_img: "/assets/img/funko.avif"
     info_card_title: "Family therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
@@ -32,7 +32,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 2
-  - info_card_img: "/assets/img/camp2.png"
+  - info_card_img: "/assets/img/camp2.avif"
     info_card_title: "1-on-1 Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
@@ -41,7 +41,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 3
-  - info_card_img: "/assets/img/mental-health.jpg"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Caregiver Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
@@ -50,7 +50,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 4
-  - info_card_img: "/assets/img/mental-health.jpg"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Art Sibling Group Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
@@ -59,7 +59,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 5
-  - info_card_img: "/assets/img/mental-health.jpg"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Relationship Coaching"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
@@ -68,7 +68,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: ""
   # Card 6
-  - info_card_img: "/assets/img/mental-health.jpg"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Life Coaching"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-

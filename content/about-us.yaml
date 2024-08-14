@@ -11,7 +11,7 @@ description: >-
 hero_heading: "WHO WE ARE"
 hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
 hero_btn: "Learn More"
-hero_img: /assets/img/who-we-are2.jpg
+hero_img: /assets/img/who-we-are2.avif
 # display_btn is a boolean
 hero_display_btn: false
 hero_swap_col: false
@@ -45,7 +45,7 @@ info_card_title: "WHAT WE DO"
 info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
   # Card 1
-  - info_card_img: "/assets/img/funko.png"
+  - info_card_img: "/assets/img/funko.avif"
     info_card_title: "Academy"
     info_card_date_time: "Spring & Fall"
     info_card_paragraph: >-
@@ -55,7 +55,7 @@ info_cards:
     link_key: "about_us_url"
 
   # Card 2
-  - info_card_img: "/assets/img/volunteer.png"
+  - info_card_img: "/assets/img/volunteer.avif"
     info_card_title: "CampED"
     info_card_date_time: "Summer"
     info_card_paragraph: >-
@@ -65,7 +65,7 @@ info_cards:
     link_key: ""
 
   # Card 3
-  - info_card_img: "/assets/img/camp2.png"
+  - info_card_img: "/assets/img/camp2.avif"
     info_card_title: "Enrichments"
     info_card_date_time: "Year-round"
     info_card_paragraph: >-
@@ -75,7 +75,7 @@ info_cards:
     link_key: "enrichments_url"
 
   # Card 4
-  - info_card_img: "/assets/img/mental-health.jpg"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Mental Health"
     info_card_date_time: "Year-round"
     info_card_paragraph: >-
@@ -120,8 +120,8 @@ accordions:
     accordion_link_key: ""
 
 # FOUNDERS SECTION
-founders_img: "/assets/img/matt-navah.jpg"
-founders_img_mobile: "/assets/img/matt-navah3.jpg"
+founders_img: "/assets/img/matt-navah.avif"
+founders_img_mobile: "/assets/img/matt-navah3.avif"
 founders_heading: "OUR FOUNDERS"
 founders_subheading: >-
   Our family began a transformative journey with our youngest son Eddy's autism diagnosis, 

@@ -11,7 +11,7 @@ description: >-
 hero_heading: "We help neurodivergent individuals thrive"
 hero_subheading: "Award-winning programs for neurodivergent people and their families."
 hero_btn: "Learn More"
-hero_img: /assets/img/camp2.png
+hero_img: /assets/img/camp2.avif
 # display_button is a boolean
 hero_display_btn: true
 # options: left, right, both, ""
@@ -33,7 +33,7 @@ info_card_title: "OUR PROGRAM HIGHLIGHTS"
 info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
   # Card 1
-  - info_card_img: "/assets/img/funko.png"
+  - info_card_img: "/assets/img/funko.avif"
     info_card_title: "Academy"
     info_card_date_time: "Spring & Fall"
     info_card_paragraph: >-
@@ -43,7 +43,7 @@ info_cards:
     link_key: "about_us_url"
 
   # Card 2
-  - info_card_img: "/assets/img/volunteer.png"
+  - info_card_img: "/assets/img/volunteer.avif"
     info_card_title: "CampED"
     info_card_date_time: "Summer"
     info_card_paragraph: >-
@@ -53,7 +53,7 @@ info_cards:
     link_key: ""
 
   # Card 3
-  - info_card_img: "/assets/img/camp2.png"
+  - info_card_img: "/assets/img/camp2.avif"
     info_card_title: "Enrichments"
     info_card_date_time: "Year-round"
     info_card_paragraph: >-
@@ -63,7 +63,7 @@ info_cards:
     link_key: "enrichments_url"
 
   # Card 4
-  - info_card_img: "/assets/img/mental-health.jpg"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Mental Health"
     info_card_date_time: "Year-round"
     info_card_paragraph: >-
