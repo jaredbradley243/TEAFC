@@ -1,12 +1,17 @@
 <!-- /_includes/partials/hero.liquid -->
 <div class="container-md lg:grid lg:grid-cols-2 lg:gap-x-8">
   <!-- HERO LEFT -->
-  <div class="ml-auto mr-auto mt-10 w-72 sm:mt-24 sm:w-auto md:mx-auto md:max-w-4xl lg:mx-0 lg:mt-0">
+  <div class="mx-auto mt-10 sm:mt-24 md:max-w-4xl lg:mx-0 lg:mt-0">
     <div class="lg:pt-4">
       <img
         src="{{ img }}"
         alt=""
-        class="mx-auto rounded-2xl"
+        class="mx-auto hidden rounded-2xl sm:block"
+      >
+      <img
+        src="{{ img_mobile }}"
+        alt=""
+        class="mx-auto rounded-2xl sm:hidden"
       >
     </div>
   </div>
