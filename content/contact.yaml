@@ -17,6 +17,18 @@ hero_display_btn: true
 hero_img_round_large_screens: "left"
 hero_under_header: true
 
+# CONTACT CARDS
+# Card 1
+contact_name1: "Blanca Arenas"
+office_title1: "Administration/General Inquiries"
+phone_number1: "(818) 302-0712"
+email1: "info@teafc.org"
+# Card 2
+contact_name2: "Chrisa Sadd"
+office_title2: "Mental Health"
+phone_number2: "(818) 302-0712"
+email2: "chrisa@teafc.org"
+
 # FAQ
 accordion_mobile_grid_col_num: 1
 accordion_grid_col_num: 2
