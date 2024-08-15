@@ -12,6 +12,7 @@ hero_heading: "We help neurodivergent individuals thrive"
 hero_subheading: "Award-winning programs for neurodivergent people and their families."
 hero_btn: "Learn More"
 hero_img: /assets/img/camp2.avif
+hero_img_mobile: /assets/img/camp2.avif
 # display_button is a boolean
 hero_display_btn: true
 # options: left, right, both, ""

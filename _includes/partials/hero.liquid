@@ -62,7 +62,12 @@
       <img
         src="{{ hero_img }}"
         alt=""
-        class="rounded-xl {{ img_round_class }}"
+        class="rounded-xl {{ img_round_class }} hidden sm:block"
+      >
+      <img
+        src="{{ hero_img_mobile }}"
+        alt=""
+        class="rounded-xl {{ img_round_class }} sm:hidden"
       >
     </div>
   </div>
