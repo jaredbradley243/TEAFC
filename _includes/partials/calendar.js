@@ -5,10 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const calendarGrid = document.querySelector('#calendarGrid');
     const monthTitle = document.querySelector('#monthName');
 
-    function Calendar(month, year) {
+    function Calendar(month, year, today) {
         let currentMonth = month;
         let currentYear = year;
-
+        
         const daysInMonth = () => new Date(currentYear, currentMonth + 1, 0).getDate();
         const daysInPrevMonth = () => new Date(currentYear, currentMonth, 0).getDate();
         const firstDayNumber = () => new Date(currentYear, currentMonth, 1).getDay();
@@ -34,10 +34,10 @@ document.addEventListener('DOMContentLoaded', function () {
             for (let day = prevMonthGridStart; day <= numDaysPrevMonth; day++) {
                 const cell = document.createElement('div');
                 const cellDate = document.createElement('time');
-                let formattedMonth = month;
+                let formattedMonth = currentMonth;
                 formattedMonth = formattedMonth < 10 ? '0' + formattedMonth : formattedMonth;
-                const dateString = `${year}-${formattedMonth}-${day}`;
-                cell.className = 'relative bg-gray-50 py-1.5 flex items-center text-gray-400 hover:bg-gray-100 focus:z-10'; // Tailwind class for empty cells
+                const dateString = `${currentYear}-${formattedMonth}-${day}`;
+                cell.className = 'relative flex items-center bg-gray-50 py-1.5 text-gray-400 hover:bg-gray-100 focus:z-10'; // Tailwind class for empty cells
                 fragment.appendChild(cell);
                 cellDate.textContent = day;
                 cellDate.setAttribute('datetime', dateString);
@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {
             for (let day = 1; day <= numDaysCurrentMonth; day++) {
                 const cell = document.createElement('div');
                 const cellDate = document.createElement('time');
-                let formattedMonth = month + 1;
+                let formattedMonth = currentMonth + 1;
                 formattedMonth = formattedMonth < 10 ? '0' + formattedMonth : formattedMonth;
-                const dateString = `${year}-${formattedMonth}-${day}`;
+                const dateString = `${currentYear}-${formattedMonth}-${day}`;
                 cell.className = 'relative bg-white py-1.5 flex items-center text-gray-900 hover:bg-gray-100 focus:z-10';
                 fragment.appendChild(cell);
                 cellDate.textContent = day;
@@ -60,13 +60,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 cell.appendChild(cellDate);
             }
 
+
             //fill grid with next month's days
             for (let day = 0; day < numDaysNextMonth; day++) {
                 const cell = document.createElement('div');
                 const cellDate = document.createElement('time');
-                let formattedMonth = month + 2;
+                let formattedMonth = currentMonth + 2;
                 formattedMonth = formattedMonth < 10 ? '0' + formattedMonth : formattedMonth;
-                const dateString = `${year}-${formattedMonth}-${day}`;
+                const dateString = `${currentYear}-${formattedMonth}-${day}`;
                 cell.className = 'relative bg-gray-50 py-1.5 flex items-center text-gray-400 hover:bg-gray-100 focus:z-10';
                 fragment.appendChild(cell);
                 cellDate.textContent = day + 1;
@@ -77,16 +78,24 @@ document.addEventListener('DOMContentLoaded', function () {
 
             return fragment;
         };
-
+        
         const clearCalendar = () => {
             while (calendarGrid.firstChild) {
                 calendarGrid.removeChild(calendarGrid.firstChild);
+            }
+        };
+        
+        const highlightToday = () => {
+            const todaysDate = document.querySelector(`[datetime = "${today}"]`);
+            if (todaysDate) {
+                todaysDate.className = 'mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-teafc-light-orange';
             }
         };
 
         const updateCalendar = () => {
             clearCalendar();
             calendarGrid.appendChild(renderCurrentMonth());
+            highlightToday();
         };
 
         const renderPrevMonth = () => {
@@ -107,12 +116,13 @@ document.addEventListener('DOMContentLoaded', function () {
             updateCalendar();
         };
 
-        return { renderCurrentMonth, renderNextMonth, renderPrevMonth };
+        return { highlightToday, renderCurrentMonth, renderNextMonth, renderPrevMonth };
     }
 
     // Usage
-    const calendar = Calendar(new Date().getMonth(), new Date().getFullYear());
+    const calendar = Calendar(new Date().getMonth(), new Date().getFullYear(), new Date().toLocaleDateString('en-CA'));
     calendarGrid.appendChild(calendar.renderCurrentMonth());
+    calendar.highlightToday();
     nextMonthBtn.addEventListener('click', calendar.renderNextMonth);
     prevMonthBtn.addEventListener('click', calendar.renderPrevMonth);
 });
