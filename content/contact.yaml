@@ -18,6 +18,8 @@ hero_img_round_large_screens: "left"
 hero_under_header: true
 
 # FAQ
+accordion_mobile_grid_col_num: 1
+accordion_grid_col_num: 2
 accordion_heading: "FREQUENTLY ASKED QUESTIONS"
 accordion_subheading: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

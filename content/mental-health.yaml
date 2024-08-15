@@ -156,26 +156,26 @@ insurance:
 
 # OUR SPECIALISTS
 specialists:
-  - specialist_img: "/assets/img/atticus.webp"
+  - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "John Doe"
     specialist_position: "Senior Software Engineer"
 
-  - specialist_img: "/assets/img/atticus.webp"
+  - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "Jane Smith"
     specialist_position: "Frontend Developer"
 
-  - specialist_img: "/assets/img/atticus.webp"
+  - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "Alice Johnson"
     specialist_position: "Backend Developer"
 
-  - specialist_img: "/assets/img/atticus.webp"
+  - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "Bob Brown"
     specialist_position: "DevOps Engineer"
 
-  - specialist_img: "/assets/img/atticus.webp"
+  - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "Charlie Davis"
     specialist_position: "UI/UX Designer"
 
-  - specialist_img: "/assets/img/atticus.webp"
+  - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "Eve Wilson"
     specialist_position: "Full Stack Developer"
