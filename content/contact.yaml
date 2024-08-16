@@ -37,42 +37,29 @@ accordion_subheading: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
-  - accordion_title: "Accordion 1"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "Do you accept Self-Determination?"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
+    accordion_cta: null
 
-  - accordion_title: "Accordion 2"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "How can I apply to join a program?"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      Please email <a class="text-lg text-teafc-blue underline" href="mailto:blanca@teafc.org">blanca@teafc.org</a>
+    accordion_cta: null
 
-  - accordion_title: "Accordion 3"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "How can I stay up to date with your events/programs?"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      Feel free to sign up to our newsletter below or follow us on social media!
+    accordion_cta: null
 
-  - accordion_title: "Accordion 4"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
-
-  - accordion_title: "Accordion 5"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
-
-  - accordion_title: "Accordion 6"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
-
-  - accordion_title: "Accordion 7"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
-
-  - accordion_title: "Accordion 8"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+  - accordion_title: "Do any of your programs have age restrictions?"
+    accordion_subtitle: ""
+    accordion_paragraph: |
+      In person enrichments : 10+ <br>
+      Virtual 18+ <br>
+      Summer/ Winter Camps 10+ <br>
+      The Academy 18+
+    accordion_cta: null
