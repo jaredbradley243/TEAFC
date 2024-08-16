@@ -16,6 +16,7 @@
               class="h-20 w-20 flex-none rounded-full bg-gray-50"
               src="{{ testimonials.testimonial_1_photo }}"
               alt=""
+              {% imageDimensions testimonials.testimonial_1_photo %}
             >
             <div class="flex-auto">
               <div class="font-semibold">{{ testimonials.testimonial_1_name }}</div>
@@ -32,6 +33,7 @@
               class="h-20 w-20 rounded-full bg-gray-50"
               src="{{ testimonials.testimonial_2_photo }}"
               alt=""
+              {% imageDimensions testimonials.testimonial_2_photo %}
             >
             <div>
               <div class="font-semibold">{{ testimonials.testimonial_2_name }}</div>
@@ -48,6 +50,7 @@
               class="h-20 w-20 rounded-full bg-gray-50"
               src="{{ testimonials.testimonial_3_photo }}"
               alt=""
+              {% imageDimensions testimonials.testimonial_3_photo %}
             >
             <div>
               <div class="font-semibold">{{ testimonials.testimonial_3_name }}</div>

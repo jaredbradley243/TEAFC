@@ -7,11 +7,13 @@
         src="{{ img }}"
         alt=""
         class="mx-auto hidden rounded-2xl sm:block"
+        {% imageDimensions img %}
       >
       <img
         src="{{ img_mobile }}"
         alt=""
         class="mx-auto rounded-2xl sm:hidden"
+        {% imageDimensions img_mobile %}
       >
     </div>
   </div>
@@ -48,6 +50,7 @@
       class="py-5"
       src="/assets/img/signatures.svg"
       alt="Matt and Navah Asner signature"
+      {% imageDimensions "/assets/img/signatures.svg" %}
     >
   </div>
 </div>

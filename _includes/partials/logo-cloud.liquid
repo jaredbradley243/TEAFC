@@ -3,6 +3,5 @@
   class="col-span-{{ col_span_sm }} max-h-20 w-full object-contain sm:max-h-32 lg:col-span-{{ col_span_lg }}"
   src="{{ logo_img }}"
   alt="{{ logo_alt_tag }}"
-  width="158"
-  height="48"
+  {% imageDimensions logo_img %}
 >

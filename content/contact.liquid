@@ -15,7 +15,12 @@
 <div class="container-lg px-0">
   <div class="flex flex-col items-start justify-center gap-10 bg-teafc-blue p-10 sm:flex-row sm:items-center lg:gap-20">
     <div class="max-w-full flex-1">
-      <img class="h-full w-full" src="/assets/img/teafc-location.svg" alt="Map of The Ed Asner Family Center building">
+      <img
+        class="h-full w-full"
+        src="/assets/img/teafc-location.svg"
+        alt="Map of The Ed Asner Family Center building"
+        {% imageDimensions "/assets/img/teafc-location.svg" %}
+      >
     </div>
     <div class="flex items-center justify-center">
       <div class="flex max-w-64 flex-col gap-10">

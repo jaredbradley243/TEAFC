@@ -12,26 +12,72 @@
     aria-label="Image Slider"
   >
     <div class="slider flex overflow-x-auto scroll-smooth" aria-live="polite" aria-atomic="true">
-      <img class="" src="/assets/img/armand.avif" alt="{{ img-slider.img_1 }}" id="slide-1" tabindex="0">
-      <img class="" src="/assets/img/donate.avif" alt="{{ img-slider.img_2 }}" id="slide-2" tabindex="0">
-      <img class="" src="/assets/img/spencer.avif" alt="{{ img-slider.img_3 }}" id="slide-3" tabindex="0">
-      <img class="" src="/assets/img/camp.avif" alt="{{ img-slider.img_4 }}" id="slide-4" tabindex="0">
-      <img class="" src="/assets/img/camp2.avif" alt="{{ img-slider.img_5 }}" id="slide-5" tabindex="0">
-      <img class="" src="/assets/img/funko.avif" alt="{{ img-slider.img_6 }}" id="slide-6" tabindex="0">
+      <img
+        class=""
+        src="/assets/img/armand.avif"
+        alt="{{ img-slider.img_1 }}"
+        id="slide-1"
+        tabindex="0"
+        {% imageDimensions "/assets/img/armand.avif" %}
+      >
+      <img
+        class=""
+        src="/assets/img/donate.avif"
+        alt="{{ img-slider.img_2 }}"
+        id="slide-2"
+        tabindex="0"
+        {% imageDimensions "/assets/img/donate.avif" %}
+      >
+      <img
+        class=""
+        src="/assets/img/spencer.avif"
+        alt="{{ img-slider.img_3 }}"
+        id="slide-3"
+        tabindex="0"
+        {% imageDimensions "/assets/img/spencer.avif" %}
+      >
+      <img
+        class=""
+        src="/assets/img/camp.avif"
+        alt="{{ img-slider.img_4 }}"
+        id="slide-4"
+        tabindex="0"
+        {% imageDimensions "/assets/img/camp.avif" %}
+      >
+      <img
+        class=""
+        src="/assets/img/camp2.avif"
+        alt="{{ img-slider.img_5 }}"
+        id="slide-5"
+        tabindex="0"
+        {% imageDimensions "/assets/img/camp2.avif" %}
+      >
+      <img
+        class=""
+        src="/assets/img/funko.avif"
+        alt="{{ img-slider.img_6 }}"
+        id="slide-6"
+        tabindex="0"
+        {% imageDimensions "/assets/img/funko.avif" %}
+      >
     </div>
     <button
       class="slider-button slide-left left-2 px-4 py-2"
       aria-label="Scroll left"
       aria-controls="image-slider"
     >
-      <img src="/assets/img/arrow-left.svg" alt="left slider arrow">
+      <img src="/assets/img/arrow-left.svg" alt="left slider arrow" {% imageDimensions "/assets/img/arrow-left.svg" %}>
     </button>
     <button
       class="slider-button slide-right right-2 px-4 py-2"
       aria-label="Scroll right"
       aria-controls="image-slider"
     >
-      <img src="/assets/img/arrow-right.svg" alt="right slider arrow">
+      <img
+        src="/assets/img/arrow-right.svg"
+        alt="right slider arrow"
+        {% imageDimensions "/assets/img/arrow-right.svg" %}
+      >
     </button>
   </div>
 </div>
