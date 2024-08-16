@@ -1,4 +1,6 @@
 const yaml = require("js-yaml");
+const path = require("path");
+const sizeOf = require("image-size");
 
 module.exports = function (eleventyConfig) {
   // Add support for YAML data files
@@ -27,6 +29,13 @@ module.exports = function (eleventyConfig) {
   // Returns the value at 'key' or empty string if not found
   eleventyConfig.addFilter("getByKey", function (object, key) {
     return object[key] || "";
+  });
+
+  eleventyConfig.addLiquidShortcode("imageDimensions", function (src) {
+    let fullPath = path.join(__dirname, src);
+    let dimensions = sizeOf(fullPath);
+    // Return the width and height attributes as a string
+    return `width="${dimensions.width}" height="${dimensions.height}"`;
   });
 
   return {
