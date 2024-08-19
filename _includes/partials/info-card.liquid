@@ -14,12 +14,14 @@
     <div class="w-1/1 h-0.5 bg-gray-300 "></div>
     <p class="text-gray-500">{{ info_card_paragraph }}</p>
   </div>
-  <div class="flex">
-    <a
-      href="{{ navigation | getByKey: info_card_link_key }}"
-      class="rounded-lg border-teafc-orange bg-teafc-orange px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
-    >
-      {{ info_card_btn_txt }}
-    </a>
-  </div>
+  {% if info_card_btn_txt %}
+    <div class="flex">
+      <a
+        href="{{ navigation | getByKey: info_card_link_key }}"
+        class="rounded-lg border-teafc-orange bg-teafc-orange px-12 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+      >
+        {{ info_card_btn_txt }}
+      </a>
+    </div>
+  {% endif %}
 </div>

@@ -41,32 +41,32 @@ partners:
     img_alt_tag: "Official Straight Up Abilities Logo"
 
 # FAQ
-accordion_mobile_grid_col_num: 1
 accordion_grid_col_num: 2
+accordion_mobile_grid_col_num: 1
 accordion_heading: "FREQUENTLY ASKED QUESTIONS"
 accordion_subheading: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
-  - accordion_title: "Do you accept Self-Determination?"
+  - accordion_title: "Who is eligible for the academy?"
     accordion_subtitle: ""
     accordion_paragraph: >-
       The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
     accordion_cta: null
 
-  - accordion_title: "How can I apply to join a program?"
+  - accordion_title: "How can I enroll in the academy?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      Please email <a class="text-lg text-teafc-blue underline" href="mailto:blanca@teafc.org">blanca@teafc.org</a>
+      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
     accordion_cta: null
 
-  - accordion_title: "How can I stay up to date with your events/programs?"
+  - accordion_title: "What time of year is the academy?"
     accordion_subtitle: ""
     accordion_paragraph: >-
       Feel free to sign up to our newsletter below or follow us on social media!
     accordion_cta: null
 
-  - accordion_title: "Do any of your programs have age restrictions?"
+  - accordion_title: "How long is the academy?"
     accordion_subtitle: ""
     accordion_paragraph: |
       In person enrichments : 10+ <br>
@@ -74,6 +74,93 @@ accordions:
       Summer/ Winter Camps 10+ <br>
       The Academy 18+
     accordion_cta: null
+
+info_card_container_width: "sm"
+info_card_grid_col_num: 3
+info_card_md_grid_col_num: 2
+info_card_title: "ACADEMY CLASSES"
+info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+info_cards:
+  # Card 1
+  - info_card_img: "/assets/img/funko.avif"
+    info_card_title: "Job Training @ Funko Museum"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Access mental health services at The Ed Asner Family Center, including individual therapy, 
+      family therapy, support groups, and workshops.
+    info_card_btn_txt: null
+    link_key: "mental_health_url"
+  # Card 2
+  - info_card_img: "/assets/img/funko.avif"
+    info_card_title: "Animation"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Join our inclusive academy at The Ed Asner Family Center, combining job training, 
+      adaptive skills, and expressive arts for neurodivergent individuals.
+    info_card_btn_txt: null
+    link_key: "about_us_url"
+  # Card 3
+  - info_card_img: "/assets/img/volunteer.avif"
+    info_card_title: "Computers"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Join our inclusive summer camp at The Ed Asner Family Center, 
+      combining expressive arts and fun for for the whole family.
+    info_card_btn_txt: null
+    link_key: ""
+  # Card 4
+  - info_card_img: "/assets/img/camp2.avif"
+    info_card_title: "Improv"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Discover our enrichment programs at The Ed Asner Family Center, including CampED, Dance, Art, 
+      Robotics, and more!
+    info_card_btn_txt: null
+    link_key: "enrichments_url"
+  # Card 5
+  - info_card_img: "/assets/img/mental-health.avif"
+    info_card_title: "Voice Acting"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Access mental health services at The Ed Asner Family Center, including individual therapy, 
+      family therapy, support groups, and workshops.
+    info_card_btn_txt: null
+    link_key: "mental_health_url"
+  # Card 6
+  - info_card_img: "/assets/img/mental-health.avif"
+    info_card_title: "Zooz Fitness"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Access mental health services at The Ed Asner Family Center, including individual therapy, 
+      family therapy, support groups, and workshops.
+    info_card_btn_txt: null
+    link_key: "mental_health_url"
+
+# SPECIALISTS
+specialists:
+  - specialist_img: "/assets/img/atticus.avif"
+    specialist_name: "John Doe"
+    specialist_position: "Senior Software Engineer"
+
+  - specialist_img: "/assets/img/atticus.avif"
+    specialist_name: "Jane Smith"
+    specialist_position: "Frontend Developer"
+
+  - specialist_img: "/assets/img/atticus.avif"
+    specialist_name: "Alice Johnson"
+    specialist_position: "Backend Developer"
+
+  - specialist_img: "/assets/img/atticus.avif"
+    specialist_name: "Bob Brown"
+    specialist_position: "DevOps Engineer"
+
+  - specialist_img: "/assets/img/atticus.avif"
+    specialist_name: "Charlie Davis"
+    specialist_position: "UI/UX Designer"
+
+  - specialist_img: "/assets/img/atticus.avif"
+    specialist_name: "Eve Wilson"
+    specialist_position: "Full Stack Developer"
 
 # IMG SLIDER
 img_slider_bottom_padding: "false"
