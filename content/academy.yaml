@@ -6,17 +6,77 @@ description: >-
   adaptive skills, and expressive arts for neurodivergent individuals. Our all-abilities 
   program fosters growth and development in a supportive environment."
 permalink: "{{ navigation.academy_url }}"
-# Page Content
-title_1_separate: "Our Academy"
-title_2_separate: "Dating Spectrum"
-content_1_separate: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
-content_2_separate: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien "
-content_2-bullet_1: "Friendship Builders"
-content_2-bullet_2: "Sex Ed"
-content_2-bullet_3: "Social Club"
-content_2-bullet_4: "Testimonials"
+# HERO
+hero_heading: "The Academy"
+hero_subheading: >-
+  Empowering adults with special needs through a vibrant community of learning and growth. 
+  The Academy offers a unique blend of educational, creative, and therapeutic activities 
+  designed to enrich lives, foster independence, and build lasting friendships.
+hero_btn: "Enroll"
+hero_img: /assets/img/who-we-are2.avif
+# display_btn is a boolean
+hero_display_btn: true
+hero_swap_col: false
+# options: left, right, both, ""
+hero_img_round_large_screens: "both"
+hero_under_header: true
 
-content_1_time_date: "Time & Date"
-content_2_time_date: "Time & Date"
-content_1_location: "Location"
-content_2_location: "Location"
+# PARTNERS SECTION
+partners_top_divider: false
+partners_bottom_divider: true
+partners_title: "ACADEMY PARTNERS"
+partners_subtitle: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
+  Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. 
+  Proin venenatis felis id metus varius, in porta elit vulputate.
+partners:
+  # Zooz
+  - img: "/assets/img/zooz.svg"
+    img_alt_tag: "Official Zooz Logo"
+    # Funko
+  - img: "/assets/img/funko.svg"
+    img_alt_tag: "Official Funko Logo"
+    # Straight Up Abilities
+  - img: "/assets/img/straight-up-abilities.svg"
+    img_alt_tag: "Official Straight Up Abilities Logo"
+
+# FAQ
+accordion_mobile_grid_col_num: 1
+accordion_grid_col_num: 2
+accordion_heading: "FREQUENTLY ASKED QUESTIONS"
+accordion_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+accordions:
+  - accordion_title: "Do you accept Self-Determination?"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
+    accordion_cta: null
+
+  - accordion_title: "How can I apply to join a program?"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      Please email <a class="text-lg text-teafc-blue underline" href="mailto:blanca@teafc.org">blanca@teafc.org</a>
+    accordion_cta: null
+
+  - accordion_title: "How can I stay up to date with your events/programs?"
+    accordion_subtitle: ""
+    accordion_paragraph: >-
+      Feel free to sign up to our newsletter below or follow us on social media!
+    accordion_cta: null
+
+  - accordion_title: "Do any of your programs have age restrictions?"
+    accordion_subtitle: ""
+    accordion_paragraph: |
+      In person enrichments : 10+ <br>
+      Virtual 18+ <br>
+      Summer/ Winter Camps 10+ <br>
+      The Academy 18+
+    accordion_cta: null
+
+# IMG SLIDER
+img_slider_bottom_padding: "false"
+
+# FOOTER
+footer_top_padding: "false"
