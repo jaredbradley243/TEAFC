@@ -60,10 +60,7 @@ program_cards:
   - program_card_img: "/assets/img/mental-health.avif"
     program_card_title: "The Dating Spectrum"
     program_card_paragraph: "Join a supportive and inclusive community where adults with special needs can thrive."
-    program_card_hidden_text: >-
-      Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-      fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing
-      egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+    program_card_hidden_text:
     program_card_detail_header1: "Age Group"
     program_card_detail1: "18+"
     program_card_detail_header2: "Time of Year"
