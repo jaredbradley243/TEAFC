@@ -1,6 +1,11 @@
 <div class="mx-auto flex max-w-2xl flex-col items-center gap-x-8 gap-y-8 rounded-3xl bg-teafc-light-blue p-10 shadow-md lg:mx-0 lg:max-w-none lg:flex-row">
   <div class="flex h-full items-center lg:max-w-50%">
-    <img class="h-full w-full rounded-3xl object-cover" src="{{ program_card_img }}" alt="">
+    <img
+      class="aspect-[4/3] h-full w-full rounded-3xl object-cover"
+      src="{{ program_card_img }}"
+      alt=""
+      {% imageDimensions program_card_img %}
+    >
   </div>
   <div class="lg:max-w-50%">
     <div class="text-base leading-7 text-gray-700 lg:max-w-lg">
