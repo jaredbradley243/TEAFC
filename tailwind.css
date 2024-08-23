@@ -27,14 +27,17 @@
     @apply cursor-pointer px-6 py-4;
   }
   .accordion-header.active svg,
-  #founders-read-more-button:active svg {
+  #founders-read-more-button:active svg,
+  .program-card-read-more-button:active svg {
     @apply rotate-180 transition duration-200 ease-in-out;
   }
-  .accordion-body {
+  .accordion-body,
+  .program-card-hidden-text {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.25s ease-in-out;
   }
+
   .container-lg {
     @apply mx-auto px-6 py-5 lg:max-w-[76rem] lg:py-10 xl:px-0;
   }
