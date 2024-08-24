@@ -9,7 +9,7 @@
   </div>
 </div>
 
-<div class="container-md flex flex-col gap-8">
+<div class="container-md flex flex-col gap-8 md:max-lg:grid md:max-lg:grid-cols-2">
   {% for program_card in program_cards %}
     {% include 'partials/program-card.liquid',
       program_card_img: program_card.program_card_img,
