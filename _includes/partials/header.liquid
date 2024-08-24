@@ -141,7 +141,7 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.enrichments_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.camped_url }}" class="block font-semibold text-gray-900">
                   {{ header.third_link_sub_menu_title2 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -150,11 +150,20 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.all_programs_url }}" class="block font-semibold text-gray-900">
+                <a href="{{ navigation.enrichments_url }}" class="block font-semibold text-gray-900">
                   {{ header.third_link_sub_menu_title3 }}
                   <span class="absolute inset-0"></span>
                 </a>
                 <p class="mt-1 text-gray-600">{{ header.third_link_sub_menu_description3 }}</p>
+              </div>
+            </div>
+            <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
+              <div class="flex-auto">
+                <a href="{{ navigation.all_programs_url }}" class="block font-semibold text-gray-900">
+                  {{ header.third_link_sub_menu_title4 }}
+                  <span class="absolute inset-0"></span>
+                </a>
+                <p class="mt-1 text-gray-600">{{ header.third_link_sub_menu_description4 }}</p>
               </div>
             </div>
           </div>
@@ -306,16 +315,22 @@
                   {{- header.third_link_sub_menu_title1 -}}
                 </a>
                 <a
-                  href="{{ navigation.enrichments_url }}"
+                  href="{{ navigation.camped_url }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.third_link_sub_menu_title2 -}}
                 </a>
                 <a
-                  href="{{ navigation.all_programs_url }}"
+                  href="{{ navigation.enrichments_url }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.third_link_sub_menu_title3 -}}
+                </a>
+                <a
+                  href="{{ navigation.all_programs_url }}"
+                  class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  {{- header.third_link_sub_menu_title4 -}}
                 </a>
               </div>
             </div>
