@@ -1,4 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
+  const API_KEY = 'AIzaSyBjgF6OQx0-GLqCpYyOpiH-PBznaFezVfM';
+  const CALENDAR_ID = '325fcff7cebabe8484b1f185d357cc7b34ab60740ac74a0461adbab178e4ffa0@group.calendar.google.com';
+  const endpoint = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
+
   const prevMonthBtn = document.querySelector("#prevMonth");
   const nextMonthBtn = document.querySelector("#nextMonth");
   const calendarGrid = document.querySelector("#calendarGrid");
@@ -132,11 +136,23 @@ document.addEventListener("DOMContentLoaded", function () {
       updateCalendar();
     };
 
+    const fetchCalData = async(calURL) => {
+      try {
+        const response = await fetch(calURL);
+        const calData = await response.json();
+        console.log(calData.items);
+        return calData.items;
+      } catch (error) {
+        console.error('Error fetching events:', error);
+      }
+    }
+
     return {
       highlightToday,
       renderCurrentMonth,
       renderNextMonth,
       renderPrevMonth,
+      fetchCalData
     };
   }
 
