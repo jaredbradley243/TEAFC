@@ -73,7 +73,7 @@ program_cards:
 # INFO CARDS
 info_card_grid_col_num: 4
 info_card_md_grid_col_num: 2
-info_card_title: "Enrichments"
+info_card_title: "ENRICHMENTS"
 info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
   # Card 1
@@ -141,3 +141,39 @@ specialists:
   - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "Max"
     specialist_position: "Improv Specialist"
+
+# TEAM MEMBERS
+team_member_heading: "OUR SPECIALISTS"
+team_member_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
+team_members:
+  - team_member_img: "/assets/img/atticus.avif"
+    team_member_name: "John Doe"
+    team_member_position: "Senior Software Engineer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.avif"
+    team_member_name: "Jane Smith"
+    team_member_position: "Frontend Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.avif"
+    team_member_name: "Alice Johnson"
+    team_member_position: "Backend Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.avif"
+    team_member_name: "Bob Brown"
+    team_member_position: "DevOps Engineer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.avif"
+    team_member_name: "Charlie Davis"
+    team_member_position: "UI/UX Designer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+
+  - team_member_img: "/assets/img/atticus.avif"
+    team_member_name: "Eve Wilson"
+    team_member_position: "Full Stack Developer"
+    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
