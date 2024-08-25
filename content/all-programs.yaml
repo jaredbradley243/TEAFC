@@ -43,7 +43,7 @@ program_cards:
     program_card_btn_txt: "Learn More"
     program_card_btn_link_key: "academy_url"
 
-# INFO CARDS
+# ENRICHMENTS
 info_card_grid_col_num: 3
 info_card_md_grid_col_num: 2
 info_card_title: "ENRICHMENT CLASSES"
