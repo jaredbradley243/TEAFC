@@ -5,19 +5,67 @@ description: >-
   robotics, and more. Our programs are designed to enhance skills and provide meaningful 
   experiences for neurodivergent individuals."
 permalink: "{{ navigation.enrichments_url }}"
-enrichments:
-  - event_date: "03/02"
-    event_title: "Poker for Ed"
-    event_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
-    event_location: "16340 Roscoe Boulevard Van Nuys, CA 91406"
-    event_img: "/assets/img/volunteer2.avif"
-  - event_date: "03/15"
-    event_title: "Fundraiser Gala"
-    event_paragraph: "Fundraiser Gala description here."
-    event_location: "123 Main Street, Anytown, USA"
-    event_img: "/assets/img/volunteer2.avif"
-  - event_date: "04/05"
-    event_title: "Community BBQ"
-    event_paragraph: "Community BBQ description here."
-    event_location: "456 Oak Street, Anytown, USA"
-    event_img: "/assets/img/volunteer2.avif"
+# ENRICHMENTS
+info_card_grid_col_num: 3
+info_card_md_grid_col_num: 2
+info_card_title: "ENRICHMENT CLASSES"
+info_card_subtitle: "Enrichments offer a flexible, drop-in experience with specialized sessions that meet once or twice a week. These sessions are perfect for those looking to explore new interests or skills without a long-term commitment."
+info_cards:
+  # Card 1
+  - info_card_img: "/assets/img/funko.avif"
+    info_card_title: "Art w/ Avivah"
+    info_card_date_time: "Monday & Thursday"
+    info_card_paragraph: >-
+      Join our inclusive academy at The Ed Asner Family Center, combining job training, 
+      adaptive skills, and expressive arts for neurodivergent individuals.
+    info_card_btn_txt: "Learn More"
+    link_key: "about_us_url"
+
+  # Card 2
+  - info_card_img: "/assets/img/volunteer.avif"
+    info_card_title: "Robotics"
+    info_card_date_time: "Tuesday & Wednesday"
+    info_card_paragraph: >-
+      Join our inclusive summer camp at The Ed Asner Family Center, 
+      combining expressive arts and fun for for the whole family.
+    info_card_btn_txt: "Learn More"
+    link_key: ""
+
+  # Card 3
+  - info_card_img: "/assets/img/camp2.avif"
+    info_card_title: "Movie Chat"
+    info_card_date_time: "Friday"
+    info_card_paragraph: >-
+      Discover our enrichment programs at The Ed Asner Family Center, including CampED, Dance, Art, 
+      Robotics, and more!
+    info_card_btn_txt: "Learn More"
+    link_key: "enrichments_url"
+
+  # Card 4
+  - info_card_img: "/assets/img/mental-health.avif"
+    info_card_title: "Social Club"
+    info_card_date_time: "Saturday & Sunday"
+    info_card_paragraph: >-
+      Access mental health services at The Ed Asner Family Center, including individual therapy, 
+      family therapy, support groups, and workshops.
+    info_card_btn_txt: "Learn More"
+    link_key: "mental_health_url"
+
+  # Card 5
+  - info_card_img: "/assets/img/mental-health.avif"
+    info_card_title: "Friendship Builders"
+    info_card_date_time: "Saturday & Sunday"
+    info_card_paragraph: >-
+      Access mental health services at The Ed Asner Family Center, including individual therapy, 
+      family therapy, support groups, and workshops.
+    info_card_btn_txt: "Learn More"
+    link_key: "mental_health_url"
+
+    # Card 6
+  - info_card_img: "/assets/img/volunteer2.avif"
+    info_card_title: "The Dating Spectrum"
+    info_card_date_time: "Saturday & Sunday"
+    info_card_paragraph: >-
+      Join a supportive and inclusive community where adults with special needs can thrive.
+    info_card_btn_txt: "Learn More"
+    link_key: "dating_spectrum_url"
