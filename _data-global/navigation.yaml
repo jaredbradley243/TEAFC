@@ -6,6 +6,7 @@ home_url: /
 about_us_url: /about-us/
 our_team_url: /our-team/
 academy_url: /all-programs/academy/
+camped_url: /all-programs/camped/
 enrichments_url: /all-programs/enrichments/
 all_programs_url: /all-programs/
 mental_health_url: /mental-health/
@@ -16,7 +17,6 @@ get_involved_url: /get-involved/
 # Subpages
 # Programs
 art_w_avivah_url: /all-programs/enrichments/art-w-avivah/
-camped_url: /all-programs/enrichments/camped/
 virtual_classes_url: /all-programs/enrichments/virtual-classes/
 dating_spectrum_url: /all-programs/enrichments/dating-spectrum/
 # Mental Health
