@@ -28,11 +28,13 @@
   }
   .accordion-header.active svg,
   #founders-read-more-button:active svg,
-  .program-card-read-more-button:active svg {
+  .program-card-read-more-button:active svg,
+  .event-card-read-more-button:active svg {
     @apply rotate-180 transition duration-200 ease-in-out;
   }
   .accordion-body,
-  .program-card-hidden-text {
+  .program-card-hidden-text,
+  .event-card-hidden-text {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.25s ease-in-out;

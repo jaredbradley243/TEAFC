@@ -19,3 +19,40 @@ events:
     event_paragraph: "Community BBQ description here."
     event_location: "456 Oak Street, Anytown, USA"
     event_img: "/assets/img/volunteer2.avif"
+
+# EVENTS
+event_cards_heading: "UPCOMING EVENTS"
+event_cards_subheading: "Our comprehensive events are designed for immersive, long-term growth, running 5 days a week over 8-12 weeks. Participants engage in multiple classes each day, fostering continuous learning, skill development, and community connection."
+event_cards:
+  # Card 1
+  - event_card_img: "/assets/img/funko.avif"
+    event_card_title: "The Academy"
+    event_card_paragraph: "Join a supportive and inclusive community where adults with special needs can thrive."
+    event_card_hidden_text: >-
+      Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
+      fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing
+      egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+    event_card_detail_header1: "Date"
+    event_card_detail1: "12/14/2024"
+    event_card_detail_header2: "Time"
+    event_card_detail2: "5:00 PM"
+    event_card_detail_header3: "Location"
+    event_card_detail3: "16340 Roscoe Blvd. Van Nuys, CA 91406"
+    event_card_btn_txt: "Learn More"
+    event_card_btn_link_key: "academy_url"
+  # Card 2
+  - event_card_img: "/assets/img/volunteer.avif"
+    event_card_title: "CampED"
+    event_card_paragraph: "Join a supportive and inclusive community where adults with special needs can thrive."
+    event_card_hidden_text: >-
+      Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
+      fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing
+      egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+    event_card_detail_header1: "Date"
+    event_card_detail1: "12/15/2024"
+    event_card_detail_header2: "Time"
+    event_card_detail2: "6:30 PM"
+    event_card_detail_header3: "Location"
+    event_card_detail3: "16340 Roscoe Blvd. Van Nuys, CA 91406"
+    event_card_btn_txt: "Learn More"
+    event_card_btn_link_key: "academy_url"
