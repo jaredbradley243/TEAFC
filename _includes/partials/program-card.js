@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
       hiddenText.parentNode.parentNode.parentNode.previousSibling.previousSibling.querySelector(
         "img",
       );
-    console.log(programImg);
     const readMoreButton = hiddenText.nextElementSibling;
     const readMoreButtonArrow = readMoreButton.querySelector("svg");
 
