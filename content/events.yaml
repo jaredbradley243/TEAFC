@@ -39,7 +39,7 @@ event_cards:
     event_card_detail_header3: "Location"
     event_card_detail3: "4024 Radford Ave, Studio City, CA 91604"
     event_card_btn_txt: "Learn More"
-    event_card_btn_link_key: "academy_url"
+    event_card_btn_link_key: "poker_url"
   # Card 2
   - event_card_img: "/assets/img/wonderful.png"
     event_card_title: "It's a Wonderful Life"
