@@ -10,4 +10,5 @@ event_title: ""
 description: "12th Annual Ed Asner & Friends Celebrity Poker Night, June 15th!"
 cta: "REGISTER NOW"
 cta_symbol: "&rarr;"
+link_key: "poker_url"
 show_banner: true
