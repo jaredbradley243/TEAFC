@@ -3,6 +3,15 @@ document.addEventListener("DOMContentLoaded", function () {
   const CALENDAR_ID = '325fcff7cebabe8484b1f185d357cc7b34ab60740ac74a0461adbab178e4ffa0@group.calendar.google.com';
   const endpoint = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
 
+  const unformattedDate = new Date;
+  const formattedYear = unformattedDate.getFullYear()
+  const formattedMonth = unformattedDate.getMonth()
+  const formattedDate = unformattedDate.toLocaleDateString("en-CA");
+  const sixMonthsAgo = new Date(formattedYear, formattedMonth - 6);
+  const modifiedURL = `${endpoint}&timeMin=${encodeURIComponent(sixMonthsAgo.toISOString())}&singleEvents=true`;
+
+  // console.log(modifiedURL)
+
   const prevMonthBtn = document.querySelector("#prevMonth");
   const nextMonthBtn = document.querySelector("#nextMonth");
   const calendarGrid = document.querySelector("#calendarGrid");
@@ -11,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function Calendar(month, year, today) {
     let currentMonth = month;
     let currentYear = year;
+    let eventData;
 
     const daysInMonth = () =>
       new Date(currentYear, currentMonth + 1, 0).getDate();
@@ -24,7 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
         year: "numeric",
       });
     const totalCells = 42;
-
     const renderMonthName = () => {
       monthTitle.innerText = monthName();
     };
@@ -48,7 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let formattedMonth = currentMonth;
         formattedMonth =
           formattedMonth < 10 ? "0" + formattedMonth : formattedMonth;
-        const dateString = `${currentYear}-${formattedMonth}-${day}`;
+        const formattedDay = day < 10 ? "0" + day : day;
+        const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
         cell.className =
           "relative flex items-center bg-gray-50 py-1.5 text-gray-400"; // Tailwind class for empty cells
         fragment.appendChild(cell);
@@ -66,7 +76,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let formattedMonth = currentMonth + 1;
         formattedMonth =
           formattedMonth < 10 ? "0" + formattedMonth : formattedMonth;
-        const dateString = `${currentYear}-${formattedMonth}-${day}`;
+        const formattedDay = day < 10 ? "0" + day : day;
+        const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
         cell.className =
           "relative bg-white py-1.5 flex items-center text-gray-900";
         fragment.appendChild(cell);
@@ -84,7 +95,8 @@ document.addEventListener("DOMContentLoaded", function () {
         let formattedMonth = currentMonth + 2;
         formattedMonth =
           formattedMonth < 10 ? "0" + formattedMonth : formattedMonth;
-        const dateString = `${currentYear}-${formattedMonth}-${day}`;
+        const formattedDay = day < 10 ? "0" + day : day;
+        const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
         cell.className =
           "relative bg-gray-50 py-1.5 flex items-center text-gray-400";
         fragment.appendChild(cell);
@@ -139,13 +151,40 @@ document.addEventListener("DOMContentLoaded", function () {
     const fetchCalData = async(calURL) => {
       try {
         const response = await fetch(calURL);
+        if (!response.ok) {
+          throw new Error("Failed to fetch events");
+        }
         const calData = await response.json();
-        console.log(calData.items);
-        return calData.items;
+        // console.log(eventData);
+        eventData = calData.items || [];
+        // console.log(eventData[0].summary, 'start:', eventData[0].start.dateTime, 'end:', eventData[0].end.dateTime);
+        console.log(eventData)
+        // sortCalData();
+        return eventData;
       } catch (error) {
         console.error('Error fetching events:', error);
       }
     }
+
+    // const sortCalData = () => {
+    //   eventData.forEach(event => {
+    //     let timedEvent;
+    //     let allDayEvent;
+    //     let eventCell;
+    //     if (timedEvent = event.start.dateTime) {
+    //       // const eventDate = timedEvent.slice(11, 19)
+    //       // console.log(timedEvent, 'timed event')
+    //       // console.log(eventDate)
+    //     } else if (allDayEvent = event.start.date) {
+    //       eventCell = document.querySelector(`[datetime = "${allDayEvent}"]`)
+    //       console.log(allDayEvent, 'all day')
+    //       console.log(eventCell);
+    //     }
+    //     // let todaysDate = event.start.dateTime || event.start.date;
+    //     // todaysDate = todaysDate
+    //     // console.log(todaysDate);
+    //   })
+    // }
 
     return {
       highlightToday,
@@ -158,12 +197,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Usage
   const calendar = Calendar(
-    new Date().getMonth(),
-    new Date().getFullYear(),
-    new Date().toLocaleDateString("en-CA"),
+    formattedMonth,
+    formattedYear,
+    formattedDate,
   );
+
   calendarGrid.appendChild(calendar.renderCurrentMonth());
   calendar.highlightToday();
   nextMonthBtn.addEventListener("click", calendar.renderNextMonth);
   prevMonthBtn.addEventListener("click", calendar.renderPrevMonth);
+  calendar.fetchCalData(modifiedURL);
 });
