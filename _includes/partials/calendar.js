@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const updateCalendar = () => {
       clearCalendar();
       calendarGrid.appendChild(renderCurrentMonth());
-      sortCalData();
+      sortCalData(eventData);
     };
 
     const renderPrevMonth = () => {
