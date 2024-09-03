@@ -97,12 +97,8 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     const clearCalendar = () => {
-      while (calendarGrid.firstChild) {
-        calendarGrid.removeChild(calendarGrid.firstChild);
-      }
-      while (eventsBox.firstChild) {
-        eventsBox.removeChild(eventsBox.firstChild);
-      }
+      calendarGrid.innerHTML = "";
+      eventsBox.innerHTML = "";
       formattedEvents = [];
     };
 
@@ -255,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const fragment = document.createDocumentFragment();
       events.forEach((event) => {
         const { endTime, eventDate, formattedDate, formattedTime, name, startTime } = event;
-        if (new Date(event.eventDate) > new Date(currentYear, currentMonth)) {
+        if (new Date(event.eventDate) >= new Date(currentYear, currentMonth)) {
           fragment.appendChild(
             createEventCell(
               name,
