@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const formattedYear = unformattedDate.getFullYear();
   const formattedMonth = unformattedDate.getMonth();
   const formattedDate = unformattedDate.toLocaleDateString("en-CA");
-  const sixMonthsAgo = new Date(formattedYear, formattedMonth - 6);
-  const modifiedURL = `${endpoint}&timeMin=${encodeURIComponent(sixMonthsAgo.toISOString())}&singleEvents=true`;
+  const oneYearAgo = new Date(formattedYear - 1, formattedMonth);
+  const modifiedURL = `${endpoint}&timeMin=${encodeURIComponent(oneYearAgo.toISOString())}&singleEvents=true&orderBy=startTime`;
 
   const blueStar = "/assets/img/star-blue.svg";
   const orangeStar = "/assets/img/star-orange.svg";
@@ -18,12 +18,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextMonthBtn = document.querySelector("#nextMonth");
   const calendarGrid = document.querySelector("#calendarGrid");
   const monthTitle = document.querySelector("#monthName");
+  const eventsBox = document.querySelector("#eventsFlexBox");
 
   function Calendar(month, year, today) {
     let currentMonth = month;
     let currentYear = year;
     let formattedEvents = [];
-    let eventData;
+    let eventData = [];
 
     const daysInMonth = () =>
       new Date(currentYear, currentMonth + 1, 0).getDate();
@@ -42,6 +43,26 @@ document.addEventListener("DOMContentLoaded", function () {
       monthTitle.innerText = monthName();
     };
 
+    const createCalendarCell = (day, formattedMonth, isCurrentMonth) => {
+      const cell = document.createElement("div");
+      const cellDate = document.createElement("time");
+
+      const formattedDay = day < 10 ? "0" + day : day;
+      const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
+
+      cell.className = `relative flex flex-col gap-1 items-center justify-center py-1.5 ${
+        isCurrentMonth ? "bg-white text-gray-900" : "bg-gray-50 text-gray-400"
+      }`;
+
+      cellDate.textContent = day;
+      cellDate.setAttribute("datetime", dateString);
+      cellDate.className =
+        "mx-auto flex h-7 w-7 items-center justify-center rounded-full";
+
+      cell.appendChild(cellDate);
+      return cell;
+    };
+
     const renderCurrentMonth = () => {
       const fragment = document.createDocumentFragment();
       const currentMonthGridStart = (firstDayNumber() + 6) % 7;
@@ -54,43 +75,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
       renderMonthName();
 
-      // Helper function to create a cell
-      const createCell = (day, formattedMonth, isCurrentMonth) => {
-        const cell = document.createElement("div");
-        const cellDate = document.createElement("time");
-
-        const formattedDay = day < 10 ? "0" + day : day;
-        const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
-
-        cell.className = `relative flex flex-col gap-1 items-center justify-center py-1.5 ${
-          isCurrentMonth ? "bg-white text-gray-900" : "bg-gray-50 text-gray-400"
-        }`;
-
-        cellDate.textContent = day;
-        cellDate.setAttribute("datetime", dateString);
-        cellDate.className =
-          "mx-auto flex h-7 w-7 items-center justify-center rounded-full";
-
-        cell.appendChild(cellDate);
-        return cell;
-      };
-
       for (let day = prevMonthGridStart; day <= numDaysPrevMonth; day++) {
         const formattedMonth =
           currentMonth < 10 ? "0" + currentMonth : currentMonth;
-        fragment.appendChild(createCell(day, formattedMonth, false));
+        fragment.appendChild(createCalendarCell(day, formattedMonth, false));
       }
 
       for (let day = 1; day <= numDaysCurrentMonth; day++) {
         const formattedMonth =
           currentMonth + 1 < 10 ? "0" + (currentMonth + 1) : currentMonth + 1;
-        fragment.appendChild(createCell(day, formattedMonth, true));
+        fragment.appendChild(createCalendarCell(day, formattedMonth, true));
       }
 
       for (let day = 1; day <= numDaysNextMonth; day++) {
         const formattedMonth =
           currentMonth + 2 < 10 ? "0" + (currentMonth + 2) : currentMonth + 2;
-        fragment.appendChild(createCell(day, formattedMonth, false));
+        fragment.appendChild(createCalendarCell(day, formattedMonth, false));
       }
 
       return fragment;
@@ -100,14 +100,10 @@ document.addEventListener("DOMContentLoaded", function () {
       while (calendarGrid.firstChild) {
         calendarGrid.removeChild(calendarGrid.firstChild);
       }
-    };
-
-    const highlightToday = () => {
-      const todaysDate = document.querySelector(`[datetime = "${today}"]`);
-      if (todaysDate) {
-        todaysDate.className =
-          "mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-teafc-light-orange";
+      while (eventsBox.firstChild) {
+        eventsBox.removeChild(eventsBox.firstChild);
       }
+      formattedEvents = [];
     };
 
     const updateCalendar = () => {
@@ -148,7 +144,55 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
 
-    const sortCalData = (events) => {
+    const createEventCell = (
+      eventName,
+      start,
+      end,
+      date,
+      universalTime,
+      universalDate,
+    ) => {
+      const cell = document.createElement("li");
+      const eventDate = document.createElement("time");
+      const eventTitle = document.createElement("p");
+      const timeHolder = document.createElement("p");
+      const eventStartTime = document.createElement("span");
+      const eventEndTime = document.createElement("span");
+
+      eventDate.textContent = date;
+      if (universalTime) {
+        eventDate.setAttribute("datetime", universalTime);
+        eventStartTime.textContent = start;
+        eventEndTime.textContent = end;
+      } else if (universalDate) {
+        eventDate.setAttribute("datetime", universalDate);
+        eventStartTime.textContent = "All Day";
+      }
+      eventDate.className = "w-28 flex-none";
+
+      eventTitle.textContent = eventName;
+      eventTitle.className =
+        "mt-2 flex-auto font-semibold text-gray-900 sm:mt-0";
+
+      timeHolder.append(eventStartTime, " - ", eventEndTime);
+
+      cell.appendChild(eventDate);
+      cell.appendChild(eventTitle);
+      cell.appendChild(timeHolder);
+
+      cell.className = "py-4 sm:flex";
+      return cell;
+    };
+
+    const highlightToday = () => {
+      const todaysDate = document.querySelector(`[datetime = "${today}"]`);
+      if (todaysDate) {
+        todaysDate.className =
+          "mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-teafc-light-orange";
+      }
+    };
+
+    const imgPlacer = (events) => {
       events.forEach((event) => {
         const timedEventStart = event.start.dateTime;
         const timedEventEnd = event.end.dateTime;
@@ -170,7 +214,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 minute: "2-digit",
                 hour12: true,
               })
-            : "";
+            : "All Day";
 
           const endTime = timedEventEnd
             ? new Date(timedEventEnd).toLocaleTimeString("en-US", {
@@ -178,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 minute: "2-digit",
                 hour12: true,
               })
-            : "All Day";
+            : "";
 
           eventCell.dateElement = document.querySelector(
             `[datetime="${eventDate}"]`,
@@ -190,9 +234,11 @@ document.addEventListener("DOMContentLoaded", function () {
             options,
           ).format(new Date(eventDate + "T00:00:00"));
 
-          eventCell.eventDate = formattedEventDate;
+          eventCell.eventDate = eventDate;
           eventCell.startTime = startTime;
           eventCell.endTime = endTime;
+          eventCell.formattedDate = eventDate;
+          eventCell.formattedTime = timedEventStart;
 
           if (
             eventCell.dateElement &&
@@ -201,8 +247,33 @@ document.addEventListener("DOMContentLoaded", function () {
             eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
           }
         }
-        formattedEvents.push(eventCell);
+          formattedEvents.push(eventCell);
       });
+    };
+
+    const populateEvents = (events) => {
+      const fragment = document.createDocumentFragment();
+      events.forEach((event) => {
+        const { endTime, eventDate, formattedDate, formattedTime, name, startTime } = event;
+        if (new Date(event.eventDate) > new Date(currentYear, currentMonth)) {
+          fragment.appendChild(
+            createEventCell(
+              name,
+              startTime,
+              endTime,
+              eventDate,
+              formattedTime,
+              formattedDate,
+            ),
+          );
+        };
+      });
+      return fragment;
+    };
+
+    const sortCalData = (events) => {
+      imgPlacer(events);
+      eventsBox.appendChild(populateEvents(formattedEvents));
       highlightToday();
     };
 
@@ -219,6 +290,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   calendarGrid.appendChild(calendar.renderCurrentMonth());
   calendar.fetchCalData(modifiedURL);
+
   nextMonthBtn.addEventListener("click", calendar.renderNextMonth);
   prevMonthBtn.addEventListener("click", calendar.renderPrevMonth);
 });
