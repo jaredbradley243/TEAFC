@@ -182,7 +182,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const highlightToday = () => {
       const todaysDate = document.querySelector(`[datetime = "${today}"]`);
-      if (todaysDate) {
+      if (todaysDate && todaysDate.parentNode.nodeName === "DIV") {
         todaysDate.className =
           "mx-auto flex h-7 w-7 items-center justify-center rounded-full bg-teafc-light-orange";
       }
@@ -197,7 +197,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgElement = document.createElement("img");
         imgElement.src = blueStar;
         imgElement.className = "h-5 w-5";
-        const eventCell = { name: eventName };
+        const eventCell = { name: eventName, formattedTime: timedEventStart };
 
         if (timedEventStart || allDayEvent) {
           const eventDate = timedEventStart
@@ -233,8 +233,8 @@ document.addEventListener("DOMContentLoaded", function () {
           eventCell.eventDate = eventDate;
           eventCell.startTime = startTime;
           eventCell.endTime = endTime;
-          eventCell.formattedDate = eventDate;
-          eventCell.formattedTime = timedEventStart;
+          eventCell.formattedDate = formattedEventDate;
+          // eventCell.formattedTime = timedEventStart;
 
           if (
             eventCell.dateElement &&
@@ -243,15 +243,24 @@ document.addEventListener("DOMContentLoaded", function () {
             eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
           }
         }
-          formattedEvents.push(eventCell);
+        formattedEvents.push(eventCell);
       });
     };
 
     const populateEvents = (events) => {
       const fragment = document.createDocumentFragment();
       events.forEach((event) => {
-        const { endTime, eventDate, formattedDate, formattedTime, name, startTime } = event;
-        if (new Date(event.eventDate) >= new Date(currentYear, currentMonth)) {
+        const {
+          endTime,
+          eventDate,
+          formattedDate,
+          formattedTime,
+          name,
+          startTime,
+        } = event;
+        if (
+          new Date(event.eventDate) >= new Date(currentYear, currentMonth, 0)
+        ) {
           fragment.appendChild(
             createEventCell(
               name,
@@ -262,7 +271,7 @@ document.addEventListener("DOMContentLoaded", function () {
               formattedDate,
             ),
           );
-        };
+        }
       });
       return fragment;
     };
