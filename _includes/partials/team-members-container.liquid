@@ -46,7 +46,7 @@
               class="mx-auto grid max-w-2xl grid-cols-1 gap-x-6 gap-y-20 sm:grid-cols-3 lg:mx-0 lg:max-w-none lg:gap-x-8 xl:col-span-3"
             >
               {% for team_member in team_members %}
-                {% include 'partials/team-members.liquid',
+                {% include 'partials/team-member.liquid',
                   team_member_img: team_member.team_member_img,
                   team_member_name: team_member.team_member_name,
                   team_member_position: team_member.team_member_position,
