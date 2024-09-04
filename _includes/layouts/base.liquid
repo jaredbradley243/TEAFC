@@ -11,13 +11,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
+    <title>{{ title | escape }}</title>
+    <meta name="description" content="{{ description |  escape }}">
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://edasnerfamilycenter.org/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="The Ed Asner Family Center">
-    <meta property="og:description" content="{{ description }}">
+    <meta property="og:description" content="{{ description |  escape }}">
     <meta property="og:image" content="/assets/img/logo.svg">
 
     <!-- Twitter Meta Tags -->
