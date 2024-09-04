@@ -1,6 +1,19 @@
-img_1: "Armand with a turkey"
-img_2: "Omar thumbs up"
-img_3: "Spencer in the Funko"
-img_4: "Camp group photo 1"
-img_5: "Camp group photo 2"
-img_6: "Photo at funko"
+# <!-- /_data-global/img-slider.yaml -->
+images:
+  - img_link: /assets/img/armand.avif
+    img_alt_txt: "Armand with a turkey"
+
+  - img_link: /assets/img/donate.avif
+    img_alt_txt: "Omar thumbs up"
+
+  - img_link: /assets/img/spencer.avif
+    img_alt_txt: "Spencer in the Funko"
+
+  - img_link: /assets/img/camp.avif
+    img_alt_txt: "Camp group photo 1"
+
+  - img_link: /assets/img/camp2.avif
+    img_alt_txt: "Camp group photo 2"
+
+  - img_link: /assets/img/funko.avif
+    img_alt_txt: "Photo at Funko"
