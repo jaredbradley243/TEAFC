@@ -1,3 +1,4 @@
+// <!-- /_includes/partials/calendar.js -->
 document.addEventListener("DOMContentLoaded", function () {
   const API_KEY = "AIzaSyBjgF6OQx0-GLqCpYyOpiH-PBznaFezVfM";
   const CALENDAR_ID =
@@ -291,11 +292,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Usage
-  const calendar = Calendar(formattedMonth, formattedYear, formattedDate);
+  if (calendarGrid) {
+    const calendar = Calendar(formattedMonth, formattedYear, formattedDate);
 
-  calendarGrid.appendChild(calendar.renderCurrentMonth());
-  calendar.fetchCalData(modifiedURL);
+    calendarGrid.appendChild(calendar.renderCurrentMonth());
+    calendar.fetchCalData(modifiedURL);
 
-  nextMonthBtn.addEventListener("click", calendar.renderNextMonth);
-  prevMonthBtn.addEventListener("click", calendar.renderPrevMonth);
+    nextMonthBtn.addEventListener("click", calendar.renderNextMonth);
+    prevMonthBtn.addEventListener("click", calendar.renderPrevMonth);
+  }
 });
