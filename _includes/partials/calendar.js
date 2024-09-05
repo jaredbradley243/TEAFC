@@ -161,18 +161,20 @@ document.addEventListener("DOMContentLoaded", function () {
         eventDate.setAttribute("datetime", universalTime);
         eventStartTime.textContent = start;
         eventEndTime.textContent = end;
+        timeHolder.append(eventStartTime, " - ", eventEndTime);
       } else if (universalDate) {
         eventDate.setAttribute("datetime", universalDate);
         eventStartTime.textContent = "All Day";
+        timeHolder.append(eventStartTime);
       }
+      timeHolder.className = "min-w-[10rem]";
+
       eventDate.className = "w-28 flex-none";
 
       eventTitle.textContent = eventName;
       eventTitle.className =
         "flex-auto font-semibold text-gray-900 max-w-48";
 
-      timeHolder.append(eventStartTime, " - ", eventEndTime);
-      timeHolder.className = "min-w-[10rem]";
 
 
       cell.appendChild(eventDate);
