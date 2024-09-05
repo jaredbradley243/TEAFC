@@ -105,12 +105,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
   // Close menu if clicked away if on mobile
-  // if (window.innerWidth <= 1024) {
-  //   document.addEventListener("click", (event) => {
-  //     mobileMenu.classList.toggle("hidden");
-  //   });
-  // }
-  // mobileMenu.addEventListener("click", (event) => {
-  //   event.stopPropagation();
-  // });
+  document.addEventListener("click", (event) => {
+    if (window.innerWidth <= 1024 && !mobileMenu.classList.contains("hidden")) {
+      console.log("DOCUMENT CLICK");
+      mobileMenu.classList.toggle("hidden");
+    }
+  });
+
+  // Prevent closing the menu when clicking inside it
+  mobileMenu.addEventListener("click", (event) => {
+    event.stopPropagation();
+  });
 });
