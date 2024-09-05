@@ -181,7 +181,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cell.appendChild(eventTitle);
       cell.appendChild(timeHolder);
 
-      cell.className = "py-4 sm:flex gap-4";
+      cell.className = "py-4 sm:flex gap-4 border-t-[1px] sm:border-y-0 border-gray-200";
       return cell;
     };
 
