@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const formattedDay = day < 10 ? "0" + day : day;
       const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
 
-      cell.className = `relative flex flex-col gap-1 items-center justify-center py-1.5 ${
+      cell.className = `relative flex flex-col gap-1 items-center justify-start py-1.5 h-16 ${
         isCurrentMonth ? "bg-white text-gray-900" : "bg-gray-50 text-gray-400"
       }`;
 
@@ -169,15 +169,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
       eventTitle.textContent = eventName;
       eventTitle.className =
-        "mt-2 flex-auto font-semibold text-gray-900 sm:mt-0";
+        "flex-auto font-semibold text-gray-900 max-w-48";
 
       timeHolder.append(eventStartTime, " - ", eventEndTime);
+      timeHolder.className = "min-w-[10rem]";
+
 
       cell.appendChild(eventDate);
       cell.appendChild(eventTitle);
       cell.appendChild(timeHolder);
 
-      cell.className = "py-4 sm:flex";
+      cell.className = "py-4 sm:flex gap-4";
       return cell;
     };
 
@@ -192,59 +194,53 @@ document.addEventListener("DOMContentLoaded", function () {
     const imgPlacer = (events) => {
       events.forEach((event) => {
         const timedEventStart = event.start.dateTime;
-        const timedEventEnd = event.end.dateTime;
         const allDayEvent = event.start.date;
-        const eventName = event.summary;
+        const eventDate = timedEventStart
+        ? new Date(timedEventStart).toLocaleDateString("en-CA")
+        : allDayEvent;
+           
+        const eventCell = { name: event.summary, formattedTime: timedEventStart, dateElement: document.querySelector([`[datetime="${eventDate}"]`])};
+        if (eventCell.dateElement) {
+        const timedEventEnd = event.end.dateTime;
         const imgElement = document.createElement("img");
         imgElement.src = blueStar;
         imgElement.className = "h-5 w-5";
-        const eventCell = { name: eventName, formattedTime: timedEventStart };
 
-        if (timedEventStart || allDayEvent) {
-          const eventDate = timedEventStart
-            ? new Date(timedEventStart).toLocaleDateString("en-CA")
-            : allDayEvent;
 
-          const startTime = timedEventStart
-            ? new Date(timedEventStart).toLocaleTimeString("en-US", {
-                hour: "2-digit",
-                minute: "2-digit",
-                hour12: true,
-              })
-            : "All Day";
+        const startTime = timedEventStart
+          ? new Date(timedEventStart).toLocaleTimeString("en-US", {
+              hour: "2-digit",
+              minute: "2-digit",
+              hour12: true,
+            })
+          : "All Day";
 
-          const endTime = timedEventEnd
-            ? new Date(timedEventEnd).toLocaleTimeString("en-US", {
-                hour: "2-digit",
-                minute: "2-digit",
-                hour12: true,
-              })
-            : "";
+        const endTime = timedEventEnd
+          ? new Date(timedEventEnd).toLocaleTimeString("en-US", {
+              hour: "2-digit",
+              minute: "2-digit",
+              hour12: true,
+            })
+          : "";
 
-          eventCell.dateElement = document.querySelector(
-            `[datetime="${eventDate}"]`,
-          );
+        const options = { weekday: "short", month: "short", day: "numeric" };
+        const formattedEventDate = new Intl.DateTimeFormat(
+          "en-US",
+          options,
+        ).format(new Date(eventDate + "T00:00:00"));
 
-          const options = { weekday: "short", month: "short", day: "numeric" };
-          const formattedEventDate = new Intl.DateTimeFormat(
-            "en-US",
-            options,
-          ).format(new Date(eventDate + "T00:00:00"));
-
-          eventCell.eventDate = eventDate;
-          eventCell.startTime = startTime;
-          eventCell.endTime = endTime;
-          eventCell.formattedDate = formattedEventDate;
-          // eventCell.formattedTime = timedEventStart;
-
-          if (
-            eventCell.dateElement &&
-            !eventCell.dateElement.nextElementSibling
-          ) {
-            eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
-          }
+        eventCell.eventDate = eventDate;
+        eventCell.startTime = startTime;
+        eventCell.endTime = endTime;
+        eventCell.formattedDate = formattedEventDate;
+        eventCell.formattedTime = timedEventStart;
+        if (
+          !eventCell.dateElement.nextElementSibling
+        ) {
+          eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
         }
         formattedEvents.push(eventCell);
+        };
       });
     };
 
@@ -259,20 +255,16 @@ document.addEventListener("DOMContentLoaded", function () {
           name,
           startTime,
         } = event;
-        if (
-          new Date(event.eventDate) >= new Date(currentYear, currentMonth, 0)
-        ) {
           fragment.appendChild(
             createEventCell(
               name,
               startTime,
               endTime,
-              eventDate,
-              formattedTime,
               formattedDate,
+              formattedTime,
+              eventDate,
             ),
           );
-        }
       });
       return fragment;
     };
