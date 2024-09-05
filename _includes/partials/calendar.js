@@ -172,16 +172,14 @@ document.addEventListener("DOMContentLoaded", function () {
       eventDate.className = "w-28 flex-none";
 
       eventTitle.textContent = eventName;
-      eventTitle.className =
-        "flex-auto font-semibold text-gray-900 max-w-48";
-
-
+      eventTitle.className = "flex-auto font-semibold text-gray-900 max-w-48";
 
       cell.appendChild(eventDate);
       cell.appendChild(eventTitle);
       cell.appendChild(timeHolder);
 
-      cell.className = "py-4 sm:flex gap-4 border-t-[1px] sm:border-y-0 border-gray-200";
+      cell.className =
+        "py-4 sm:flex gap-4 border-t-[1px] sm:border-y-0 border-gray-200";
       return cell;
     };
 
@@ -198,51 +196,52 @@ document.addEventListener("DOMContentLoaded", function () {
         const timedEventStart = event.start.dateTime;
         const allDayEvent = event.start.date;
         const eventDate = timedEventStart
-        ? new Date(timedEventStart).toLocaleDateString("en-CA")
-        : allDayEvent;
-           
-        const eventCell = { name: event.summary, formattedTime: timedEventStart, dateElement: document.querySelector([`[datetime="${eventDate}"]`])};
-        if (eventCell.dateElement) {
-        const timedEventEnd = event.end.dateTime;
-        const imgElement = document.createElement("img");
-        imgElement.src = blueStar;
-        imgElement.className = "h-5 w-5";
+          ? new Date(timedEventStart).toLocaleDateString("en-CA")
+          : allDayEvent;
 
-
-        const startTime = timedEventStart
-          ? new Date(timedEventStart).toLocaleTimeString("en-US", {
-              hour: "2-digit",
-              minute: "2-digit",
-              hour12: true,
-            })
-          : "All Day";
-
-        const endTime = timedEventEnd
-          ? new Date(timedEventEnd).toLocaleTimeString("en-US", {
-              hour: "2-digit",
-              minute: "2-digit",
-              hour12: true,
-            })
-          : "";
-
-        const options = { weekday: "short", month: "short", day: "numeric" };
-        const formattedEventDate = new Intl.DateTimeFormat(
-          "en-US",
-          options,
-        ).format(new Date(eventDate + "T00:00:00"));
-
-        eventCell.eventDate = eventDate;
-        eventCell.startTime = startTime;
-        eventCell.endTime = endTime;
-        eventCell.formattedDate = formattedEventDate;
-        eventCell.formattedTime = timedEventStart;
-        if (
-          !eventCell.dateElement.nextElementSibling
-        ) {
-          eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
-        }
-        formattedEvents.push(eventCell);
+        const eventCell = {
+          name: event.summary,
+          formattedTime: timedEventStart,
+          dateElement: document.querySelector([`[datetime="${eventDate}"]`]),
         };
+        if (eventCell.dateElement) {
+          const timedEventEnd = event.end.dateTime;
+          const imgElement = document.createElement("img");
+          imgElement.src = blueStar;
+          imgElement.className = "h-5 w-5";
+
+          const startTime = timedEventStart
+            ? new Date(timedEventStart).toLocaleTimeString("en-US", {
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: true,
+              })
+            : "All Day";
+
+          const endTime = timedEventEnd
+            ? new Date(timedEventEnd).toLocaleTimeString("en-US", {
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: true,
+              })
+            : "";
+
+          const options = { weekday: "short", month: "short", day: "numeric" };
+          const formattedEventDate = new Intl.DateTimeFormat(
+            "en-US",
+            options,
+          ).format(new Date(eventDate + "T00:00:00"));
+
+          eventCell.eventDate = eventDate;
+          eventCell.startTime = startTime;
+          eventCell.endTime = endTime;
+          eventCell.formattedDate = formattedEventDate;
+          eventCell.formattedTime = timedEventStart;
+          if (!eventCell.dateElement.nextElementSibling) {
+            eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
+          }
+          formattedEvents.push(eventCell);
+        }
       });
     };
 
@@ -257,16 +256,16 @@ document.addEventListener("DOMContentLoaded", function () {
           name,
           startTime,
         } = event;
-          fragment.appendChild(
-            createEventCell(
-              name,
-              startTime,
-              endTime,
-              formattedDate,
-              formattedTime,
-              eventDate,
-            ),
-          );
+        fragment.appendChild(
+          createEventCell(
+            name,
+            startTime,
+            endTime,
+            formattedDate,
+            formattedTime,
+            eventDate,
+          ),
+        );
       });
       return fragment;
     };
@@ -275,6 +274,33 @@ document.addEventListener("DOMContentLoaded", function () {
       imgPlacer(events);
       eventsBox.appendChild(populateEvents(formattedEvents));
       highlightToday();
+      eventsBox.appendChild(showNoEvents());
+    };
+
+    const showNoEvents = () => {
+      const isEventPresent = eventsBox.firstChild ? true : false;
+      if (isEventPresent) {
+        eventsBox.className =
+          "mt-2 grid max-h-[28rem] grid-cols-2 flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue sm:flex sm:gap-1 sm:divide-y sm:divide-gray-200";
+      } else {
+        eventsBox.className =
+          "mt-2 max-h-[28rem] flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue flex gap-1";
+
+        const cell = document.createElement("div");
+        const upperText = document.createElement("p");
+        const lowerText = document.createElement("p");
+
+        upperText.textContent = "No events this Month!";
+        lowerText.textContent =
+          "Click the arrows to see past and future events!";
+
+        cell.append(upperText, lowerText);
+
+        cell.className =
+          "text-lg text-gray-900 flex-1 mx-2 lg:mt-40 my-2 flex flex-col gap-px rounded-xl bg-teafc-light-orange px-5 py-5 text-center font-semibold text-black ring-4 ring-teafc-orange";
+
+        return cell;
+      }
     };
 
     return {
