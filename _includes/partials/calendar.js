@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const isEventPresent = eventsBox.firstChild ? true : false;
       if (isEventPresent) {
         eventsBox.className =
-          "mt-2 grid max-h-[28rem] grid-cols-2 flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue sm:flex sm:gap-1 sm:divide-y sm:divide-gray-200";
+          "mt-2 grid px-0.5 max-h-[28rem] grid-cols-2 flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue sm:flex sm:gap-1 sm:divide-y sm:divide-gray-200";
       } else {
         eventsBox.className =
           "mt-2 max-h-[28rem] flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue flex gap-1";
@@ -290,14 +290,14 @@ document.addEventListener("DOMContentLoaded", function () {
         const upperText = document.createElement("p");
         const lowerText = document.createElement("p");
 
-        upperText.textContent = "No events this Month!";
+        upperText.textContent = "There are no events within the current calendar view.";
         lowerText.textContent =
-          "Change the month to see past and future events!";
+          "Please change the month to explore future and past events.";
 
         cell.append(upperText, lowerText);
 
         cell.className =
-          "max-w-[27rem] text-lg text-gray-900 flex-1 mx-2 lg:mt-16 my-2 flex flex-col gap-px rounded-xl bg-teafc-light-orange px-5 py-5 text-center font-semibold text-black ring-4 ring-teafc-orange";
+          "drop-shadow-md max-w-[27rem] text-base text-gray-900 flex-1 mx-2 lg:mt-16 my-4 flex flex-col gap-px rounded-xl bg-teafc-light-orange px-5 py-7 text-center font-semibold text-black ring-4 ring-teafc-orange";
 
         return cell;
       }
