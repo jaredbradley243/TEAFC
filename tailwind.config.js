@@ -101,8 +101,8 @@ module.exports = {
         },
       },
       animation: {
-        "float-up": "floatUp 5s linear forwards 0.5s",
-        "shrink-container": "shrinkContainer 5s linear forwards 0.5s",
+        "float-up": "floatUp 5s linear forwards 1s",
+        "shrink-container": "shrinkContainer 5s linear forwards 1s",
       },
     },
   },
