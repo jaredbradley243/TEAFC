@@ -292,12 +292,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         upperText.textContent = "No events this Month!";
         lowerText.textContent =
-          "Click the arrows to see past and future events!";
+          "Change the month to see past and future events!";
 
         cell.append(upperText, lowerText);
 
         cell.className =
-          "text-lg text-gray-900 flex-1 mx-2 lg:mt-40 my-2 flex flex-col gap-px rounded-xl bg-teafc-light-orange px-5 py-5 text-center font-semibold text-black ring-4 ring-teafc-orange";
+          "max-w-[27rem] text-lg text-gray-900 flex-1 mx-2 lg:mt-16 my-2 flex flex-col gap-px rounded-xl bg-teafc-light-orange px-5 py-5 text-center font-semibold text-black ring-4 ring-teafc-orange";
 
         return cell;
       }
