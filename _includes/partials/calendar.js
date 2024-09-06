@@ -60,6 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cellDate.className =
         "mx-auto flex h-7 w-7 items-center justify-center rounded-full";
 
+      cell.setAttribute("role", "gridcell")
       cell.appendChild(cellDate);
       return cell;
     };
