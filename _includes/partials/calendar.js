@@ -275,7 +275,10 @@ document.addEventListener("DOMContentLoaded", function () {
       imgPlacer(events);
       eventsBox.appendChild(populateEvents(formattedEvents));
       highlightToday();
-      eventsBox.appendChild(showNoEvents());
+      const noEventsDiv = showNoEvents();
+      if (noEventsDiv) {
+        eventsBox.appendChild(noEventsDiv);
+      }
     };
 
     const showNoEvents = () => {
@@ -283,6 +286,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (isEventPresent) {
         eventsBox.className =
           "mt-2 grid px-0.5 max-h-[28rem] grid-cols-2 flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue sm:flex sm:gap-1 sm:divide-y sm:divide-gray-200";
+          return null;
       } else {
         eventsBox.className =
           "mt-2 max-h-[28rem] flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue flex gap-1";
@@ -299,7 +303,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         cell.className =
           "drop-shadow-md max-w-[27rem] text-base text-gray-900 flex-1 mx-2 lg:mt-16 my-4 flex flex-col gap-px rounded-xl bg-teafc-light-orange px-5 py-7 text-center font-semibold text-black ring-4 ring-teafc-orange";
-
         return cell;
       }
     };
