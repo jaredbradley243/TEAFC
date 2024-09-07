@@ -28,24 +28,24 @@
       {% endfor %}
     </div>
     <button
-      class="slider-button slide-left absolute absolute left-2 top-1/2 flex h-[55px] w-[55px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-none bg-[#2d3034bc] px-5 py-2.5 text-white"
+      class="slider-button slide-left slide-left-container absolute left-2 top-1/2 flex h-[55px] w-[55px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-none bg-[#2d3034bc] px-5 py-2.5 text-white"
       aria-label="Scroll left"
       aria-controls="image-slider"
     >
       <img
         src="/assets/img/arrow-left.svg"
-        class="left-arrow"
+        class="slide-left-container"
         alt="left slider arrow"
         {% imageDimensions "/assets/img/arrow-left.svg" %}
       >
     </button>
     <button
-      class="slider-button slide-right absolute right-2 top-1/2 flex h-[55px] w-[55px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-none bg-[#2d3034bc] px-5 py-2.5 text-white"
+      class="slider-button slide-right slide-right-container absolute right-2 top-1/2 flex h-[55px] w-[55px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-none bg-[#2d3034bc] px-5 py-2.5 text-white"
       aria-label="Scroll right"
       aria-controls="image-slider"
     >
       <img
-        class="right-arrow"
+        class="slide-right-container"
         src="/assets/img/arrow-right.svg"
         alt="right slider arrow"
         {% imageDimensions "/assets/img/arrow-right.svg" %}
