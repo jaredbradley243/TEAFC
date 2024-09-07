@@ -28,52 +28,35 @@ module.exports = {
       },
       keyframes: {
         floatUpDesktop: {
-          "0%": {
-            transform: "translateY(0) rotate(0deg)",
+          "5%": {
+            transform: "translateY(-2%) rotate(0.5deg)", // Minimal initial horizontal sway
           },
-          "10%": {
-            transform: "translateY(-20%) rotate(3deg)",
-          },
-          "20%": {
-            transform: "translateY(-40%) rotate(-3deg)",
+          "15%": {
+            transform: "translateY(-10%) rotate(-0.5deg)", // Small counter-swing
           },
           "30%": {
-            transform: "translateY(-60%) rotate(2deg)",
+            transform: "translateY(-25%) rotate(0.25deg)", // Reduced rotation as the vertical movement increases
           },
-          "40%": {
-            transform: "translateY(-80%) rotate(-2deg)",
-          },
-          "50%": {
-            transform: "translateY(-100%) rotate(1deg)",
+          "45%": {
+            transform: "translateY(-45%) rotate(-0.25deg)", // Subtle pendulum effect
           },
           "60%": {
-            transform: "translateY(-120%) rotate(-1deg)",
+            transform: "translateY(-70%) rotate(0.15deg)", // Continuation of the pendulum motion, but very minor
           },
-          "70%": {
-            transform: "translateY(-135%) rotate(0deg)",
+          "75%": {
+            transform: "translateY(-100%) rotate(-0.15deg)", // Slight back swing
           },
-          "80%": {
-            transform: "translateY(-150%) rotate(-1deg)",
-          },
-          "90%": {
-            transform: "translateY(-160%) rotate(1deg)",
+          "85%": {
+            transform: "translateY(-120%) rotate(0deg)", // Moving up towards the edge
           },
           "92%": {
-            transform: "translateY(-161%) rotate(1deg)",
-          },
-          "94%": {
-            transform: "translateY(-162%) rotate(0deg)",
-          },
-          "96%": {
-            transform: "translateY(-163%) rotate(0deg)",
-          },
-          "98%": {
-            transform: "translateY(-163%) rotate(0deg)",
+            transform: "translateY(-135%) rotate(0deg)", // Approaching the offscreen position
           },
           "100%": {
-            transform: "translateY(-163%) rotate(0deg)",
+            transform: "translateY(-150%) rotate(0deg)", // Fully offscreen
           },
         },
+
         floatUpMobile: {
           "10%": {
             transform: "translateY(-40%) rotate(3deg)",
@@ -108,7 +91,7 @@ module.exports = {
         },
       },
       animation: {
-        "float-up-desktop": "floatUpDesktop 7s linear forwards 1s",
+        "float-up-desktop": "floatUpDesktop 3s linear forwards 1s",
         "float-up-mobile": "floatUpMobile 8s linear forwards",
       },
     },
