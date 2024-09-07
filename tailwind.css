@@ -62,29 +62,6 @@
   .slider::-webkit-scrollbar-track {
     background-color: var(--teafc-light-blue);
   }
-  .slider img {
-    aspect-ratio: 1/1;
-    flex: 1 0 33%;
-    max-height: 40rem;
-    scroll-snap-align: start;
-    object-fit: cover;
-  }
-  .slider-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #2d3034bc;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 }
 
 #founders-hidden-text {

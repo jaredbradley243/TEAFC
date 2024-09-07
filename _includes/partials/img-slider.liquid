@@ -11,10 +11,14 @@
     role="region"
     aria-label="Image Slider"
   >
-    <div class="slider flex overflow-x-auto scroll-smooth" aria-live="polite" aria-atomic="true">
+    <div
+      class="slider flex snap-x snap-mandatory overflow-x-auto scroll-smooth"
+      aria-live="polite"
+      aria-atomic="true"
+    >
       {% for img in img-slider.images %}
         <img
-          class=""
+          class="aspect-square max-h-[25rem] flex-[1_0_33%] snap-start object-cover"
           src="{{ img.img_link }}"
           alt="{{ img.img_alt_txt }}"
           id="slide-{{ forloop.index }}"
@@ -24,15 +28,19 @@
       {% endfor %}
     </div>
     <button
-      class="slider-button slide-left left-2 px-4 py-2"
+      class="slider-button slide-left absolute absolute left-2 top-1/2 flex h-[55px] w-[55px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-none bg-[#2d3034bc] px-5 py-2.5 text-white"
       aria-label="Scroll left"
       aria-controls="image-slider"
     >
-      <img src="/assets/img/arrow-left.svg" alt="left slider arrow" {% imageDimensions "/assets/img/arrow-left.svg" %}>
+      <img
+        src="/assets/img/arrow-left.svg"
         class="left-arrow"
+        alt="left slider arrow"
+        {% imageDimensions "/assets/img/arrow-left.svg" %}
+      >
     </button>
     <button
-      class="slider-button slide-right right-2 px-4 py-2"
+      class="slider-button slide-right absolute right-2 top-1/2 flex h-[55px] w-[55px] -translate-y-1/2 transform cursor-pointer items-center justify-center rounded-full border-none bg-[#2d3034bc] px-5 py-2.5 text-white"
       aria-label="Scroll right"
       aria-controls="image-slider"
     >
