@@ -27,82 +27,89 @@ module.exports = {
         "50%": "50%",
       },
       keyframes: {
-        floatUp: {
+        floatUpDesktop: {
           "0%": {
             transform: "translateY(0) rotate(0deg)",
           },
           "10%": {
-            transform: "translateY(-10%) rotate(3deg)",
+            transform: "translateY(-20%) rotate(3deg)",
           },
           "20%": {
-            transform: "translateY(-20%) rotate(-3deg)",
+            transform: "translateY(-40%) rotate(-3deg)",
           },
           "30%": {
-            transform: "translateY(-30%) rotate(2deg)",
+            transform: "translateY(-60%) rotate(2deg)",
           },
           "40%": {
-            transform: "translateY(-40%) rotate(-2deg)",
+            transform: "translateY(-80%) rotate(-2deg)",
           },
           "50%": {
-            transform: "translateY(-50%) rotate(1deg)",
+            transform: "translateY(-100%) rotate(1deg)",
           },
           "60%": {
-            transform: "translateY(-60%) rotate(-1deg)",
+            transform: "translateY(-120%) rotate(-1deg)",
           },
           "70%": {
-            transform: "translateY(-70%) rotate(0deg)",
+            transform: "translateY(-135%) rotate(0deg)",
           },
           "80%": {
-            transform: "translateY(-80%) rotate(-1deg)",
+            transform: "translateY(-150%) rotate(-1deg)",
           },
           "90%": {
-            transform: "translateY(-90%) rotate(1deg)",
+            transform: "translateY(-160%) rotate(1deg)",
+          },
+          "92%": {
+            transform: "translateY(-161%) rotate(1deg)",
+          },
+          "94%": {
+            transform: "translateY(-162%) rotate(0deg)",
+          },
+          "96%": {
+            transform: "translateY(-163%) rotate(0deg)",
+          },
+          "98%": {
+            transform: "translateY(-163%) rotate(0deg)",
           },
           "100%": {
-            transform: "translateY(-150%) rotate(0deg)",
-            visibility: "hidden",
+            transform: "translateY(-163%) rotate(0deg)",
           },
         },
-        shrinkContainer: {
-          "0%": {
-            marginTop: "0%",
-          },
+        floatUpMobile: {
           "10%": {
-            marginTop: "-10%",
+            transform: "translateY(-40%) rotate(3deg)",
           },
           "20%": {
-            marginTop: "-20%",
+            transform: "translateY(-80%) rotate(-3deg)",
           },
           "30%": {
-            marginTop: "-30%",
+            transform: "translateY(-120%) rotate(2deg)",
           },
           "40%": {
-            marginTop: "-40%",
+            transform: "translateY(-160%) rotate(-2deg)",
           },
           "50%": {
-            marginTop: "-50%",
+            transform: "translateY(-200%) rotate(1deg)",
           },
           "60%": {
-            marginTop: "-60%",
+            transform: "translateY(-240%) rotate(-1deg)",
           },
           "70%": {
-            marginTop: "-70%",
+            transform: "translateY(-280%) rotate(0deg)",
           },
           "80%": {
-            marginTop: "-70%",
+            transform: "translateY(-320%) rotate(-1deg)",
           },
           "90%": {
-            marginTop: "-70%",
+            transform: "translateY(-360%) rotate(1deg)",
           },
           "100%": {
-            marginTop: "-70%",
-            visibility: "hidden",
+            transform: "translateY(-400%) rotate(0deg)",
           },
         },
       },
       animation: {
-        "float-up": "floatUp 5s linear forwards 1s",
-        "shrink-container": "shrinkContainer 5s linear forwards 1s",
+        "float-up-desktop": "floatUpDesktop 7s linear forwards 1s",
+        "float-up-mobile": "floatUpMobile 8s linear forwards",
       },
     },
   },
