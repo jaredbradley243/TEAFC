@@ -1,8 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
   const accordionHeaders = document.querySelectorAll(".accordion-header");
 
-  accordionHeaders.forEach((accordionHeader) => {
-    const accordionBody = accordionHeader.nextElementSibling;
+  accordionHeaders.forEach((accordionHeader, index) => {
+    const accordionBody = accordionHeader.previousElementSibling || accordionHeader.nextElementSibling;
+
+    const accordionID = index + 1;
+    accordionHeader.setAttribute("id", `accordion-header-${accordionID}`);
+    accordionHeader.setAttribute("name", `accordion-header-${accordionID}`);
+    accordionHeader.setAttribute("aria-controls", `accordion-body-${accordionID}`)
+    accordionBody.setAttribute("id", `accordion-body-${accordionID}`);
+    accordionBody.setAttribute("aria-labelledby", `accordion-header-${accordionID}`);
 
     accordionHeader.addEventListener("click", (event) => {
       const isExpanded =
