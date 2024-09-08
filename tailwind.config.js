@@ -28,32 +28,35 @@ module.exports = {
       },
       keyframes: {
         floatUpDesktop: {
-          "5%": {
-            transform: "translateY(-2%) rotate(0.5deg)", // Minimal initial horizontal sway
+          "10%": {
+            transform: "translateY(-15vh) rotate(3deg)",
           },
-          "15%": {
-            transform: "translateY(-10%) rotate(-0.5deg)", // Small counter-swing
+          "20%": {
+            transform: "translateY(-30vh) rotate(-3deg)",
           },
           "30%": {
-            transform: "translateY(-25%) rotate(0.25deg)", // Reduced rotation as the vertical movement increases
+            transform: "translateY(-45vh) rotate(2deg)",
           },
-          "45%": {
-            transform: "translateY(-45%) rotate(-0.25deg)", // Subtle pendulum effect
+          "40%": {
+            transform: "translateY(-60vh) rotate(-2deg)",
+          },
+          "50%": {
+            transform: "translateY(-75vh) rotate(1deg)",
           },
           "60%": {
-            transform: "translateY(-70%) rotate(0.15deg)", // Continuation of the pendulum motion, but very minor
+            transform: "translateY(-90vh) rotate(-1deg)",
           },
-          "75%": {
-            transform: "translateY(-100%) rotate(-0.15deg)", // Slight back swing
+          "70%": {
+            transform: "translateY(-105vh) rotate(0deg)",
           },
-          "85%": {
-            transform: "translateY(-120%) rotate(0deg)", // Moving up towards the edge
+          "80%": {
+            transform: "translateY(-120vh) rotate(-1deg)",
           },
-          "92%": {
-            transform: "translateY(-135%) rotate(0deg)", // Approaching the offscreen position
+          "90%": {
+            transform: "translateY(-135vh) rotate(1deg)",
           },
           "100%": {
-            transform: "translateY(-150%) rotate(0deg)", // Fully offscreen
+            transform: "translateY(-150vh) rotate(0deg)",
           },
         },
 
@@ -91,7 +94,7 @@ module.exports = {
         },
       },
       animation: {
-        "float-up-desktop": "floatUpDesktop 3s linear forwards 1s",
+        "float-up-desktop": "floatUpDesktop 5s linear forwards 1s",
         "float-up-mobile": "floatUpMobile 8s linear forwards",
       },
     },
