@@ -94,7 +94,7 @@ module.exports = {
         },
       },
       animation: {
-        "float-up-desktop": "floatUpDesktop 5s linear forwards 1s",
+        "float-up-desktop": "floatUpDesktop 7s linear forwards 1s",
         "float-up-mobile": "floatUpMobile 8s linear forwards",
       },
     },
