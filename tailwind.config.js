@@ -62,34 +62,34 @@ module.exports = {
 
         floatUpMobile: {
           "10%": {
-            transform: "translateY(-40%) rotate(3deg)",
+            transform: "translateY(-20vh) rotate(3deg)",
           },
           "20%": {
-            transform: "translateY(-80%) rotate(-3deg)",
+            transform: "translateY(-40vh) rotate(-3deg)",
           },
           "30%": {
-            transform: "translateY(-120%) rotate(2deg)",
+            transform: "translateY(-60vh) rotate(2deg)",
           },
           "40%": {
-            transform: "translateY(-160%) rotate(-2deg)",
+            transform: "translateY(-80vh) rotate(-2deg)",
           },
           "50%": {
-            transform: "translateY(-200%) rotate(1deg)",
+            transform: "translateY(-100vh) rotate(1deg)",
           },
           "60%": {
-            transform: "translateY(-240%) rotate(-1deg)",
+            transform: "translateY(-120vh) rotate(-1deg)",
           },
           "70%": {
-            transform: "translateY(-280%) rotate(0deg)",
+            transform: "translateY(-140vh) rotate(0deg)",
           },
           "80%": {
-            transform: "translateY(-320%) rotate(-1deg)",
+            transform: "translateY(-160vh) rotate(-1deg)",
           },
           "90%": {
-            transform: "translateY(-360%) rotate(1deg)",
+            transform: "translateY(-180vh) rotate(1deg)",
           },
           "100%": {
-            transform: "translateY(-400%) rotate(0deg)",
+            transform: "translateY(-200vh) rotate(0deg)",
           },
         },
       },
