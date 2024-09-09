@@ -2,3 +2,11 @@ layout: "layouts/base.liquid"
 title: "Ed Asner & Friends Celebrity Poker Night"
 description: >-
 permalink: "{{ navigation.poker_url }}"
+# IMG Gallery
+image_gallery:
+  - img_url: "/assets/img/camp.avif"
+  - img_url: "/assets/img/camp2.avif"
+  - img_url: "/assets/img/who-we-are2.avif"
+  - img_url: "/assets/img/funko.avif"
+  - img_url: "/assets/img/volunteer2.avif"
+  - img_url: "/assets/img/volunteer.avif"

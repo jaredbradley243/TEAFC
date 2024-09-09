@@ -1,0 +1,14 @@
+<!-- /partials/img-gallery.liquid -->
+<div class="container-lg {{ img_slider_bottom_padding_class }}">
+  <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
+    {% for img in image_gallery %}
+      <div>
+        <img
+          class="h-auto max-w-full rounded-lg"
+          src="{{ img.img_url }}"
+          alt=""
+        >
+      </div>
+    {% endfor %}
+  </div>
+</div>

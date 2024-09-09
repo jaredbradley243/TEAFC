@@ -145,8 +145,11 @@ accordions:
       The CampED 18+
     accordion_cta: null
 
-# IMG SLIDER
-img_slider_bottom_padding: "false"
-
-# FOOTER
-footer_top_padding: "false"
+# IMG Gallery
+image_gallery:
+  - img_url: "/assets/img/camp.avif"
+  - img_url: "/assets/img/camp2.avif"
+  - img_url: "/assets/img/who-we-are2.avif"
+  - img_url: "/assets/img/funko.avif"
+  - img_url: "/assets/img/volunteer2.avif"
+  - img_url: "/assets/img/volunteer.avif"
