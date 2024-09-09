@@ -1,7 +1,0 @@
-layout: "layouts/base.liquid"
-title: "The Dating Spectrum | Dating Skills for Neurodivergent Individuals | The Ed Asner Family Center"
-description: >-
-  "Explore The Dating Spectrum at The Ed Asner Family Center, a dating skills experience 
-  for neurodivergent individuals. Our program covers social interactions, relationship building, 
-  and more in a supportive environment."
-permalink: "{{ navigation.dating_spectrum_url }}"
