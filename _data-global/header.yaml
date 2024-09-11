@@ -2,21 +2,42 @@
 
 # Labels
 first_link_title: "Home"
+first_link_url: "home_url"
+
 second_link_title: "About"
 second_link_sub_menu_title1: "About Us"
-second_link_sub_menu_description: "This is the about us description"
+second_link_sub_menu_description1: "This is the about us description"
+second_link_sub_menu_url1: "about_us_url"
+
 second_link_sub_menu_title2: "Our Team"
 second_link_sub_menu_description2: "This is the our team description"
+second_link_sub_menu_url2: "our_team_url"
+
 third_link_title: "Programs"
 third_link_sub_menu_title1: "Academy"
 third_link_sub_menu_description1: "10-week creative academy for adults"
+third_link_sub_menu_url1: "academy_url"
+
 third_link_sub_menu_title2: "CampED"
 third_link_sub_menu_description2: "4-week summer camp of fun, games, and laughter"
+third_link_sub_menu_url2: "camped_url"
+
 third_link_sub_menu_title3: "Enrichments"
 third_link_sub_menu_description3: "Weekly enrichment classes"
+third_link_sub_menu_url3: "enrichments_url"
+
 third_link_sub_menu_title4: "All Programs"
 third_link_sub_menu_description4: "View all of our available programs"
+third_link_sub_menu_url4: "all_programs_url"
+
 fourth_link_title: "Mental Health"
+fourth_link_url: "mental_health_url"
+
 fifth_link_title: "Events"
+fifth_link_url: "events_url"
+
 sixth_link_title: "Contact"
+sixth_link_url: "contact_url"
+
 seventh_link_title: "Donate"
+seventh_link_url: "donate_url"

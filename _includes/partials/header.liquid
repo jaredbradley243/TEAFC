@@ -44,7 +44,12 @@
       </button>
     </div>
     <div id="nav-links" class="hidden lg:flex lg:gap-x-12">
-      <a href="/" class="text-sm font-semibold leading-6 text-gray-900">{{ header.first_link_title }}</a>
+      <a
+        href="{{ navigation | getByKey:header.first_link_url }}"
+        class="text-sm font-semibold leading-6 text-gray-900"
+      >
+        {{- header.first_link_title -}}
+      </a>
       <div class="relative">
         <button
           type="button"
@@ -79,16 +84,22 @@
           <div class="p-4">
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.about_us_url }}" class="block font-semibold text-gray-900">
+                <a
+                  href="{{ navigation | getByKey:header.second_link_sub_menu_url1 }}"
+                  class="block font-semibold text-gray-900"
+                >
                   {{ header.second_link_sub_menu_title1 }}
                   <span class="absolute inset-0"></span>
                 </a>
-                <p class="mt-1 text-gray-600">{{ header.second_link_sub_menu_description }}</p>
+                <p class="mt-1 text-gray-600">{{ header.second_link_sub_menu_description1 }}</p>
               </div>
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.our_team_url }}" class="block font-semibold text-gray-900">
+                <a
+                  href="{{ navigation | getByKey:header.second_link_sub_menu_url2 }}"
+                  class="block font-semibold text-gray-900"
+                >
                   {{ header.second_link_sub_menu_title2 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -132,7 +143,10 @@
           <div class="p-4">
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.academy_url }}" class="block font-semibold text-gray-900">
+                <a
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url1 }}"
+                  class="block font-semibold text-gray-900"
+                >
                   {{ header.third_link_sub_menu_title1 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -141,7 +155,10 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.camped_url }}" class="block font-semibold text-gray-900">
+                <a
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url2 }}"
+                  class="block font-semibold text-gray-900"
+                >
                   {{ header.third_link_sub_menu_title2 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -150,7 +167,10 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.enrichments_url }}" class="block font-semibold text-gray-900">
+                <a
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url3 }}"
+                  class="block font-semibold text-gray-900"
+                >
                   {{ header.third_link_sub_menu_title3 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -159,7 +179,10 @@
             </div>
             <div class="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50">
               <div class="flex-auto">
-                <a href="{{ navigation.all_programs_url }}" class="block font-semibold text-gray-900">
+                <a
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url4 }}"
+                  class="block font-semibold text-gray-900"
+                >
                   {{ header.third_link_sub_menu_title4 }}
                   <span class="absolute inset-0"></span>
                 </a>
@@ -169,19 +192,22 @@
           </div>
         </div>
       </div>
-      <a href="{{ navigation.mental_health_url }}" class="text-sm font-semibold leading-6 text-gray-900">
+      <a
+        href="{{ navigation | getByKey:header.fourth_link_url }}"
+        class="text-sm font-semibold leading-6 text-gray-900"
+      >
         {{- header.fourth_link_title -}}
       </a>
-      <a href="{{ navigation.events_url }}" class="text-sm font-semibold leading-6 text-gray-900">
+      <a href="{{ navigation | getByKey:header.fifth_link_url }}" class="text-sm font-semibold leading-6 text-gray-900">
         {{- header.fifth_link_title -}}
       </a>
-      <a href="{{ navigation.contact_url }}" class="text-sm font-semibold leading-6 text-gray-900">
+      <a href="{{ navigation | getByKey:header.sixth_link_url }}" class="text-sm font-semibold leading-6 text-gray-900">
         {{- header.sixth_link_title -}}
       </a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end">
       <a
-        href="{{ navigation.donate_url }}"
+        href="{{ navigation | getByKey:header.seventh_link_url }}"
         target="_blank"
         class="rounded-md border-2  border-teafc-orange bg-[rgb(255,139,0,0.1)] px-6 py-1 text-sm font-semibold text-teafc-orange"
       >
@@ -266,13 +292,13 @@
               <!-- 'Product' sub-menu, show/hide based on menu state. -->
               <div class="mt-2 hidden space-y-2" id="disclosure-1">
                 <a
-                  href="{{ navigation.about_us_url }}"
+                  href="{{ navigation | getByKey:header.second_link_sub_menu_url1 }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.second_link_sub_menu_title1 -}}
                 </a>
                 <a
-                  href="{{ navigation.our_team_url }}"
+                  href="{{ navigation | getByKey:header.second_link_sub_menu_url2 }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.second_link_sub_menu_title2 -}}
@@ -308,25 +334,25 @@
               <!-- 'Product' sub-menu, show/hide based on menu state. -->
               <div class="mt-2 hidden space-y-2" id="disclosure-1">
                 <a
-                  href="{{ navigation.academy_url }}"
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url1 }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.third_link_sub_menu_title1 -}}
                 </a>
                 <a
-                  href="{{ navigation.camped_url }}"
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url2 }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.third_link_sub_menu_title2 -}}
                 </a>
                 <a
-                  href="{{ navigation.enrichments_url }}"
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url3 }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.third_link_sub_menu_title3 -}}
                 </a>
                 <a
-                  href="{{ navigation.all_programs_url }}"
+                  href="{{ navigation | getByKey:header.third_link_sub_menu_url4 }}"
                   class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {{- header.third_link_sub_menu_title4 -}}
@@ -335,19 +361,19 @@
             </div>
 
             <a
-              href="{{ navigation.mental_health_url }}"
+              href="{{ navigation | getByKey:header.fourth_link_url }}"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
             >
               {{- header.fourth_link_title -}}
             </a>
             <a
-              href="{{ navigation.events_url }}"
+              href="{{ navigation | getByKey:header.fifth_link_url }}"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
             >
               {{- header.fifth_link_title -}}
             </a>
             <a
-              href="{{ navigation.contact_url }}"
+              href="{{ navigation | getByKey:header.sixth_link_url }}"
               class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
             >
               {{- header.sixth_link_title -}}
@@ -356,7 +382,7 @@
         </div>
       </div>
       <a
-        href="{{ navigation.donate_url }}"
+        href="{{ navigation | getByKey:header.seventh_link_url }}"
         target="_blank"
         class="-mx-3 mt-6 block rounded-lg border-2 border-teafc-orange bg-[rgb(255,139,0,0.1)] px-3 py-2 text-base font-semibold leading-7 text-teafc-orange"
       >
