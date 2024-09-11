@@ -31,7 +31,7 @@ partners_subtitle: >
   Proin venenatis felis id metus varius, in porta elit vulputate.
 partners:
   # Zooz
-  - img: "/assets/img/zooz.svg"
+  - img: "/assets/img/zooz2.svg"
     img_alt_tag: "Official Zooz Logo"
     # Funko
   - img: "/assets/img/funko.svg"
