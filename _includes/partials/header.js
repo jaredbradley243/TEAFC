@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     '#mobile-menu button[aria-expanded="false"], #nav-links button[aria-expanded="false"]',
   );
   const mobileMenu = document.getElementById("mobile-menu");
+  const clickableArea = document.querySelector(".clickable-area");
   const mobileMenuCloseButton = document.getElementById(
     "mobile-menu-close-button",
   );
@@ -20,12 +21,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   mobileMenuOpenButton.addEventListener("click", (event) => {
     event.stopPropagation();
-    mobileMenu.classList.toggle("hidden");
+    mobileMenu.classList.remove("hidden");
+    setTimeout(() => {
+      mobileMenu.classList.add("open");
+    }, 10);
   });
 
   mobileMenuCloseButton.addEventListener("click", (event) => {
     event.stopPropagation();
-    mobileMenu.classList.toggle("hidden");
+    mobileMenu.classList.remove("open");
+    setTimeout(() => {
+      mobileMenu.classList.add("hidden");
+    }, 250);
   });
 
   buttons.forEach((button) => {
@@ -104,16 +111,19 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   }
+
   // Close menu if clicked away if on mobile
-  document.addEventListener("click", (event) => {
-    if (window.innerWidth <= 1024 && !mobileMenu.classList.contains("hidden")) {
-      console.log("DOCUMENT CLICK");
-      mobileMenu.classList.toggle("hidden");
+  mobileMenu.addEventListener("click", (event) => {
+    if (window.innerWidth <= 1024 && event.target !== clickableArea) {
+      mobileMenu.classList.remove("open");
+      setTimeout(() => {
+        mobileMenu.classList.add("hidden");
+      }, 250);
     }
   });
 
   // Prevent closing the menu when clicking inside it
-  mobileMenu.addEventListener("click", (event) => {
+  clickableArea.addEventListener("click", (event) => {
     event.stopPropagation();
   });
 });
