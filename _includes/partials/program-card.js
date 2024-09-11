@@ -1,12 +1,9 @@
 // <!-- /_includes/partials/program-card.js -->
 document.addEventListener("DOMContentLoaded", function () {
-  const hiddenTexts = document.querySelectorAll(".program-card-hidden-text");
-
-  hiddenTexts.forEach((hiddenText) => {
-    const programImg =
-      hiddenText.parentNode.parentNode.parentNode.previousSibling.previousSibling.querySelector(
-        "img",
-      );
+  const programCards = document.querySelectorAll(".program-card-main");
+  programCards.forEach((card) => {
+  const hiddenText = card.querySelector(".program-card-hidden-text");
+    const programImg = card.querySelector(".program-card-img")
     const readMoreButton = hiddenText.nextElementSibling;
     const readMoreButtonArrow = readMoreButton.querySelector("svg");
 
