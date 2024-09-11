@@ -1,5 +1,5 @@
 layout: "layouts/base.liquid"
-title: "Ed Asner & Friends Celebrity Poker Night"
+title: Ed Asner & Friends Celebrity Poker Night
 description: >-
 permalink: "{{ navigation.poker_url }}"
 # IMG Gallery

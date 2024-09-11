@@ -1,9 +1,9 @@
 layout: "layouts/base.liquid"
-title: "Contact Us | The Ed Asner Family Center"
+title: Contact Us | The Ed Asner Family Center
 description: >-
-  "Get in touch with The Ed Asner Family Center. Find our contact information, 
+  Get in touch with The Ed Asner Family Center. Find our contact information, 
   including phone number, email, and location, and reach out to learn more about our 
-  programs and services."
+  programs and services.
 
 # HERO
 hero_heading: "CONTACT"

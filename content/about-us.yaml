@@ -1,11 +1,11 @@
 # Head
 layout: "layouts/base.liquid"
-title: "About Us | Supporting Neurodivergent Individuals With Inclusive Programs And Mental Health Services | The Ed Asner Family Center"
+title: About Us | Supporting Neurodivergent Individuals With Inclusive Programs And Mental Health Services | The Ed Asner Family Center
 description: >-
-  "Learn about The Ed Asner Family Center, a nonprofit dedicated to enriching the lives of 
+  Learn about The Ed Asner Family Center, a nonprofit dedicated to enriching the lives of 
   neurodivergent individuals, including those with autism. Discover our mission, values, 
   and the wide range of programs we offer, including day camps, expressive arts, 
-  enrichment activities, academy, and mental health services."
+  enrichment activities, academy, and mental health services.
 
 # HERO
 hero_heading: "WHO WE ARE"

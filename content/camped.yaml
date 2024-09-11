@@ -1,10 +1,10 @@
 # Head
 layout: "layouts/base.liquid"
-title: "Inclusive CampED For All Abilities | The Ed Asner Family Center"
+title: Inclusive CampED For All Abilities | The Ed Asner Family Center
 description: >-
-  "Join our inclusive CampED at The Ed Asner Family Center, combining job training, 
+  Join our inclusive CampED at The Ed Asner Family Center, combining job training, 
   adaptive skills, and expressive arts for neurodivergent individuals. Our all-abilities 
-  program fosters growth and development in a supportive environment."
+  program fosters growth and development in a supportive environment.
 permalink: "{{ navigation.camped_url }}"
 # HERO
 hero_heading: "The CampED"

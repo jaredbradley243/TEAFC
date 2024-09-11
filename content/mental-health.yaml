@@ -1,9 +1,9 @@
 layout: "layouts/base.liquid"
-title: "Mental Health Services for Neurodivergent Individuals | The Ed Asner Family Center"
+title: Mental Health Services for Neurodivergent Individuals | The Ed Asner Family Center
 description: >-
-  "Access mental health services at The Ed Asner Family Center, including individual therapy, 
+  Access mental health services at The Ed Asner Family Center, including individual therapy, 
   family therapy, support groups, and workshops. Our services are tailored for neurodivergent 
-  individuals, including those with autism."
+  individuals, including those with autism.
 
 # HERO
 hero_heading: "MENTAL HEALTH"

@@ -1,9 +1,9 @@
 layout: "layouts/base.liquid"
-title: "Enrichment Programs for Neurodivergent Individuals | The Ed Asner Family Center"
+title: Enrichment Programs for Neurodivergent Individuals | The Ed Asner Family Center
 description: >-
-  "Discover our enrichment programs at The Ed Asner Family Center, including camp, dance, art, 
+  Discover our enrichment programs at The Ed Asner Family Center, including camp, dance, art, 
   robotics, and more. Our programs are designed to enhance skills and provide meaningful 
-  experiences for neurodivergent individuals."
+  experiences for neurodivergent individuals.
 permalink: "{{ navigation.enrichments_url }}"
 # ENRICHMENTS
 info_card_grid_col_num: 3

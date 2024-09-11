@@ -1,9 +1,9 @@
 layout: "layouts/base.liquid"
-title: "Meet Our Team | Dedicated Staff at The Ed Asner Family Center"
+title: Meet Our Team | Dedicated Staff at The Ed Asner Family Center
 description: >-
-  "Meet the dedicated team of professionals at The Ed Asner Family Center. Our compassionate and 
+  Meet the dedicated team of professionals at The Ed Asner Family Center. Our compassionate and 
   experienced staff are committed to supporting neurodivergent individuals, including those with 
-  autism."
+  autism.
 
 # BOARD OF DIRECTORS
 bod_heading: "OUR BOARD OF DIRECTORS"
