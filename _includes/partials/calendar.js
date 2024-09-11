@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const formattedDay = day < 10 ? "0" + day : day;
       const dateString = `${currentYear}-${formattedMonth}-${formattedDay}`;
 
-      cell.className = `relative flex flex-col gap-1 items-center justify-start py-1.5 h-16 ${
+      cell.className = `flex flex-col gap-1 items-center justify-start py-1.5 h-16 ${
         isCurrentMonth ? "bg-white text-gray-900" : "bg-gray-50 text-gray-400"
       }`;
 
