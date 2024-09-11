@@ -4,8 +4,10 @@
 {% assign display_btn_lower = display_btn | downcase %}
 {% if display_btn_lower == 'false' %}
   {% assign display_btn_class = 'hidden' %}
+  {% assign above_small_margin_top_class = 'sm:mt-10' %}
 {% else %}
   {% assign display_btn_class = '' -%}
+  {% assign above_small_margin_top_class = 'sm:mt-24' %}
 {%- endif %}
 
 {% comment %} Swap col logic {% endcomment %}
@@ -57,7 +59,7 @@
     </div>
   </div>
   <!-- HERO RIGHT -->
-  <div class="mt-10 sm:mt-24 md:mx-auto md:max-w-4xl lg:mx-0 lg:mt-0">
+  <div class="mt-10 {{ above_small_margin_top_class }} md:mx-auto md:max-w-4xl lg:mx-0 lg:mt-0">
     <div class="lg:pt-4">
       <img
         src="{{ hero_img }}"
