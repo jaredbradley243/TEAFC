@@ -41,6 +41,12 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  #founders-hidden-text {
+    transition: max-height 0.25s ease-in-out;
+  }
+  .program-card-img-holder {
+    transition: height 0.25s ease-in-out;
+  }
   .accordion-header {
     @apply cursor-pointer px-6 py-4;
   }
@@ -80,8 +86,4 @@
   .slider::-webkit-scrollbar-track {
     background-color: var(--teafc-light-blue);
   }
-}
-
-#founders-hidden-text {
-  transition: max-height 0.25s ease-in-out;
 }
