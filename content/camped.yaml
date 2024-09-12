@@ -6,20 +6,17 @@ description: >-
   adaptive skills, and expressive arts for neurodivergent individuals. Our all-abilities 
   program fosters growth and development in a supportive environment.
 permalink: "{{ navigation.camped_url }}"
-# HERO
-hero_heading: "The CampED"
-hero_subheading: >-
-  Empowering adults with special needs through a vibrant community of learning and growth. 
-  The CampED offers a unique blend of educational, creative, and therapeutic activities 
-  designed to enrich lives, foster independence, and build lasting friendships.
-hero_btn: "Enroll"
-hero_img: /assets/img/who-we-are2.avif
-# display_btn is a boolean
-hero_display_btn: true
-hero_swap_col: false
-# options: left, right, both, ""
-hero_img_round_large_screens: "both"
-hero_under_header: true
+# HERO/Feature Section CTA
+feature_section_cta_heading: "CampED. Fun. Fun. Fun."
+feature_section_cta_subheading: >-
+  Join our 4 week summer camp for a summer filled with trips, games, and fun!
+feature_section_cta_feature1_title: "😎 New Friends"
+feature_section_cta_feature1_description: "Meet new people and make new friends during CampED!"
+feature_section_cta_feature2_title: "🌴 Field Trips"
+feature_section_cta_feature2_description: "Join us for Malibu beach days, visits to Aquarium of the Pacific, and more!"
+feature_section_cta_btn: "Enroll"
+feature_section_cta_img: /assets/img/funko.avif
+feature_section_cta_img_alt: ""
 
 # CAMPED ACTIVITIES
 info_card_container_width: "sm"
@@ -144,6 +141,14 @@ accordions:
       Summer/ Winter Camps 10+ <br>
       The CampED 18+
     accordion_cta: null
+
+# CTA Banner
+cta_img: "/assets/img/donate.avif"
+cta_title: "Join CampED"
+cta_subtitle: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
+cta_btn_txt: "Enroll Now"
+cta_btn_link_key: "contact_url"
 
 # IMG Gallery
 image_gallery:

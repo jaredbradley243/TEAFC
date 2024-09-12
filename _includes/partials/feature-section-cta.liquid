@@ -1,36 +1,20 @@
 <div class="w-full bg-gradient-to-b from-teafc-light-blue to-white">
   <div class="container-md">
-    <div class="relative isolate overflow-hidden">
-      <div
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-center lg:gap-y-0"
-      >
-        <div class="lg:row-start-2 lg:max-w-md">
-          <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-4xl">Empower Your Journey.</h2>
-          <p class="mt-6 text-lg leading-8 text-gray-500">
-            Join a supportive and inclusive community where adults with special needs can thrive through creative
-            expression, skill-building, and meaningful connections.
-          </p>
-        </div>
-        <img
-          src="/assets/img/funko.avif"
-          alt="Product screenshot"
-          class="relative -z-20 min-w-full max-w-xl rounded-xl shadow-md ring-1 ring-white/10 lg:row-span-4 lg:w-[32rem] lg:max-w-none"
-          width="2432"
-          height="1442"
-        >
-        <div class="max-w-xl lg:row-start-3 lg:mt-4 lg:max-w-md lg:border-t lg:border-teafc-light-orange lg:pt-4">
-          <dl class="max-w-xl space-y-8 text-base leading-7 text-gray-500 lg:max-w-none">
-            <div class="relative">
-              <dt class="inline-block font-semibold text-gray-500">🎨 Creative Workshops.</dt>
-              <dd class="inline">
-                Engage in art, music, and drama classes that inspire self-expression and boost confidence.
-              </dd>
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:items-center lg:gap-y-0">
+      <div class="order-1 lg:order-none lg:row-start-2 lg:max-w-md">
+        <h2 class="text-4xl font-bold tracking-tight text-gray-700 sm:text-4xl">{{ feature_section_cta_heading }}</h2>
+        <p class="mt-6 text-lg leading-8 text-gray-500">
+          {{ feature_section_cta_subheading }}
+        </p>
+        <div class="lg:row-start-3 lg:mt-4 lg:max-w-md lg:border-t lg:border-teafc-light-orange lg:pt-4">
+          <dl class="flex flex-col gap-8 text-base leading-7 text-gray-500 lg:max-w-none">
+            <div>
+              <dt class="inline font-semibold text-gray-500">{{ feature_section_cta_feature1_title }}</dt>
+              <dd class="inline">{{ feature_section_cta_feature1_description }}</dd>
             </div>
-            <div class="relative">
-              <dt class="inline-block font-semibold text-gray-500">🛠️ Life Skills Development.</dt>
-              <dd class="inline">
-                Gain practical skills for daily living, fostering independence and personal growth.
-              </dd>
+            <div>
+              <dt class="inline font-semibold text-gray-500">{{ feature_section_cta_feature2_title }}</dt>
+              <dd class="inline">{{ feature_section_cta_feature2_description }}</dd>
             </div>
           </dl>
         </div>
@@ -39,9 +23,17 @@
           target="_blank"
           class="mt-8 flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
         >
-          Enroll
+          {{ feature_section_cta_btn }}
         </a>
       </div>
+
+      <img
+        src="{{ feature_section_cta_img }}"
+        alt="{{ feature_section_cta_img_alt }}"
+        class="min-w-full rounded-xl shadow-md ring-1 ring-white/10 lg:row-span-4 lg:w-[32rem] lg:max-w-none"
+        width="2432"
+        height="1442"
+      >
     </div>
   </div>
 </div>
