@@ -13,26 +13,67 @@ document.addEventListener("DOMContentLoaded", function () {
   const currentUrl = window.location.pathname;
   const navLinks = document.querySelectorAll("#nav-links > a");
 
+  let isAnimating = false;
+
   navLinks.forEach((link) => {
     if (link.getAttribute("href") === currentUrl) {
       link.classList.add("active-nav-link");
     }
   });
 
-  mobileMenuOpenButton.addEventListener("click", (event) => {
-    event.stopPropagation();
+  const fadeBackgroundOut = () => {
+    const fader = document.querySelector(".fader");
+    if (fader) {
+      fader.classList.remove("bg-fade-in");
+      setTimeout(() => {
+        fader.remove();
+      }, 250);
+    }
+  };
+
+  const fadeBackgroundIn = () => {
+    const fragment = document.createElement("div");
+    fragment.className = "fader";
+    document.body.appendChild(fragment);
+    const fader = document.querySelector(".fader");
+    setTimeout(() => {
+      fader.classList.add("bg-fade-in");
+    }, 10);
+  };
+
+  const openMenu = () => {
+    if (isAnimating) return;
+    isAnimating = true;
+
     mobileMenu.classList.remove("hidden");
     setTimeout(() => {
       mobileMenu.classList.add("open");
+      isAnimating = false;
     }, 10);
+    fadeBackgroundIn();
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeMenu = () => {
+    if (isAnimating) return;
+    isAnimating = true;
+    fadeBackgroundOut();
+    document.body.style.overflow = "auto";
+    mobileMenu.classList.remove("open");
+    setTimeout(() => {
+      mobileMenu.classList.add("hidden");
+      isAnimating = false;
+    }, 125);
+  };
+
+  mobileMenuOpenButton.addEventListener("click", (event) => {
+    event.stopPropagation();
+    openMenu();
   });
 
   mobileMenuCloseButton.addEventListener("click", (event) => {
     event.stopPropagation();
-    mobileMenu.classList.remove("open");
-    setTimeout(() => {
-      mobileMenu.classList.add("hidden");
-    }, 250);
+    closeMenu();
   });
 
   buttons.forEach((button) => {
@@ -115,15 +156,22 @@ document.addEventListener("DOMContentLoaded", function () {
   // Close menu if clicked away if on mobile
   mobileMenu.addEventListener("click", (event) => {
     if (window.innerWidth <= 1024 && event.target !== clickableArea) {
-      mobileMenu.classList.remove("open");
-      setTimeout(() => {
-        mobileMenu.classList.add("hidden");
-      }, 250);
+      closeMenu();
     }
   });
 
   // Prevent closing the menu when clicking inside it
   clickableArea.addEventListener("click", (event) => {
     event.stopPropagation();
+  });
+
+  //Fallback in case fader is activated
+  document.addEventListener("click", (event) => {
+    if (
+      event.target !== mobileMenuOpenButton &&
+      !mobileMenu.contains(event.target)
+    ) {
+      closeMenu();
+    }
   });
 });
