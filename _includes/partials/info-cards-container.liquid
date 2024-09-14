@@ -38,7 +38,7 @@
     </h2>
     <p class="mt-6 text-base text-gray-500 lg:text-lg">{{ info_card_subtitle }}</p>
   </div>
-  <div class="mx-auto mt-5 flex max-w-full snap-x snap-mandatory gap-6 overflow-x-auto p-6 sm:mt-10 sm:grid sm:grid-cols-{{info_card_md_grid_col_num}} lg:max-w-none lg:grid-cols-{{info_card_grid_col_num}} scrollbar-none lg:gap-8">
+  <div class="mx-auto mt-5 flex max-w-full snap-x snap-mandatory gap-6 overflow-x-auto p-6 sm:mt-10 sm:grid sm:grid-cols-{{info_card_md_grid_col_num}} lg:max-w-none lg:grid-cols-{{info_card_grid_col_num}} lg:gap-8">
     {% for info_card in info_cards %}
       {% include 'partials/info-card.liquid',
         info_card_img: info_card.info_card_img,
