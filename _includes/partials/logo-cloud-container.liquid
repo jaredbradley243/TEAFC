@@ -7,9 +7,9 @@
 <div class="container-sm flex flex-col">
   <h2 class="text-3xl font-bold tracking-tight text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">{{ title }}</h2>
   <p class="mt-6 text-base text-gray-500 lg:text-lg">{{ subtitle }}</p>
-  <div class="bg-white py-16">
+  <div class="bg-white pt-8 sm:py-16">
     <div class="mx-auto max-w-7xl lg:px-8">
-      <div class="mx-auto grid grid-cols-{{ grid_cols_sm_num }} items-center gap-x-8 gap-y-12 sm:grid-cols-{{ grid_cols_md_num }} sm:gap-x-40 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-{{ grid_cols_lg_num }}">
+      <div class="mx-auto grid grid-cols-{{ grid_cols_sm_num }} items-center gap-x-8 gap-y-12 sm:grid-cols-{{ grid_cols_md_num }} sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-{{ grid_cols_lg_num }}">
         {% for logo in logos %}
           {% include 'partials/logo-cloud.liquid',
             col_span_sm: logo_cloud_col_span_sm,
