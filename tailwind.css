@@ -21,17 +21,13 @@
     transition: transform 0.125s ease-in-out;
   }
 
-  a:not(#nav-links a):not(#breadcrumb a):not(.logo-div a),
-  button:not(#nav-links button):not(.event-info button):not(.accordion-header) {
+  .button {
     transition:
       transform 0.1s ease,
       filter 0.1s ease;
   }
 
-  a:not(#nav-links a):not(#breadcrumb a):not(.logo-div a):hover,
-  button:not(#nav-links button):not(.event-info button):not(
-      .accordion-header
-    ):hover {
+  .button:hover {
     transform: scale(1.025);
     filter: brightness(1.05);
   }
