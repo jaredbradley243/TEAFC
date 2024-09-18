@@ -1,8 +1,8 @@
 // <!-- /_includes/partials/calendar.js -->
 document.addEventListener("DOMContentLoaded", function () {
-  const API_KEY = "AIzaSyBjgF6OQx0-GLqCpYyOpiH-PBznaFezVfM";
+  const API_KEY = "AIzaSyCG5sTjzrkb_aJYRMRhsj2oW4wnHzyRc3w";
   const CALENDAR_ID =
-    "325fcff7cebabe8484b1f185d357cc7b34ab60740ac74a0461adbab178e4ffa0@group.calendar.google.com";
+    "c_7cdf1d3926cf44f9aaac3688616392a17cc4a6c8a4d9df973a52b7bd272cb64b@group.calendar.google.com";
   const endpoint = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
 
   const unformattedDate = new Date();
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
       cellDate.className =
         "mx-auto flex h-7 w-7 items-center justify-center rounded-full";
 
-      cell.setAttribute("role", "gridcell")
+      cell.setAttribute("role", "gridcell");
       cell.appendChild(cellDate);
       return cell;
     };
@@ -286,7 +286,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (isEventPresent) {
         eventsBox.className =
           "mt-2 grid px-0.5 max-h-[28rem] grid-cols-2 flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue sm:flex sm:gap-1 sm:divide-y sm:divide-gray-200";
-          return null;
+        return null;
       } else {
         eventsBox.className =
           "mt-2 max-h-[28rem] flex-col gap-x-4 overflow-y-auto text-sm leading-6 text-gray-500 scrollbar-thin scrollbar-track-teafc-light-blue scrollbar-thumb-teafc-blue flex gap-1";
@@ -295,7 +295,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const upperText = document.createElement("p");
         const lowerText = document.createElement("p");
 
-        upperText.textContent = "There are no events within the current calendar view.";
+        upperText.textContent =
+          "There are no events within the current calendar view.";
         lowerText.textContent =
           "Please change the month to explore future and past events.";
 
