@@ -74,7 +74,8 @@
   #founders-hidden-text {
     transition: max-height 0.25s ease-in-out;
   }
-  .program-card-img-holder {
+  .program-card-img-holder,
+  .event-card-img-holder {
     transition: height 0.25s ease-in-out;
   }
   .accordion-header {
