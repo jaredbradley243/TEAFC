@@ -1,27 +1,4 @@
 <!-- _includes/partials/info-cards-container.liquid -->
-{% comment %}
-  {% assign info_card_count = info_cards | size %}
-  {% assign info_card_mod = info_card_count | modulo: 2 %}
-
-  {% if info_card_count <= 4 %}
-    {% assign grid_col_num = info_card_count %}
-    {% if info_card_mod == 1 %}
-      {% assign md_grid_col = 1 %}
-    {% elsif info_card_mod == 0 %}
-      {% assign md_grid_col = 2 %}
-    {% endif %}
-  {% elsif info_card_mod == 0 %}
-    {% if info_card_count/ %}
-
-    {% endif %}
-    {% assign grid_col_num = 4 %}
-    {% assign md_grid_col = 2 %}
-  {% elsif info_card_mod != 0 %}
-    {% assign grid_col_num = 3 %}
-    {% assign md_grid_col = 1 %}
-  {% endif %}
-{% endcomment %}
-
 {% assign info_card_container_width_lowercase = info_card_container_width | downcase %}
 {% if info_card_container_width_lowercase == 'lg' %}
   {% assign container_width_class = 'container-lg' %}
@@ -31,11 +8,22 @@
   {% assign container_width_class = 'container-md' %}
 {% endif %}
 
+{% comment %}
+  This logic exists for accessibility.
+  Sometimes info card heading should be H1 and other times it should H2 depending on the page.
+{% endcomment %}
+{% assign info_card_container_heading_tag_lowercase = info_card_container_heading_tag | downcase %}
+{% if info_card_container_heading_tag_lowercase != null and info_card_container_heading_tag_lowercase != '' %}
+  {% assign heading_tag_class = info_card_container_heading_tag_lowercase %}
+{% else %}
+  {% assign heading_tag_class = 'h2' %}
+{% endif %}
+
 <div class="{{ container_width_class }} flex flex-col">
   <div class="flex flex-col">
-    <h2 class="text-3xl font-bold tracking-tight text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">
+    <{{ heading_tag_class }} class="text-3xl font-bold tracking-tight text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">
       {{ info_card_title }}
-    </h2>
+    </{{ heading_tag_class }}>
     <p class="mt-6 text-base text-gray-500 lg:text-lg">{{ info_card_subtitle }}</p>
   </div>
   <div class="mx-auto mt-5 flex max-w-full snap-x snap-mandatory gap-6 overflow-x-auto p-6 sm:mt-10 sm:grid sm:grid-cols-{{info_card_md_grid_col_num}} lg:max-w-none lg:grid-cols-{{info_card_grid_col_num}} lg:gap-8">
