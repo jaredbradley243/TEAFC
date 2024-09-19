@@ -21,7 +21,7 @@
           <a
             href="{{ navigation | getByKey: footer.cta1_link_key }}"
             class="button flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
-            aria-label="{{cta1_aria_label}}"
+            aria-label="{{ footer.cta1_aria_label }}"
           >
             {{ footer.cta1_text }}
           </a>
@@ -29,7 +29,7 @@
             href="{{ navigation | getByKey: footer.cta2_link_key }}"
             target="_blank"
             class="button flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
-            aria-label="{{cta2_aria_label}}"
+            aria-label="{{ footer.cta2_aria_label }}"
           >
             {{ footer.cta2_text }}
           </a>
