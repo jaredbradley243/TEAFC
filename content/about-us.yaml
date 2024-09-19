@@ -89,33 +89,32 @@ accordion_mobile_grid_col_num: 1
 accordion_grid_col_num: 3
 accordion_heading: "OUR VALUES"
 accordion_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
-  - accordion_title: "Compassion"
+  - accordion_title: "Inclusion"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      At The Ed Asner Family Center, we believe in approaching every interaction with empathy and understanding, 
-      ensuring that each individual feels heard and valued. Our compassionate environment supports not just the 
-      individual needs but also fosters a supportive atmosphere that empowers families and caregivers.
+      We are dedicated to fostering an inclusive environment where individuals of all abilities and backgrounds can thrive.
+      Our programs are designed to be accessible and welcoming, celebrating community diversity and ensuring equal opportunities
+      for all. Additionally, we take pride in hiring autistic individuals, creating a space where our programs
     accordion_cta: null
     accordion_link_key: ""
 
-  - accordion_title: "Inclusivity"
+  - accordion_title: "Family"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      We are committed to creating an inclusive space where people of all abilities and backgrounds can thrive without barriers. 
-      Our programs are designed to be accessible to everyone, celebrating the diversity of our community and promoting equal 
-      opportunities for participation and growth.
+      We believe in the power of family as a cornerstone of support and growth. Our center was established by our own family to 
+      create a safe and welcoming space for neurodivergent individuals and their families to thrive and to feel a sense of home 
+      and togetherness. We value the unique dynamics of each family unit, recognizing that a nurturing, inclusive, and supportive 
+      environment is essential for the well-being and development of individuals with autism. We strive to create a collaborative 
+      community where families feel empowered, understood, and supported.
     accordion_cta: null
     accordion_link_key: ""
 
-  - accordion_title: "Wellness"
+  - accordion_title: "Hope"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      Our focus on wellness encompasses both mental and physical health, providing holistic support tailored to the unique needs 
-      of our community members. We strive to offer a range of services that promote overall well-being, helping individuals and 
-      their families achieve balance and health in every aspect of their lives.
+      We aim to build a compassionate community where families with special needs can find hope and love in their daily lives, 
+      and most importantly, feel a sense of belonging and connection.
     accordion_cta: null
     accordion_link_key: ""
 
