@@ -11,4 +11,9 @@ card_2_title: "Donate"
 card_2_desc: "Make a donation today and help create a positive impact!"
 
 card_1_btn_txt: "Volunteer"
+card_1_btn_link_key: "contact_url"
+card_1_btn_aria_label: "Link to contact page."
+
 card_2_btn_txt: "Donate"
+card_2_btn_link_key: "donate_url"
+card_2_btn_aria_label: "Link to Donate page. Opens in new tab."
