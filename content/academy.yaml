@@ -15,7 +15,8 @@ feature_section_cta_feature1_title: "🎨 Creative Workshops."
 feature_section_cta_feature1_description: "Engage in art, music, and drama classes that inspire self-expression and boost confidence."
 feature_section_cta_feature2_title: "🛠️ Life Skills Development."
 feature_section_cta_feature2_description: "Gain practical skills for daily living, fostering independence and personal growth."
-feature_section_cta_btn: "Enroll"
+feature_section_cta_btn: "Contact us to enroll"
+feature_section_cta_btn_link_key: contact_url
 feature_section_cta_img: /assets/img/funko.avif
 feature_section_cta_img_alt: ""
 
