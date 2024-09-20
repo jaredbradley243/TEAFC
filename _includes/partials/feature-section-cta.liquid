@@ -19,8 +19,8 @@
           </dl>
         </div>
         <a
-          href="/contact/"
-          class="button mt-8 flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
+          href="{{ navigation | getByKey:feature_section_cta_btn_link_key }}"
+          class="button mt-8 flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
         >
           {{ feature_section_cta_btn }}
         </a>
@@ -30,8 +30,7 @@
         src="{{ feature_section_cta_img }}"
         alt="{{ feature_section_cta_img_alt }}"
         class="min-w-full rounded-xl shadow-md ring-1 ring-white/10 lg:row-span-4 lg:w-[32rem] lg:max-w-none"
-        width="2432"
-        height="1442"
+        {% imageDimensions feature_section_cta_img %}
       >
     </div>
   </div>
