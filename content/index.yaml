@@ -24,7 +24,9 @@ info_card_container_width: "lg"
 info_card_grid_col_num: 4
 info_card_md_grid_col_num: 2
 info_card_title: "TEAFC PROGRAM OVERVIEW"
-info_card_subtitle: "The Ed Asner Family Center offers a range of inclusive programs, including The Academy, which promotes creativity and growth, and CampEd, an engaging, skill-building camp experience. Our Enrichments provide hands-on workshops in art and music, while our Mental Health services offer essential therapy and counseling for emotional well-being."
+info_card_subtitle: >-
+  The Ed Asner Family Center offers a diverse array of inclusive programs designed to support individuals with special needs and their families. 
+  These programs focus on promoting mental health, creativity, and community engagement through art, counseling, and social skills workshops.
 info_cards:
   # Card 1
   - info_card_img: "/assets/img/funko.avif"
