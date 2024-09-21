@@ -18,6 +18,10 @@ hero_img_round_large_screens: "left"
 hero_under_header: true
 
 # CONTACT CARDS
+contact_card_heading: "CONTACT"
+contact_card_subheading: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+  magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus.
 # Card 1
 contact_name1: "Blanca Arenas"
 office_title1: "Administration/General Inquiries"
@@ -28,6 +32,14 @@ contact_name2: "Chrisa Sadd"
 office_title2: "Mental Health"
 phone_number2: "(818) 302-0712"
 email2: "chrisa@teafc.org"
+
+# Map Section
+map_heading1: "VISIT US"
+map_address: "16340 Roscoe Blvd. Van Nuys, CA 91406"
+map_heading2: "CENTER HOURS"
+map_monday-friday_hours: "9AM - 3PM"
+map_saturday_sunday_hours: "Closed"
+map_download_parking_map_cta: "Download Parking Map"
 
 # FAQ
 accordion_mobile_grid_col_num: 1

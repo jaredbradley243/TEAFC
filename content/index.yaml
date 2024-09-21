@@ -68,9 +68,6 @@ info_cards:
       Services include individual therapy, family therapy, support groups, and workshops.
     info_card_btn_txt: "Learn More"
     link_key: "mental_health_url"
-# CALENDAR
-calendar_title: "UPCOMING EVENTS"
-calendar_subtitle: ""
 
 # IMG Gallery
 image_gallery:

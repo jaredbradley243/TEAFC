@@ -77,6 +77,34 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: ""
 
+# INSURANCE SECTION
+insurance_top_divider: true
+insurance_bottom_divider: true
+insurance_title: "ACCEPTED INSURANCE"
+insurance_subtitle: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
+  Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. 
+  Proin venenatis felis id metus varius, in porta elit vulputate.
+insurance:
+  # Magellan
+  - img: "/assets/img/magellan.svg"
+    img_alt_tag: ""
+  # Blue Shield California
+  - img: "/assets/img/bsc.svg"
+    img_alt_tag: ""
+    # Cigna
+  - img: "/assets/img/cigna.svg"
+    img_alt_tag: ""
+    # Health Net
+  - img: "/assets/img/healthnet.svg"
+    # Beacon
+    img_alt_tag: ""
+  - img: "/assets/img/beacon.svg"
+    img_alt_tag: ""
+    # Sag Aftra
+  - img: "/assets/img/sag-aftra.svg"
+    img_alt_tag: ""
+
 # MENTAL HEALTH FAQ
 accordion_mobile_grid_col_num: 1
 accordion_grid_col_num: 2
@@ -125,35 +153,10 @@ accordions:
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-# INSURANCE SECTION
-insurance_top_divider: true
-insurance_bottom_divider: true
-insurance_title: "ACCEPTED INSURANCE"
-insurance_subtitle: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
-  Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. 
-  Proin venenatis felis id metus varius, in porta elit vulputate.
-insurance:
-  # Magellan
-  - img: "/assets/img/magellan.svg"
-    img_alt_tag: ""
-  # Blue Shield California
-  - img: "/assets/img/bsc.svg"
-    img_alt_tag: ""
-    # Cigna
-  - img: "/assets/img/cigna.svg"
-    img_alt_tag: ""
-    # Health Net
-  - img: "/assets/img/healthnet.svg"
-    # Beacon
-    img_alt_tag: ""
-  - img: "/assets/img/beacon.svg"
-    img_alt_tag: ""
-    # Sag Aftra
-  - img: "/assets/img/sag-aftra.svg"
-    img_alt_tag: ""
-
 # OUR SPECIALISTS
+specialists_title: MENTAL HEALTH SPECIALISTS
+specialists_subtitle: >-
+  We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
 specialists:
   - specialist_img: "/assets/img/atticus.avif"
     specialist_name: "John Doe"

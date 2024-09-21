@@ -2,7 +2,10 @@
 layout: "layouts/base.liquid"
 title: 404 | Supporting Neurodivergent Individuals With Inclusive Programs And Mental Health Services | The Ed Asner Family Center
 description: >-
-
 permalink: "{{ navigation.404_url }}"
+heading: "Lost?"
+subheading: Just part of the adventure!
+cta: "Head back home"
+
 # FOOTER
 footer_top_padding: "false"

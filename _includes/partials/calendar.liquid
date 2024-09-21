@@ -1,9 +1,9 @@
 <div class="container-sm flex flex-col gap-8">
   <div class="flex flex-col">
     <h2 class="text-center text-3xl font-bold tracking-tight text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">
-      {{ calendar_title }}
+      {{ calendar.calendar_title }}
     </h2>
-    <p class="mt-6 text-base text-gray-500 lg:text-lg">{{ calendar_subtitle }}</p>
+    <p class="mt-6 text-base text-gray-500 lg:text-lg">{{ calendar.calendar_subtitle }}</p>
   </div>
   <div class="flex flex-col items-center gap-12 lg:flex-row lg:items-start lg:justify-center">
     <div class="flex w-full max-w-[29rem] flex-1 flex-col gap-x-14 lg:max-w-none">
@@ -53,7 +53,7 @@
     </div>
 
     <section class="min-w-50% flex-1 sm:min-w-0">
-      <h2 class="text-base font-semibold leading-6 text-gray-900">Events</h2>
+      <h2 class="text-base font-semibold leading-6 text-gray-900">{{ calendar.calendar_events_title }}</h2>
       <ol class="" id="eventsFlexBox" aria-live="polite" role="list"></ol>
     </section>
   </div>

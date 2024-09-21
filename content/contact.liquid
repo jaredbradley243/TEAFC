@@ -25,15 +25,19 @@
     <div class="flex items-center justify-center">
       <div class="flex max-w-64 flex-col gap-10">
         <div class="flex flex-col gap-2">
-          <h2 class="text-2xl font-bold text-white">VISIT US</h2>
+          <h2 class="text-2xl font-bold text-white">{{ map_heading1 }}</h2>
           <h3 class="text-lg font-semibold text-white">
-            Address: <span class="font-normal">16340 Roscoe Blvd. Van Nuys, CA 91406</span>
+            Address: <span class="font-normal">{{ map_address }}</span>
           </h3>
         </div>
         <div class="flex flex-col gap-2">
-          <h2 class="text-2xl font-bold text-white">CENTER HOURS</h2>
-          <h3 class="text-lg font-semibold text-white">Monday - Friday:<span class="font-normal"> 9AM - 3PM</span></h3>
-          <h3 class="text-lg font-semibold text-white">Saturday - Sunday:<span class="font-normal"> Closed</span></h3>
+          <h2 class="text-2xl font-bold text-white">{{ map_heading2 }}</h2>
+          <h3 class="text-lg font-semibold text-white">
+            Monday - Friday:<span class="font-normal"> {{ map_monday-friday_hours }}</span>
+          </h3>
+          <h3 class="text-lg font-semibold text-white">
+            Saturday - Sunday:<span class="font-normal"> {{ map_saturday_sunday_hours }}</span>
+          </h3>
         </div>
         <a
           href="/assets/img/teafc-map.jpg"
@@ -41,7 +45,7 @@
           role="button"
           class="button rounded-lg border-teafc-light-blue bg-teafc-light-blue px-12 py-2.5 text-sm font-semibold text-gray-700 shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-light-blue"
         >
-          Download Parking Map
+          {{ map_download_parking_map_cta }}
         </a>
       </div>
     </div>
