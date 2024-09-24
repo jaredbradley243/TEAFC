@@ -25,8 +25,8 @@ info_card_grid_col_num: 4
 info_card_md_grid_col_num: 2
 info_card_title: "TEAFC PROGRAM OVERVIEW"
 info_card_subtitle: >-
-  The Ed Asner Family Center offers a diverse array of inclusive programs designed to support individuals with special needs and their families. 
-  These programs focus on promoting mental health, creativity, and community engagement through art, counseling, and social skills workshops.
+  The Ed Asner Family Center offers a wide range of programs, including camp, job training, mental health counseling, and enrichment activities 
+  designed to foster creativity, and community engagement.
 info_cards:
   # Card 1
   - info_card_img: "/assets/img/funko.avif"

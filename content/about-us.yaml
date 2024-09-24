@@ -24,8 +24,8 @@ info_card_grid_col_num: 4
 info_card_md_grid_col_num: 2
 info_card_title: "WHAT WE DO"
 info_card_subtitle: >-
-  The Ed Asner Family Center offers a wide range of programs, including camps, job training, mental health counseling, and enrichment activities designed to foster 
-  self-confidence and balance. Our goal is to create a supportive community that empowers individuals and families to thrive.
+  The Ed Asner Family Center offers a wide range of programs, including camp, job training, mental health counseling, and enrichment activities 
+  designed to foster creativity, and community engagement.
 info_cards:
   # Card 1
   - info_card_img: "/assets/img/funko.avif"
@@ -74,18 +74,17 @@ accordions:
     accordion_subtitle: ""
     accordion_paragraph: >-
       We are dedicated to fostering an inclusive environment where individuals of all abilities and backgrounds can thrive.
-      Our programs are designed to be accessible and welcoming, celebrating community diversity and ensuring equal opportunities
-      for all. Additionally, we take pride in hiring autistic individuals, creating a space where our programs
+      We take pride in hiring autistic individuals, creating a space where our programs are both 
+      co-created and co-taught by members of the autistic community.
     accordion_cta: null
     accordion_link_key: ""
   - accordion_title: "Family"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      We believe in the power of family as a cornerstone of support and growth. Our center was established by our own family to 
-      create a safe and welcoming space for neurodivergent individuals and their families to thrive and to feel a sense of home 
-      and togetherness. We value the unique dynamics of each family unit, recognizing that a nurturing, inclusive, and supportive 
-      environment is essential for the well-being and development of individuals with autism. We strive to create a collaborative 
-      community where families feel empowered, understood, and supported.
+      We believe in the power of family as a cornerstone of support and growth. Our center was established for neurodivergent families like ours to 
+      have a safe and welcoming space where everyone can thrive. We value the unique dynamics of each family unit, recognizing that a nurturing and supportive 
+      environment is essential for the well-being of individuals with autism. We strive to create a collaborative community where families feel 
+      empowered, understood, and supported.
     accordion_cta: null
     accordion_link_key: ""
   - accordion_title: "Hope"
