@@ -15,7 +15,7 @@ feature_section_cta_feature1_title: "🎨 Creative Workshops."
 feature_section_cta_feature1_description: "Engage in art, music, and drama classes that inspire self-expression and boost confidence."
 feature_section_cta_feature2_title: "🛠️ Life Skills Development."
 feature_section_cta_feature2_description: "Gain practical skills for daily living, fostering independence and personal growth."
-feature_section_cta_btn: "Contact us to enroll"
+feature_section_cta_btn: "Contact Us To Enroll"
 feature_section_cta_btn_link_key: contact_url
 feature_section_cta_img: /assets/img/funko.avif
 feature_section_cta_img_alt: ""
@@ -153,7 +153,7 @@ cta_img_alt_tag: ""
 cta_title: "Join the academy"
 cta_subtitle: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
-cta_btn_txt: "Enroll Now"
+cta_btn_txt: "Contact Us To Enroll"
 cta_btn_link_key: "contact_url"
 
 # IMG Gallery

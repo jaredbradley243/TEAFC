@@ -14,7 +14,8 @@ feature_section_cta_feature1_title: "😎 New Friends"
 feature_section_cta_feature1_description: "Meet new people and make new friends during CampED!"
 feature_section_cta_feature2_title: "🌴 Field Trips"
 feature_section_cta_feature2_description: "Join us for Malibu beach days, visits to Aquarium of the Pacific, and more!"
-feature_section_cta_btn: "Enroll"
+feature_section_cta_btn: "Contact Us To Enroll"
+feature_section_cta_btn_link_key: contact_url
 feature_section_cta_img: /assets/img/funko.avif
 feature_section_cta_img_alt: ""
 
@@ -147,7 +148,7 @@ cta_img: "/assets/img/donate.avif"
 cta_title: "Join CampED"
 cta_subtitle: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
-cta_btn_txt: "Enroll Now"
+cta_btn_txt: "Contact Us To Enroll"
 cta_btn_link_key: "contact_url"
 
 # IMG Gallery

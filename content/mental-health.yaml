@@ -30,7 +30,7 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "contact_url"
   # Card 2
   - info_card_img: "/assets/img/camp2.avif"
     info_card_title: "1-on-1 Therapy"
@@ -39,7 +39,7 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "contact_url"
   # Card 3
   - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Caregiver Therapy"
@@ -48,7 +48,7 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "contact_url"
   # Card 4
   - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Art Sibling Group Therapy"
@@ -57,7 +57,7 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "contact_url"
   # Card 5
   - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Relationship Coaching"
@@ -66,7 +66,7 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "contact_url"
   # Card 6
   - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Life Coaching"
@@ -75,7 +75,7 @@ info_cards:
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
       Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "contact_url"
 
 # INSURANCE SECTION
 insurance_top_divider: true
@@ -113,42 +113,42 @@ accordion_subheading: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
-  - accordion_title: "Accordion 1"
+  - accordion_title: "FAQ 1"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 2"
+  - accordion_title: "FAQ 2"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 3"
+  - accordion_title: "FAQ 3"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 4"
+  - accordion_title: "FAQ 4"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 5"
+  - accordion_title: "FAQ 5"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 6"
+  - accordion_title: "FAQ 6"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 7"
+  - accordion_title: "FAQ 7"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
 
-  - accordion_title: "Accordion 8"
+  - accordion_title: "FAQ 8"
     accordion_subtitle: "subheading"
     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     accordion_cta: "Contact Us"
