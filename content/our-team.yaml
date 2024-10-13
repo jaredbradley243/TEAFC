@@ -12,32 +12,32 @@ bod_subheading: >-
   Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 board_members:
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Ed Asner"
     team_member_position: "Founder"
     team_member_description: "Ed Asner is the founder of The Ed Asner Family Center, a place dedicated to helping neurodivergent individuals and their families."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Navah Paskowitz-Asner"
     team_member_position: "Co-Founder"
     team_member_description: "Navah Paskowitz-Asner is the co-founder of The Ed Asner Family Center and has been instrumental in creating inclusive programs for the center."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Matt Asner"
     team_member_position: "President"
     team_member_description: "Matt Asner serves as the President of The Ed Asner Family Center, overseeing the center's operations and strategic direction."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Tom Bergeron"
     team_member_position: "Board Member"
     team_member_description: "Tom Bergeron is a board member at The Ed Asner Family Center, contributing his expertise in media and entertainment."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Rosie O'Donnell"
     team_member_position: "Board Member"
     team_member_description: "Rosie O'Donnell is a board member at The Ed Asner Family Center, known for her advocacy and support for various social causes."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Mark Hamill"
     team_member_position: "Board Member"
     team_member_description: "Mark Hamill is a board member at The Ed Asner Family Center, bringing his passion for supporting neurodivergent individuals to the board."
@@ -49,32 +49,32 @@ advisory_board_subheading: >-
   Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 advisory_board:
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "John Doe"
     team_member_position: "Senior Software Engineer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Jane Smith"
     team_member_position: "Frontend Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Alice Johnson"
     team_member_position: "Backend Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Bob Brown"
     team_member_position: "DevOps Engineer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Charlie Davis"
     team_member_position: "UI/UX Designer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Eve Wilson"
     team_member_position: "Full Stack Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
@@ -86,32 +86,32 @@ staff_subheading: >-
   Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 staff_members:
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "John Doe"
     team_member_position: "Senior Software Engineer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Jane Smith"
     team_member_position: "Frontend Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Alice Johnson"
     team_member_position: "Backend Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Bob Brown"
     team_member_position: "DevOps Engineer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Charlie Davis"
     team_member_position: "UI/UX Designer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Eve Wilson"
     team_member_position: "Full Stack Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
@@ -123,32 +123,32 @@ specialist_subheading: >-
   Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 specialists:
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Dr. Emily Parker"
     team_member_position: "Child Psychologist"
     team_member_description: "Dr. Emily Parker specializes in child psychology and works with children and families to support their mental health and development."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Michael Thompson"
     team_member_position: "Speech Therapist"
     team_member_description: "Michael Thompson is a speech therapist with extensive experience in helping children improve their communication skills."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Sarah Johnson"
     team_member_position: "Occupational Therapist"
     team_member_description: "Sarah Johnson provides occupational therapy services to assist children in developing essential life skills."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "David Martinez"
     team_member_position: "Behavioral Therapist"
     team_member_description: "David Martinez is a behavioral therapist who focuses on developing personalized strategies to address behavioral challenges."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Laura Williams"
     team_member_position: "Educational Specialist"
     team_member_description: "Laura Williams supports children’s learning needs through tailored educational programs and interventions."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "James Brown"
     team_member_position: "Clinical Social Worker"
     team_member_description: "James Brown is a clinical social worker dedicated to providing emotional and social support to families and individuals."
@@ -160,32 +160,32 @@ mental_health_staff_subheading: >-
   Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 mental_health_staff:
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "John Doe"
     team_member_position: "Senior Software Engineer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Jane Smith"
     team_member_position: "Frontend Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Alice Johnson"
     team_member_position: "Backend Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Bob Brown"
     team_member_position: "DevOps Engineer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Charlie Davis"
     team_member_position: "UI/UX Designer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
 
-  - team_member_img: "/assets/img/atticus.avif"
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Eve Wilson"
     team_member_position: "Full Stack Developer"
     team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
