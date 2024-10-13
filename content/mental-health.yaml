@@ -159,25 +159,25 @@ specialists_subtitle: >-
   We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
 specialists:
   - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "John Doe"
-    specialist_position: "Senior Software Engineer"
+    specialist_name: "Chrisa Sadd"
+    specialist_position: "Director of Mental Health <br> Licensed Marriage and Family Therapist (LMFT)"
 
   - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "Jane Smith"
-    specialist_position: "Frontend Developer"
+    specialist_name: "Michelle Tapia"
+    specialist_position: "Licensed Marriage and Family Therapist (LMFT)"
 
   - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "Alice Johnson"
-    specialist_position: "Backend Developer"
+    specialist_name: "Desiree Gonzalez"
+    specialist_position: "Licensed Marriage and Family Therapist (LMFT)"
 
   - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "Bob Brown"
-    specialist_position: "DevOps Engineer"
+    specialist_name: "Kathy Khorramian"
+    specialist_position: "Licensed Marriage and Family Therapist (LMFT)"
 
   - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "Charlie Davis"
-    specialist_position: "UI/UX Designer"
+    specialist_name: "Meaghan Sanders"
+    specialist_position: "Associate Marriage and Family Therapist (AMFT)"
 
   - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "Eve Wilson"
-    specialist_position: "Full Stack Developer"
+    specialist_name: "Blanca Areas"
+    specialist_position: "Life Coach"
