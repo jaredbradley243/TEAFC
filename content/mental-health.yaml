@@ -27,17 +27,22 @@ info_cards:
     info_card_title: "Family therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+      This program is designed to help all family members, including grandparents or caregivers. The family will learn how to comfortably express their feelings, 
+      find better ways to communicate with each other, to solve problems effectively, identify and understand neurodivergence and to better address struggles in the 
+      home, school, workplace or out in the community.  While defining clear goals and ways to support those goals, clinicians work closely with all family members. 
+      Sessions are focused on teaching the skills necessary to encourage the family as a whole to be better communicators and focus on a healthier way of living and
+      a higher quality of life for the entire family.
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
   # Card 2
   - info_card_img: "/assets/img/camp2.avif"
-    info_card_title: "1-on-1 Therapy"
+    info_card_title: "Individual Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+      We offer one on one individual therapy for all people. This includes neurodivergent individuals, neurotypicals, LGBTQIA+ or anyone that wishes to change their life 
+      and explore solutions. The client will learn how to comfortably express their feelings, find better ways to communicate, solve problems effectively, identify and 
+      understand struggles at home, school, workplace or out in the community. The therapist will help to define clear goals and find ways to support the individual. 
+      Sessions are focused on teaching the skills necessary to encourage better communication and focus on a healthier way of living.
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
   # Card 3
@@ -45,17 +50,21 @@ info_cards:
     info_card_title: "Caregiver Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+      Focus is placed on supporting the caregiver. Caregivers often feel overwhelmed, overextended, or alone. Oftentimes this is a step parent, grandparent, aunt, uncle or 
+      extended family member who is unsure how to handle the intense behaviors, sensory difficulties or emotional issues that accompany caring for a neurodivergent child or adult. 
+      The caregiver is supported during private one-on-one counseling sessions. By getting the support you need, depression or anxiety can be reduced and replaced by understanding 
+      and self-care.
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
   # Card 4
   - info_card_img: "/assets/img/mental-health.avif"
-    info_card_title: "Art Sibling Group Therapy"
+    info_card_title: "Sibling Art Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+      We are taking a unique approach in working with siblings through a creative avenue. Sessions are run by a therapist along with one of our art teachers. This program offers 
+      support for the sibling of a neurodivergent child/adult.  Often the sibling wonders why everything is focused on their brother or sister and not on them. They might feel 
+      that they don't get enough time to do the things they want to do. Siblings may feel guilt or anger towards their brother or sister for always being the center of the 
+      parent's attention. The participant will be able to express feelings through games and activities.
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
   # Card 5
@@ -63,8 +72,21 @@ info_cards:
     info_card_title: "Relationship Coaching"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
+      This service is offered for neurodivergent and neurotypical individuals that are 18+ who are currently dating or in a relationship.
+      A dating/relationship coach will help the client: 
+      Assess areas of need and set reasonable goals
+      Identify and get clarity on components of their ideal relationship
+      Identify values that are important in their relationships
+      Help the client reflect on dating experiences for learning and growth
+      Offer feedback and support
+      Help the client move past blocks that are in the way of achieving their goals
+      Identify negative thoughts, internal voice, intuition and body language
+
+      A dating/relationship coach will not:
+      Tell a client who to date or find dates for the client
+      Make decisions for the client on actions and relationship elements
+      Impose their idea of a relationship on the client
+
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
   # Card 6
