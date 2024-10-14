@@ -7,14 +7,18 @@ description: >-
   program fosters growth and development in a supportive environment.
 permalink: "{{ navigation.academy_url }}"
 # HERO/Feature Section CTA
-feature_section_cta_heading: "Empower Your Journey."
+feature_section_cta_heading: "The Academy"
 feature_section_cta_subheading: >-
-  Join a supportive and inclusive community where adults with special needs can thrive through creative
-  expression, skill-building, and meaningful connections.
-feature_section_cta_feature1_title: "🎨 Creative Workshops."
-feature_section_cta_feature1_description: "Engage in art, music, and drama classes that inspire self-expression and boost confidence."
-feature_section_cta_feature2_title: "🛠️ Life Skills Development."
-feature_section_cta_feature2_description: "Gain practical skills for daily living, fostering independence and personal growth."
+  Founded by Navah Paskowitz-Asner, The Academy is a full-day program designed for special needs adults aged 18 and up with minimal support needs. 
+  A unique environment where participants can explore a variety of expressive art forms, including art, cooking, voice over, music, animation and digital media. 
+  This vibrant small class setting helps them discover their artistic talents and gain hands-on experience. Most importantly,The Academy takes a comprehensive 
+  approach to job skills, focusing on real world life skills , resume prep ,interview training, Money management. This semester, we're excited to partner with 
+  Funko Hollywood, offering our participants valuable real world job experiences and mentorship opportunities in the community.
+
+feature_section_cta_feature1_title: ""
+feature_section_cta_feature1_description: ""
+feature_section_cta_feature2_title: ""
+feature_section_cta_feature2_description: ""
 feature_section_cta_btn: "Contact Us To Enroll"
 feature_section_cta_btn_link_key: contact_url
 feature_section_cta_img: /assets/img/funko.avif
@@ -55,62 +59,59 @@ info_card_container_width: "sm"
 info_card_grid_col_num: 3
 info_card_md_grid_col_num: 2
 info_card_title: "ACADEMY CLASSES"
-info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+info_card_subtitle: "ARTS. MEDIA. LIFE"
 info_cards:
   # Card 1
   - info_card_img: "/assets/img/funko.avif"
-    info_card_title: "Job Training @ Funko Museum"
+    info_card_title: "Expressive Arts Electives"
     info_card_date_time: ""
     info_card_paragraph: >-
-      Access mental health services at The Ed Asner Family Center, including individual therapy, 
-      family therapy, support groups, and workshops.
+      Music, Art, Poetry, Improve, and Voice-Over
     info_card_btn_txt: null
     link_key: "mental_health_url"
   # Card 2
   - info_card_img: "/assets/img/funko.avif"
-    info_card_title: "Animation"
+    info_card_title: "Life Skills"
     info_card_date_time: ""
     info_card_paragraph: >-
-      Join our inclusive academy at The Ed Asner Family Center, combining job training, 
-      adaptive skills, and expressive arts for neurodivergent individuals.
+      Cooking, Money Management, Physical Fitness and Adaptive Skills
     info_card_btn_txt: null
     link_key: "about_us_url"
   # Card 3
   - info_card_img: "/assets/img/volunteer.avif"
-    info_card_title: "Computers"
+    info_card_title: "Job Training Skills"
     info_card_date_time: ""
     info_card_paragraph: >-
-      Join our inclusive summer camp at The Ed Asner Family Center, 
-      combining expressive arts and fun for for the whole family.
+      Interview Preparedness, Resume Building, Community
     info_card_btn_txt: null
     link_key: ""
-  # Card 4
-  - info_card_img: "/assets/img/camp2.avif"
-    info_card_title: "Improv"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      Discover our enrichment programs at The Ed Asner Family Center, including CampED, Dance, Art, 
-      Robotics, and more!
-    info_card_btn_txt: null
-    link_key: "enrichments_url"
-  # Card 5
-  - info_card_img: "/assets/img/mental-health.avif"
-    info_card_title: "Voice Acting"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      Access mental health services at The Ed Asner Family Center, including individual therapy, 
-      family therapy, support groups, and workshops.
-    info_card_btn_txt: null
-    link_key: "mental_health_url"
-  # Card 6
-  - info_card_img: "/assets/img/mental-health.avif"
-    info_card_title: "Zooz Fitness"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      Access mental health services at The Ed Asner Family Center, including individual therapy, 
-      family therapy, support groups, and workshops.
-    info_card_btn_txt: null
-    link_key: "mental_health_url"
+  # # Card 4
+  # - info_card_img: "/assets/img/camp2.avif"
+  #   info_card_title: "Improv"
+  #   info_card_date_time: ""
+  #   info_card_paragraph: >-
+  #     Discover our enrichment programs at The Ed Asner Family Center, including CampED, Dance, Art,
+  #     Robotics, and more!
+  #   info_card_btn_txt: null
+  #   link_key: "enrichments_url"
+  # # Card 5
+  # - info_card_img: "/assets/img/mental-health.avif"
+  #   info_card_title: "Voice Acting"
+  #   info_card_date_time: ""
+  #   info_card_paragraph: >-
+  #     Access mental health services at The Ed Asner Family Center, including individual therapy,
+  #     family therapy, support groups, and workshops.
+  #   info_card_btn_txt: null
+  #   link_key: "mental_health_url"
+  # # Card 6
+  # - info_card_img: "/assets/img/mental-health.avif"
+  #   info_card_title: "Zooz Fitness"
+  #   info_card_date_time: ""
+  #   info_card_paragraph: >-
+  #     Access mental health services at The Ed Asner Family Center, including individual therapy,
+  #     family therapy, support groups, and workshops.
+  #   info_card_btn_txt: null
+  #   link_key: "mental_health_url"
 
 # FAQ
 accordion_grid_col_num: 2

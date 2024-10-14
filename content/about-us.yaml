@@ -9,7 +9,12 @@ description: >-
 
 # HERO
 hero_heading: "WHO WE ARE"
-hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
+hero_subheading: >-
+  The Ed Asner Family Center (TEAFC) serves as a comprehensive resource for individuals with special needs and their families. 
+  Co-founded by Navah Paskowitz-Asner and Matthew Asner, inspired by their six children—three of whom are autistic—the Center operates
+   as a nonprofit organization. Its mission is to foster acceptance and enrichment for those striving for wholeness in all aspects of life. 
+   Through a diverse range of mental health services and innovative, interactive programs, the Center proudly employs autistic self-advocates 
+   as camp counselors, educators, and assistants.
 hero_btn: "Learn More"
 hero_img: /assets/img/who-we-are2.avif
 # display_btn is a boolean
