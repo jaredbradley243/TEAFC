@@ -19,7 +19,7 @@ feature_section_cta_feature2_title: "Discover the exciting opportunities awaitin
 feature_section_cta_feature2_description: ""
 feature_section_cta_btn: "Contact Us To Enroll"
 feature_section_cta_btn_link_key: contact_url
-feature_section_cta_img: /assets/img/funko.avif
+feature_section_cta_img: /assets/img/CampEd.avif
 feature_section_cta_img_alt: ""
 
 # CAMPED ACTIVITIES
@@ -57,7 +57,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: "mental_health_url"
   # Card 4
-  - info_card_img: "/assets/img/funko.avif"
+  - info_card_img: "/assets/img/Computers.avif"
     info_card_title: "Computer Class"
     info_card_date_time: ""
     info_card_paragraph: >-
