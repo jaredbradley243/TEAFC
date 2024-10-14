@@ -80,7 +80,7 @@ info_cards:
     link_key: "contact_url"
 
   # Card 4
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/social-club.jpg"
     info_card_title: "Social Club"
     info_card_date_time: "Saturday & Sunday"
     info_card_paragraph: >-
