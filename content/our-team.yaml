@@ -10,40 +10,45 @@ bod_heading: "OUR BOARD OF DIRECTORS"
 bod_subheading: >-
 
 board_members:
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/matt-asner.avif"
     team_member_name: "Matt Asner"
     team_member_position: "President"
-    team_member_description: "Matt Asner is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+    team_member_description: ""
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/navah_real.avif"
     team_member_name: "Navah Paskowitz-Asner"
     team_member_position: "Co-Founder"
-    team_member_description: "Navah Paskowitz-Asner is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+    team_member_description: ""
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/renee-frigo.avif"
     team_member_name: "Renee Frigo"
     team_member_position: "Board Member"
-    team_member_description: "Renee Frigo is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+    team_member_description: ""
+
+  - team_member_img: "/assets/img/carolyn-darnell.avif"
+    team_member_name: "Carolyn Darnell"
+    team_member_position: "Board Member"
+    team_member_description: ""
+
+  - team_member_img: "/assets/img/barry-greenberg.avif"
+    team_member_name: "Barry Greenberg"
+    team_member_position: "Board Member"
+    team_member_description: ""
+
+  - team_member_img: "/assets/img/amy-yee.avif"
+    team_member_name: "Amy Yee"
+    team_member_position: "Board Member"
+    team_member_description: ""
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Tom McAndrew"
     team_member_position: "Board Member"
-    team_member_description: "Tom McAndrew is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Chris Halon"
-    team_member_position: "Board Member"
-    team_member_description: "Chris Halon is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+    team_member_description: ""
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Jill Harte"
     team_member_position: "Board Member"
-    team_member_description: "Jill Harte is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Carolyn Darnell"
-    team_member_position: "Board Member"
-    team_member_description: "Carolyn Darnell is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+    team_member_description: ""
 
 # ADVISORY BOARD
 advisory_board_heading: "OUR ADVISORY BOARD"
@@ -52,12 +57,17 @@ advisory_board_subheading: >-
 advisory_board:
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Ron Burkhardt"
-    team_member_position: ""
+    team_member_position: "Advisory Board Member"
     team_member_description: ""
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Daniele Salusky"
-    team_member_position: ""
+    team_member_position: "Advisory Board Member"
+    team_member_description: ""
+
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+    team_member_name: "Chris Halon"
+    team_member_position: "Advisory Board Member"
     team_member_description: ""
 
 # STAFF MEMBERS
@@ -107,14 +117,14 @@ staff_members:
       craft their own stories.<br>
       <b>Jacqi's Dining Pick</b>: Fabrocchinis in Tarzana is a nice local spot for the best endless garlic focaccia
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Jared Bradley"
-    team_member_position: "Computer Specialist/IT"
-    team_member_description: >-
-      With a passion for technology and a Bachelor's degree in Electrical Engineering, Jared focuses on making technology accessible and engaging for our participants. 
-      Emphasizing creativity and individuality, Jared aids students in becoming proficient with digital tools, enabling them to confidently navigate and create in the 
-      digital world.<br>
-      <b>Jared's Dining Pick</b>: More than Waffles, the best place to satisfy his permanent sweet tooth with their signature Oreo waffle topped with vanilla ice cream and chocolate syrup.
+  # - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  #   team_member_name: "Jared Bradley"
+  #   team_member_position: "Computer Specialist/IT"
+  #   team_member_description: >-
+  #     With a passion for technology and a Bachelor's degree in Electrical Engineering, Jared focuses on making technology accessible and engaging for our participants.
+  #     Emphasizing creativity and individuality, Jared aids students in becoming proficient with digital tools, enabling them to confidently navigate and create in the
+  #     digital world.<br>
+  #     <b>Jared's Dining Pick</b>: More than Waffles, the best place to satisfy his permanent sweet tooth with their signature Oreo waffle topped with vanilla ice cream and chocolate syrup.
 
 # MENTAL HEALTH SPECIALISTS
 mental_health_staff_heading: "OUR MENTAL HEALTH STAFF"

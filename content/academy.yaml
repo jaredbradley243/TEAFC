@@ -118,8 +118,6 @@ accordion_grid_col_num: 2
 accordion_mobile_grid_col_num: 1
 accordion_heading: "FREQUENTLY ASKED QUESTIONS"
 accordion_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
   - accordion_title: "Who is eligible for the academy?"
     accordion_subtitle: ""
@@ -149,11 +147,11 @@ accordions:
     accordion_cta: null
 
 # CTA Banner
-cta_img: "/assets/img/donate.avif"
+cta_img: "/assets/img/join-academy_real.avif"
 cta_img_alt_tag: ""
-cta_title: "Join the academy"
+cta_title: "Join The Academy"
 cta_subtitle: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
+  Join our groundbreaking arts based job training full day adult program "The Academy".
 cta_btn_txt: "Contact Us To Enroll"
 cta_btn_link_key: "contact_url"
 

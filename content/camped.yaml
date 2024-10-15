@@ -27,7 +27,7 @@ info_card_container_width: "sm"
 info_card_grid_col_num: 3
 info_card_md_grid_col_num: 2
 info_card_title: "CampED Activities"
-info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+info_card_subtitle: ""
 info_cards:
   # Card 2
   - info_card_img: "/assets/img/wildlifecenter.avif"
@@ -121,8 +121,6 @@ accordion_grid_col_num: 2
 accordion_mobile_grid_col_num: 1
 accordion_heading: "FREQUENTLY ASKED QUESTIONS"
 accordion_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 accordions:
   - accordion_title: "Who is eligible for the CampED?"
     accordion_subtitle: ""
@@ -152,10 +150,10 @@ accordions:
     accordion_cta: null
 
 # CTA Banner
-cta_img: "/assets/img/donate.avif"
+cta_img: "/assets/img/camped-join_real.avif"
 cta_title: "Join CampED"
 cta_subtitle: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum tincidunt duis.
+  Camp Ed is an expressive arts all abilities camp that includes art, music, improv, voice over, and beach trips!
 cta_btn_txt: "Contact Us To Enroll"
 cta_btn_link_key: "contact_url"
 
