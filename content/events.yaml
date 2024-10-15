@@ -3,22 +3,6 @@ title: Events for Neurodivergent Community | The Ed Asner Family Center
 description: >-
   Discover upcoming events at The Ed Asner Family Center. Our events are designed to engage, 
   educate, and support neurodivergent individuals, fostering a sense of community and inclusion.
-events:
-  - event_date: "03/02"
-    event_title: "Poker for Ed"
-    event_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
-    event_location: "16340 Roscoe Boulevard Van Nuys, CA 91406"
-    event_img: "/assets/img/volunteer2.avif"
-  - event_date: "03/15"
-    event_title: "Fundraiser Gala"
-    event_paragraph: "Fundraiser Gala description here."
-    event_location: "123 Main Street, Anytown, USA"
-    event_img: "/assets/img/volunteer2.avif"
-  - event_date: "04/05"
-    event_title: "Community BBQ"
-    event_paragraph: "Community BBQ description here."
-    event_location: "456 Oak Street, Anytown, USA"
-    event_img: "/assets/img/volunteer2.avif"
 
 # EVENTS
 event_cards_heading: "UPCOMING EVENTS"
@@ -28,10 +12,7 @@ event_cards:
   - event_card_img: "/assets/img/poker2.avif"
     event_card_title: "Ed Asner & Friends Celebrity Poker Night"
     event_card_paragraph: "Join us at Radford Studios for an unforgettable evening of poker, celebrities, and charity!"
-    event_card_hidden_text: >-
-      Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-      fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing
-      egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
+    event_card_hidden_text: null
     event_card_detail_header1: "Date"
     event_card_detail1: "06/15/2024"
     event_card_detail_header2: "Time"

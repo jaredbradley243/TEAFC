@@ -6,11 +6,11 @@ card_1_title: "Volunteer"
 card_1_desc: >-
   Join us today to help make a difference in the lives of special needs individuals and their families.
 
-card_2_img: assets/img/donate.avif
+card_2_img: assets/img/donate2_real.avif
 card_2_title: "Donate"
 card_2_desc: "Make a donation today and help create a positive impact!"
 
-card_1_btn_txt: "Volunteer"
+card_1_btn_txt: "Contact Us"
 card_1_btn_link_key: "contact_url"
 card_1_btn_aria_label: "Link to contact page."
 

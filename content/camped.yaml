@@ -13,13 +13,13 @@ feature_section_cta_subheading: >-
   Led by Avivah, our Art Director, and Judy, our Music Therapist, each activity—whether it's expressive arts or outdoor adventures—is 
   thoughtfully designed to match the abilities and interests of each individual. Our goal is to inspire personal growth, build self-confidence, 
   and create meaningful connections, all while making sure every camper has a truly memorable experience. Join us for a summer of fun, learning, and community!
-feature_section_cta_feature1_title: "Adventure Awaits at CamEd"
+feature_section_cta_feature1_title: "Adventure Awaits at CampEd!"
 feature_section_cta_feature1_description: ""
-feature_section_cta_feature2_title: "Discover the exciting opportunities awaiting at CampED! Visit our camp classes page to explore a variety of fun, inclusive programs designed to inspire and engage participants of all abilities."
+feature_section_cta_feature2_title: "Discover the exciting opportunities awaiting at CampED! View our camp activities below to explore a variety of fun, inclusive programs designed to inspire and engage participants of all abilities."
 feature_section_cta_feature2_description: ""
 feature_section_cta_btn: "Contact Us To Enroll"
 feature_section_cta_btn_link_key: contact_url
-feature_section_cta_img: /assets/img/CampEd.avif
+feature_section_cta_img: /assets/img/camped_real.avif
 feature_section_cta_img_alt: ""
 
 # CAMPED ACTIVITIES
@@ -29,15 +29,6 @@ info_card_md_grid_col_num: 2
 info_card_title: "CampED Activities"
 info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
 info_cards:
-  # Card 1
-  - info_card_img: "/assets/img/mental-health.avif"
-    info_card_title: "Discovery Cube"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      Our Discovery Cube Trip offers CampED participants an exciting, hands-on exploration of science, technology, and the environment through interactive exhibits. 
-      This engaging adventure sparks curiosity, fosters teamwork, and creates lasting memories as campers discover new passions in a fun and educational setting.
-    info_card_btn_txt: null
-    link_key: "mental_health_url"
   # Card 2
   - info_card_img: "/assets/img/wildlifecenter.avif"
     info_card_title: "Wildlife Learning Center"
@@ -45,6 +36,45 @@ info_cards:
     info_card_paragraph: >-
       Our Wildlife Learning Center Trip gives CampED participants the chance to connect with nature and wildlife through close-up encounters with a variety of animals. 
       This unique experience fosters a love for the natural world while providing fun, hands-on learning in a safe, supportive environment.
+    info_card_btn_txt: null
+    link_key: "mental_health_url"
+  # Card 4
+  - info_card_img: "/assets/img/computers_real.avif"
+    info_card_title: "Computer Class"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      In Computer Class, CampED participants dive into the world of technology, learning essential skills like coding, digital art, and online safety. 
+      Taught authentically from a neurodivergent team of teachers! This hands-on experience helps campers build confidence and creativity while mastering 
+      important tools for the digital age.
+    info_card_btn_txt: null
+    link_key: "mental_health_url"
+  # Card 6
+  - info_card_img: "/assets/img/improv_real.avif"
+    info_card_title: "Improv Class"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Taught by the renowned students of Aretha Sills, our Improv Class ignites creativity and confidence as campers explore self-expression through engaging, 
+      spontaneous theater games. With a focus on collaboration and quick thinking, participants enhance communication skills, boost self-esteem, and revel in 
+      the joy of making each other laugh in a positive, supportive environment.
+    info_card_btn_txt: null
+    link_key: ""
+  # Card 7
+  - info_card_img: "/assets/img/mental-health.avif"
+    info_card_title: "Art Class"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      In our Art Class, Art Director and CampED Co-Director Avivah Asner crafts a curriculum that empowers campers to unleash their creativity through diverse, hands-on projects.
+      By exploring mediums like painting, drawing, and sculpting, participants are guided by skilled instructors to express themselves artistically, build confidence, and 
+      discover their unique talents in a fun and supportive environment.
+    info_card_btn_txt: null
+    link_key: "enrichments_url"
+  # Card 1
+  - info_card_img: "/assets/img/mental-health.avif"
+    info_card_title: "Discovery Cube"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+      Our Discovery Cube Trip offers CampED participants an exciting, hands-on exploration of science, technology, and the environment through interactive exhibits. 
+      This engaging adventure sparks curiosity, fosters teamwork, and creates lasting memories as campers discover new passions in a fun and educational setting.
     info_card_btn_txt: null
     link_key: "mental_health_url"
     # Card 3
@@ -56,18 +86,8 @@ info_cards:
       These outings provide a perfect mix of adventure and relaxation, promoting social connections and outdoor fun in a beautiful, natural setting.
     info_card_btn_txt: null
     link_key: "mental_health_url"
-  # Card 4
-  - info_card_img: "/assets/img/Computers.avif"
-    info_card_title: "Computer Class"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      In Computer Class, CampED participants dive into the world of technology, learning essential skills like coding, digital art, and online safety. 
-      Taught authentically from a neurodivergent team of teachers! This hands-on experience helps campers build confidence and creativity while mastering 
-      important tools for the digital age.
-    info_card_btn_txt: null
-    link_key: "mental_health_url"
   # Card 5
-  - info_card_img: "/assets/img/funko.avif"
+  - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Friendship Builders"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -76,26 +96,6 @@ info_cards:
       strengths of each participant.
     info_card_btn_txt: null
     link_key: "about_us_url"
-  # Card 6
-  - info_card_img: "/assets/img/volunteer.avif"
-    info_card_title: "Improv Class"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      Taught by the renowned students of Aretha Sills, our Improv Class ignites creativity and confidence as campers explore self-expression through engaging, 
-      spontaneous theater games. With a focus on collaboration and quick thinking, participants enhance communication skills, boost self-esteem, and revel in 
-      the joy of making each other laugh in a positive, supportive environment.
-    info_card_btn_txt: null
-    link_key: ""
-  # Card 7
-  - info_card_img: "/assets/img/camp2.avif"
-    info_card_title: "Art Class"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-      In our Art Class, Art Director and CampED Co-Director Avivah Asner crafts a curriculum that empowers campers to unleash their creativity through diverse, hands-on projects.
-      By exploring mediums like painting, drawing, and sculpting, participants are guided by skilled instructors to express themselves artistically, build confidence, and 
-      discover their unique talents in a fun and supportive environment.
-    info_card_btn_txt: null
-    link_key: "enrichments_url"
   # Card 8
   - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Music Class"

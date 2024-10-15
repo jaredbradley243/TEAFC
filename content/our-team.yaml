@@ -8,184 +8,148 @@ description: >-
 # BOARD OF DIRECTORS
 bod_heading: "OUR BOARD OF DIRECTORS"
 bod_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 board_members:
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Ed Asner"
-    team_member_position: "Founder"
-    team_member_description: "Ed Asner is the founder of The Ed Asner Family Center, a place dedicated to helping neurodivergent individuals and their families."
+    team_member_name: "Matt Asner"
+    team_member_position: "President"
+    team_member_description: "Matt Asner is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Navah Paskowitz-Asner"
     team_member_position: "Co-Founder"
-    team_member_description: "Navah Paskowitz-Asner is the co-founder of The Ed Asner Family Center and has been instrumental in creating inclusive programs for the center."
+    team_member_description: "Navah Paskowitz-Asner is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Matt Asner"
-    team_member_position: "President"
-    team_member_description: "Matt Asner serves as the President of The Ed Asner Family Center, overseeing the center's operations and strategic direction."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Tom Bergeron"
+    team_member_name: "Renee Frigo"
     team_member_position: "Board Member"
-    team_member_description: "Tom Bergeron is a board member at The Ed Asner Family Center, contributing his expertise in media and entertainment."
+    team_member_description: "Renee Frigo is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Rosie O'Donnell"
+    team_member_name: "Tom McAndrew"
     team_member_position: "Board Member"
-    team_member_description: "Rosie O'Donnell is a board member at The Ed Asner Family Center, known for her advocacy and support for various social causes."
+    team_member_description: "Tom McAndrew is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Mark Hamill"
+    team_member_name: "Chris Halon"
     team_member_position: "Board Member"
-    team_member_description: "Mark Hamill is a board member at The Ed Asner Family Center, bringing his passion for supporting neurodivergent individuals to the board."
+    team_member_description: "Chris Halon is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+    team_member_name: "Jill Harte"
+    team_member_position: "Board Member"
+    team_member_description: "Jill Harte is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
+
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+    team_member_name: "Carolyn Darnell"
+    team_member_position: "Board Member"
+    team_member_description: "Carolyn Darnell is a board member at The Ed Asner Family Center, bringing their passion for supporting neurodivergent individuals to the board."
 
 # ADVISORY BOARD
 advisory_board_heading: "OUR ADVISORY BOARD"
 advisory_board_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 advisory_board:
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "John Doe"
-    team_member_position: "Senior Software Engineer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Ron Burkhardt"
+    team_member_position: ""
+    team_member_description: ""
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Jane Smith"
-    team_member_position: "Frontend Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Alice Johnson"
-    team_member_position: "Backend Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Bob Brown"
-    team_member_position: "DevOps Engineer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Charlie Davis"
-    team_member_position: "UI/UX Designer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Eve Wilson"
-    team_member_position: "Full Stack Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Daniele Salusky"
+    team_member_position: ""
+    team_member_description: ""
 
 # STAFF MEMBERS
 staff_heading: "OUR STAFF"
 staff_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 staff_members:
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "John Doe"
-    team_member_position: "Senior Software Engineer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Avivah Paskowitz-Asner"
+    team_member_position: "Programs Director"
+    team_member_description: >-
+      In Avivah, we find a rare blend of humor, empathy, and skill, making our programs not just educational but truly life-enhancing. Her background in preschool education 
+      and art, coupled with a personal connection to autism, provides a foundation for leadership that inspires the team everyday. <br>
+      <b>Avivah's Dining Pick</b>: Seoul Tofu House, chosen for its inviting atmosphere and exquisite flavors that bring people together.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Jane Smith"
-    team_member_position: "Frontend Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Peter Arenas"
+    team_member_position: "Head of Support Staff"
+    team_member_description: >-
+      With a heart as big as his dedication, Peter is the cornerstone of our support staff. Drawing from his personal journey alongside his brother with Down syndrome, 
+      he brings empathy, understanding, and a knack for making everyone feel at home. Peter and his team ensure the center is a place where every participant feels 
+      empowered and supported.<br>
+      <b>Peter's Dining Pick</b>: Rick's Drive-In, for the best breakfast in Los Angeles
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Alice Johnson"
-    team_member_position: "Backend Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Luisa Romero"
+    team_member_position: "Operations Manager"
+    team_member_description: >-
+      Luisa streamlines our center's operations, optimizing processes and supporting fundraising initiatives to ensure our mission's success. Her academic background in 
+      Communicative Disorders and Child Development, combined with experience in diverse educational settings, positions her perfectly to contribute to our mission.<br>
+      <b>Luisa's Dining Pick</b>: A Salvadoran breakfast for dinner at La Numero Uno, her favorite for classic Salvadoran specialties.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Bob Brown"
-    team_member_position: "DevOps Engineer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Blanca Arenas"
+    team_member_position: "Administrator"
+    team_member_description: >-
+      With a Bachelor's in Psychology and a deeply personal connection to the community through her brother, Blanca is the backbone of our center's operations. Her six 
+      years of volunteer work in special needs facilities shine through as she navigates inquiries with compassion and expertise, making every family feel heard and supported.<br>
+      <b>Blanca's Dining Pick</b>: Mauro Cafe in West Hollywood, for the best Italian comfort food.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Charlie Davis"
-    team_member_position: "UI/UX Designer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Jacqi Inouye"
+    team_member_position: "Animation Specialist"
+    team_member_description: >-
+      Drawing on her rich background as a storyboard artist for Disney Junior's "Alice's Wonderland Bakery," Jacqi brings the magic of storytelling to life in our animation 
+      classes. A lifelong artist from the tender age of three, her passion for creativity and animation ignites imaginations and empowers our participants to explore and 
+      craft their own stories.<br>
+      <b>Jacqi's Dining Pick</b>: Fabrocchinis in Tarzana is a nice local spot for the best endless garlic focaccia
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Eve Wilson"
-    team_member_position: "Full Stack Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
-
-# SPECIALISTS
-specialist_heading: "OUR SPECIALISTS"
-specialist_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
-
-specialists:
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Dr. Emily Parker"
-    team_member_position: "Child Psychologist"
-    team_member_description: "Dr. Emily Parker specializes in child psychology and works with children and families to support their mental health and development."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Michael Thompson"
-    team_member_position: "Speech Therapist"
-    team_member_description: "Michael Thompson is a speech therapist with extensive experience in helping children improve their communication skills."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Sarah Johnson"
-    team_member_position: "Occupational Therapist"
-    team_member_description: "Sarah Johnson provides occupational therapy services to assist children in developing essential life skills."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "David Martinez"
-    team_member_position: "Behavioral Therapist"
-    team_member_description: "David Martinez is a behavioral therapist who focuses on developing personalized strategies to address behavioral challenges."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Laura Williams"
-    team_member_position: "Educational Specialist"
-    team_member_description: "Laura Williams supports children’s learning needs through tailored educational programs and interventions."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "James Brown"
-    team_member_position: "Clinical Social Worker"
-    team_member_description: "James Brown is a clinical social worker dedicated to providing emotional and social support to families and individuals."
+    team_member_name: "Jared Bradley"
+    team_member_position: "Computer Specialist/IT"
+    team_member_description: >-
+      With a passion for technology and a Bachelor's degree in Electrical Engineering, Jared focuses on making technology accessible and engaging for our participants. 
+      Emphasizing creativity and individuality, Jared aids students in becoming proficient with digital tools, enabling them to confidently navigate and create in the 
+      digital world.<br>
+      <b>Jared's Dining Pick</b>: More than Waffles, the best place to satisfy his permanent sweet tooth with their signature Oreo waffle topped with vanilla ice cream and chocolate syrup.
 
 # MENTAL HEALTH SPECIALISTS
 mental_health_staff_heading: "OUR MENTAL HEALTH STAFF"
 mental_health_staff_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Mattis molestie a iaculis at erat pellentesque adipiscing. Elementum facilisis leo vel fringilla est.
 
 mental_health_staff:
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "John Doe"
-    team_member_position: "Senior Software Engineer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Chrisa Sadd"
+    team_member_position: "Director of Mental Health"
+    team_member_description: >-
+      A Licensed Marriage and Family Therapist with extensive experience supporting children, teens, and young adults with Autism. Her client-centered approach incorporates 
+      family systems, CBT, solution-focused techniques, mindfulness, and somatic therapy.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Jane Smith"
-    team_member_position: "Frontend Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Michelle Tapia"
+    team_member_position: "Licensed Marriage and Family Therapist (LMFT)"
+    team_member_description: >-
+      Michelle recognizes that trauma and anxiety can be overwhelming but believes in healing's power. She provides a safe space to process experiences, develop coping skills, 
+      and build resilience, helping clients find hope and create a healthier future.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Alice Johnson"
-    team_member_position: "Backend Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Kathy Khorramian"
+    team_member_position: "Licensed Marriage and Family Therapist (LMFT)"
+    team_member_description: >-
+      As a solution-focused therapist, Kathy empowers clients to overcome limiting beliefs and achieve their goals. Utilizing Cognitive Behavioral Therapy and hypnotherapy, 
+      she helps clients reframe negative thoughts, tackle career challenges, and develop positive habits for a fulfilling life.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Bob Brown"
-    team_member_position: "DevOps Engineer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Meaghan Sanders"
+    team_member_position: "Associate Marriage and Family Therapist (AMFT)"
+    team_member_description: >-
+      Meaghan, an AMFT with 15 years of experience in the special needs community. She is dedicated to providing a safe, non-judgmental therapy environment at 
+      The Ed Asner Family Center under the supervision of Chrisa Sadd, LMFT.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Charlie Davis"
-    team_member_position: "UI/UX Designer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
-
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
-    team_member_name: "Eve Wilson"
-    team_member_position: "Full Stack Developer"
-    team_member_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convallis convallis tellus id."
+    team_member_name: "Blanca Arenas"
+    team_member_position: "Life Coach"
+    team_member_description: >-

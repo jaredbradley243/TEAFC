@@ -7,9 +7,11 @@ description: >-
 
 # HERO
 hero_heading: "MENTAL HEALTH"
-hero_subheading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. At lectus urna duis convalli"
-hero_btn: "Learn More"
-hero_img: /assets/img/who-we-are2.avif
+hero_subheading: >-
+  The Ed Asner Family Center Mental Health Department offers various approaches to therapy. Neurodivergent and neurotypical individuals are offered sessions in a safe and quiet 
+  space whether in person or online to explore life with a professional clinician. Our clinicians are experienced to assess the clients needs and offer professional help when 
+  challenges arise.
+hero_img: /assets/img/mental-health-hero_real.avif
 # hero_display_btn is a boolean
 hero_display_btn: false
 hero_swap_col: false
@@ -20,93 +22,81 @@ hero_under_header: true
 info_card_grid_col_num: 3
 info_card_md_grid_col_num: 2
 info_card_title: "OUR SERVICES"
-info_card_subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. Proin venenatis felis id metus varius, in porta elit vulputate."
+info_card_subtitle: >-
+  Individuals, families, and couples often face daily challenges in maintaining healthy relationships, particularly with a neurodivergent family member. We offer in-person and 
+  telehealth sessions where clinicians help clients explore these issues and discover productive ways to get back on track and encourage positive change.
 info_cards:
   # Card 1
-  - info_card_img: "/assets/img/funko.avif"
+  - info_card_img: "/assets/img/family-therapy_real.avif"
     info_card_title: "Family therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      This program is designed to help all family members, including grandparents or caregivers. The family will learn how to comfortably express their feelings, 
-      find better ways to communicate with each other, to solve problems effectively, identify and understand neurodivergence and to better address struggles in the 
-      home, school, workplace or out in the community.  While defining clear goals and ways to support those goals, clinicians work closely with all family members. 
-      Sessions are focused on teaching the skills necessary to encourage the family as a whole to be better communicators and focus on a healthier way of living and
-      a higher quality of life for the entire family.
-    info_card_btn_txt: "Learn More"
+      This program supports all family members, including grandparents and caregivers, in expressing feelings and improving communication. Families learn to understand 
+      neurodivergence and tackle challenges in home, school, and community settings. Clinicians collaborate with families to define goals, teach essential skills, and 
+      promote healthier relationships and a higher quality of life.
+    info_card_btn_txt: "Contact Us"
     link_key: "contact_url"
+
   # Card 2
-  - info_card_img: "/assets/img/camp2.avif"
+  - info_card_img: "/assets/img/individual-therapy_real.avif"
     info_card_title: "Individual Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      We offer one on one individual therapy for all people. This includes neurodivergent individuals, neurotypicals, LGBTQIA+ or anyone that wishes to change their life 
-      and explore solutions. The client will learn how to comfortably express their feelings, find better ways to communicate, solve problems effectively, identify and 
-      understand struggles at home, school, workplace or out in the community. The therapist will help to define clear goals and find ways to support the individual. 
-      Sessions are focused on teaching the skills necessary to encourage better communication and focus on a healthier way of living.
-    info_card_btn_txt: "Learn More"
+      We provide one on one therapy for everyone, including neurodivergent individuals, neurotypicals, and those in the LGBTQIA+ community. Clients learn to express feelings, 
+      improve communication, and solve problems. Therapists help define clear goals and teach skills to foster healthier living and better relationships at home, school, 
+      and in the community.
+    info_card_btn_txt: "Contact Us"
     link_key: "contact_url"
+
   # Card 3
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/caregiver-therapy_real.avif"
     info_card_title: "Caregiver Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Focus is placed on supporting the caregiver. Caregivers often feel overwhelmed, overextended, or alone. Oftentimes this is a step parent, grandparent, aunt, uncle or 
-      extended family member who is unsure how to handle the intense behaviors, sensory difficulties or emotional issues that accompany caring for a neurodivergent child or adult. 
-      The caregiver is supported during private one-on-one counseling sessions. By getting the support you need, depression or anxiety can be reduced and replaced by understanding 
-      and self-care.
-    info_card_btn_txt: "Learn More"
+      Focus is placed on supporting the caregivers, who often feel overwhelmed or isolated, especially when caring for a neurodivergent child or adult. This includes 
+      step-parents, grandparents, and extended family members facing intense behaviors and emotional challenges. Through one-on-one counseling, caregivers receive the 
+      support they need, reducing anxiety and depression while promoting understanding and self-care.
+    info_card_btn_txt: "Contact Us"
     link_key: "contact_url"
+
   # Card 4
   - info_card_img: "/assets/img/mental-health.avif"
     info_card_title: "Sibling Art Therapy"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      We are taking a unique approach in working with siblings through a creative avenue. Sessions are run by a therapist along with one of our art teachers. This program offers 
-      support for the sibling of a neurodivergent child/adult.  Often the sibling wonders why everything is focused on their brother or sister and not on them. They might feel 
-      that they don't get enough time to do the things they want to do. Siblings may feel guilt or anger towards their brother or sister for always being the center of the 
-      parent's attention. The participant will be able to express feelings through games and activities.
-    info_card_btn_txt: "Learn More"
+      We offer a unique program for siblings of neurodivergent children/teens, combining therapeutic support with creative expression. Led by a therapist and an art teacher, 
+      sessions address siblings' feelings of being overlooked and their struggles with guilt or anger. Participants engage in games and activities, providing a safe space 
+      to express their emotions through art.
+    info_card_btn_txt: "Contact Us"
     link_key: "contact_url"
+
   # Card 5
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/relationship-coaching_cropped_real.avif"
     info_card_title: "Relationship Coaching"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      This service is offered for neurodivergent and neurotypical individuals that are 18+ who are currently dating or in a relationship.
-      A dating/relationship coach will help the client: 
-      Assess areas of need and set reasonable goals
-      Identify and get clarity on components of their ideal relationship
-      Identify values that are important in their relationships
-      Help the client reflect on dating experiences for learning and growth
-      Offer feedback and support
-      Help the client move past blocks that are in the way of achieving their goals
-      Identify negative thoughts, internal voice, intuition and body language
-
-      A dating/relationship coach will not:
-      Tell a client who to date or find dates for the client
-      Make decisions for the client on actions and relationship elements
-      Impose their idea of a relationship on the client
-
-    info_card_btn_txt: "Learn More"
+      This service supports neurodivergent and neurotypical individuals aged 18+ in dating or relationships. A coach helps clients set goals, clarify their ideal relationship, 
+      reflect on experiences, and overcome personal blocks. Coaches do not dictate choices, find dates, or impose their views.  We foster personal growth and self-discovery in
+      relationships.
+    info_card_btn_txt: "Contact Us"
     link_key: "contact_url"
+
   # Card 6
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/life-coaching_real.avif"
     info_card_title: "Life Coaching"
     # info_card_date_time: "Date & Time"
     info_card_paragraph: >-
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur. 
-      Consectetur vel non. Rerum ut consequatur nobis unde. Enim est quo corrupti consequatur.
-    info_card_btn_txt: "Learn More"
+      Life coaching helps individuals to achieve personal goals and learn what their barriers are. Through tailored sessions, coaches help clients clarify their goals,
+      develop action plans, and enhance self-awareness. This supportive partnership fosters growth, resilience, and motivation, guiding clients to create fulfilling lives
+      and navigate challenges with confidence, ultimately leading to greater happiness and success.
+    info_card_btn_txt: "Contact Us"
     link_key: "contact_url"
 
 # INSURANCE SECTION
 insurance_top_divider: true
 insurance_bottom_divider: true
-insurance_title: "ACCEPTED INSURANCE"
-insurance_subtitle: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus aliquet arcu vitae hendrerit. 
-  Nulla viverra sapien nec blandit vulputate. Fusce a risus a ex sodales porta. 
-  Proin venenatis felis id metus varius, in porta elit vulputate.
+insurance_title: ""
+insurance_subtitle: >-
 insurance:
   # Magellan
   - img: "/assets/img/magellan.svg"
@@ -127,79 +117,88 @@ insurance:
   - img: "/assets/img/sag-aftra.svg"
     img_alt_tag: ""
 
-# MENTAL HEALTH FAQ
-accordion_mobile_grid_col_num: 1
-accordion_grid_col_num: 2
-accordion_heading: "Mental Health FAQ"
-accordion_subheading: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-accordions:
-  - accordion_title: "FAQ 1"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+# # MENTAL HEALTH FAQ
+# accordion_mobile_grid_col_num: 1
+# accordion_grid_col_num: 2
+# accordion_heading: "Mental Health FAQ"
+# accordion_subheading: >-
+#   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+#   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+# accordions:
+#   - accordion_title: "FAQ 1"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 2"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 2"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 3"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 3"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 4"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 4"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 5"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 5"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 6"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 6"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 7"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 7"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
-  - accordion_title: "FAQ 8"
-    accordion_subtitle: "subheading"
-    accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    accordion_cta: "Contact Us"
+#   - accordion_title: "FAQ 8"
+#     accordion_subtitle: "subheading"
+#     accordion_paragraph: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+#     accordion_cta: "Contact Us"
 
 # OUR SPECIALISTS
 specialists_title: MENTAL HEALTH SPECIALISTS
 specialists_subtitle: >-
-  We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
+  We're a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
 specialists:
-  - specialist_img: "/assets/img/team-profile-placeholder.avif"
+  - specialist_img: "/assets/img/chrisa.avif"
     specialist_name: "Chrisa Sadd"
     specialist_position: "Director of Mental Health <br> Licensed Marriage and Family Therapist (LMFT)"
+    specialist_description: >-
+      A Licensed Marriage and Family Therapist with extensive experience supporting children, teens, and young adults with Autism. Her client-centered approach incorporates 
+      family systems, CBT, solution-focused techniques, mindfulness, and somatic therapy.
 
-  - specialist_img: "/assets/img/team-profile-placeholder.avif"
+  - specialist_img: "/assets/img/michelle.avif"
     specialist_name: "Michelle Tapia"
     specialist_position: "Licensed Marriage and Family Therapist (LMFT)"
+    specialist_description: >-
+      Michelle recognizes that trauma and anxiety can be overwhelming but believes in healing's power. She provides a safe space to process experiences, develop coping skills, 
+      and build resilience, helping clients find hope and create a healthier future.
 
-  - specialist_img: "/assets/img/team-profile-placeholder.avif"
-    specialist_name: "Desiree Gonzalez"
-    specialist_position: "Licensed Marriage and Family Therapist (LMFT)"
-
-  - specialist_img: "/assets/img/team-profile-placeholder.avif"
+  - specialist_img: "/assets/img/kathy.avif"
     specialist_name: "Kathy Khorramian"
     specialist_position: "Licensed Marriage and Family Therapist (LMFT)"
+    specialist_description: >-
+      As a solution-focused therapist, Kathy empowers clients to overcome limiting beliefs and achieve their goals. Utilizing Cognitive Behavioral Therapy and hypnotherapy, 
+      she helps clients reframe negative thoughts, tackle career challenges, and develop positive habits for a fulfilling life.
 
-  - specialist_img: "/assets/img/team-profile-placeholder.avif"
+  - specialist_img: "/assets/img/meaghan.avif"
     specialist_name: "Meaghan Sanders"
     specialist_position: "Associate Marriage and Family Therapist (AMFT)"
+    specialist_description: >-
+      Meaghan, an AMFT with 15 years of experience in the special needs community. She is dedicated to providing a safe, non-judgmental therapy environment at 
+      The Ed Asner Family Center under the supervision of Chrisa Sadd, LMFT.
 
-  - specialist_img: "/assets/img/team-profile-placeholder.avif"
+  - specialist_img: "/assets/img/blanca.avif"
     specialist_name: "Blanca Areas"
     specialist_position: "Life Coach"
+    specialist_description: >-
