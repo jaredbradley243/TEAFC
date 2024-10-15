@@ -1,6 +1,6 @@
 // <!-- /_includes/partials/calendar.js -->
 document.addEventListener("DOMContentLoaded", function () {
-  const API_KEY = "AIzaSyCG5sTjzrkb_aJYRMRhsj2oW4wnHzyRc3w";
+  const API_KEY = "AIzaSyDYYmhCCobRl2NqkO9k_6tVVqJyqmLji-k";
   const CALENDAR_ID =
     "c_7cdf1d3926cf44f9aaac3688616392a17cc4a6c8a4d9df973a52b7bd272cb64b@group.calendar.google.com";
   const endpoint = `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events?key=${API_KEY}`;
@@ -44,7 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
       monthTitle.innerText = monthName();
     };
 
-    const createCalendarCell = (day, formattedMonth, isCurrentMonth, rowIndex, colIndex) => {
+    const createCalendarCell = (
+      day,
+      formattedMonth,
+      isCurrentMonth,
+      rowIndex,
+      colIndex,
+    ) => {
       const cell = document.createElement("div");
       const cellDate = document.createElement("time");
 
@@ -88,26 +94,32 @@ document.addEventListener("DOMContentLoaded", function () {
           colIndex = 1;
           rowIndex++;
         }
-      }
+      };
 
       for (let day = prevMonthGridStart; day <= numDaysPrevMonth; day++) {
         const formattedMonth =
           currentMonth < 10 ? "0" + currentMonth : currentMonth;
-        fragment.appendChild(createCalendarCell(day, formattedMonth, false, rowIndex, colIndex));
+        fragment.appendChild(
+          createCalendarCell(day, formattedMonth, false, rowIndex, colIndex),
+        );
         labelCell();
       }
 
       for (let day = 1; day <= numDaysCurrentMonth; day++) {
         const formattedMonth =
           currentMonth + 1 < 10 ? "0" + (currentMonth + 1) : currentMonth + 1;
-        fragment.appendChild(createCalendarCell(day, formattedMonth, true, rowIndex, colIndex));
+        fragment.appendChild(
+          createCalendarCell(day, formattedMonth, true, rowIndex, colIndex),
+        );
         labelCell();
       }
 
       for (let day = 1; day <= numDaysNextMonth; day++) {
         const formattedMonth =
           currentMonth + 2 < 10 ? "0" + (currentMonth + 2) : currentMonth + 2;
-        fragment.appendChild(createCalendarCell(day, formattedMonth, false, rowIndex, colIndex));
+        fragment.appendChild(
+          createCalendarCell(day, formattedMonth, false, rowIndex, colIndex),
+        );
         labelCell();
       }
 
@@ -197,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       cell.className =
         "py-4 sm:flex gap-4 border-t-[1px] sm:border-y-0 border-gray-200";
-        cell.setAttribute("role", "listitem")
+      cell.setAttribute("role", "listitem");
       return cell;
     };
 
@@ -227,7 +239,10 @@ document.addEventListener("DOMContentLoaded", function () {
           const imgElement = document.createElement("img");
           imgElement.src = blueStar;
           imgElement.className = "h-5 w-5";
-          imgElement.setAttribute("alt", `Blue star indicating event on ${eventDate}`);
+          imgElement.setAttribute(
+            "alt",
+            `Blue star indicating event on ${eventDate}`,
+          );
 
           const startTime = timedEventStart
             ? new Date(timedEventStart).toLocaleTimeString("en-US", {
