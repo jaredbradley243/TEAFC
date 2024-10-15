@@ -1,6 +1,6 @@
 <div class="container-lg bg-white">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto max-w-2xl lg:mx-0">
+    <div class="mx-auto lg:mx-0">
       <h2 class="text-3xl font-bold tracking-tight text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">
         {{ specialists_title }}
       </h2>
@@ -16,7 +16,8 @@
         {% include 'partials/specialist.liquid',
           specialist_img: specialist.specialist_img,
           specialist_name: specialist.specialist_name,
-          specialist_position: specialist.specialist_position
+          specialist_position: specialist.specialist_position,
+          specialist_description: specialist.specialist_description
         %}
       {% endfor %}
     </ul>
