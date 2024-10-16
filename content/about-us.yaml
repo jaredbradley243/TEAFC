@@ -2,10 +2,6 @@
 layout: "layouts/base.liquid"
 title: About Us | Supporting Neurodivergent Individuals With Inclusive Programs And Mental Health Services | The Ed Asner Family Center
 description: >-
-  Learn about The Ed Asner Family Center, a nonprofit dedicated to enriching the lives of 
-  neurodivergent individuals, including those with autism. Discover our mission, values, 
-  and the wide range of programs we offer, including day camps, expressive arts, 
-  enrichment activities, academy, and mental health services.
 
 # HERO
 hero_heading: "WHO WE ARE"
@@ -125,7 +121,7 @@ founders_heading: "OUR FOUNDERS"
 founders_subheading: >-
   Our family began a transformative journey with our youngest son Eddy's autism diagnosis, 
   one of our three children on the spectrum. This personal experience connected us to the 
-  challenges families facing autism endure. We felt compelled to make a difference, inspired by 
+  challenges families facing autism. We felt compelled to make a difference, inspired by 
   our own journey and the loss of our four parents, including the beloved family member after whom
   our center is named, Ed Anser.
 founders_hidden_text: >-

@@ -1,9 +1,6 @@
 layout: "layouts/base.liquid"
 title: Meet Our Team | Dedicated Staff at The Ed Asner Family Center
 description: >-
-  Meet the dedicated team of professionals at The Ed Asner Family Center. Our compassionate and 
-  experienced staff are committed to supporting neurodivergent individuals, including those with 
-  autism.
 
 # BOARD OF DIRECTORS
 bod_heading: "OUR BOARD OF DIRECTORS"
@@ -55,17 +52,17 @@ advisory_board_heading: "OUR ADVISORY BOARD"
 advisory_board_subheading: >-
 
 advisory_board:
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: null
     team_member_name: "Ron Burkhardt"
     team_member_position: "Advisory Board Member"
     team_member_description: ""
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: null
     team_member_name: "Daniele Salusky"
     team_member_position: "Advisory Board Member"
     team_member_description: ""
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: null
     team_member_name: "Chris Halon"
     team_member_position: "Advisory Board Member"
     team_member_description: ""
@@ -106,7 +103,7 @@ staff_members:
     team_member_description: >-
       With a Bachelor's in Psychology and a deeply personal connection to the community through her brother, Blanca is the backbone of our center's operations. Her six 
       years of volunteer work in special needs facilities shine through as she navigates inquiries with compassion and expertise, making every family feel heard and supported.<br>
-      <b>Blanca's Dining Pick</b>: Mauro Cafe in West Hollywood, for the best Italian comfort food.
+      <b>Blanca's Dining Pick</b>: Pomodoro Trattoria-Pizzeria in West Hollywood, for the best Italian comfort food.
 
   - team_member_img: "/assets/img/team-profile-placeholder.avif"
     team_member_name: "Jacqi Inouye"

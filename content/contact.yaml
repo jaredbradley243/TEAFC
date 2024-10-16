@@ -11,8 +11,7 @@ hero_subheading: >-
   We'd love to hear from you! Whether you have questions about our programs, events, or how you can get involved, 
   please don't hesitate to reach out.
 hero_btn: "Learn More About The Ed Asner Family Center"
-hero_img: /assets/img/who-we-are2.avif
-hero_img_mobile: /assets/img/who-we-are2.avif
+hero_img: /assets/img/contact-us.avif
 # display_button is a boolean
 hero_display_btn: true
 # options: left, right, both, ""
@@ -20,8 +19,6 @@ hero_img_round_large_screens: "left"
 hero_under_header: true
 
 # CONTACT CARDS
-contact_card_heading: "CONTACT"
-contact_card_subheading: >-
 # Card 1
 contact_name1: "Blanca Arenas"
 office_title1: "Administration/General Inquiries"
@@ -33,7 +30,7 @@ office_title2: "Mental Health"
 phone_number2: "(818) 855-2199"
 email2: "chrisa@teafc.org"
 
-# Map Section
+# MAP SECTION
 map_heading1: "VISIT US"
 map_address: "16340 Roscoe Blvd. Van Nuys, CA 91406"
 map_heading2: "CENTER HOURS"

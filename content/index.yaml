@@ -2,10 +2,6 @@
 layout: "layouts/base.liquid"
 title: The Ed Asner Family Center | Supporting Neurodivergent People
 description: >-
-  Welcome to The Ed Asner Family Center, a nonprofit organization dedicated to enriching the 
-  lives of neurodivergent individuals, including those with autism. Explore our diverse programs, 
-  including day camps, expressive arts, enrichment activities, academy, and mental health services. 
-  Join us in creating a supportive and inclusive community.
 
 # HERO
 hero_heading: "We help neurodivergent individuals thrive"

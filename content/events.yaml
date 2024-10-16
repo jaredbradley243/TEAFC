@@ -1,8 +1,6 @@
 layout: "layouts/base.liquid"
 title: Events for Neurodivergent Community | The Ed Asner Family Center
 description: >-
-  Discover upcoming events at The Ed Asner Family Center. Our events are designed to engage, 
-  educate, and support neurodivergent individuals, fostering a sense of community and inclusion.
 
 # EVENTS
 event_cards_heading: "UPCOMING EVENTS"

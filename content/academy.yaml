@@ -1,10 +1,8 @@
 # Head
 layout: "layouts/base.liquid"
-title: Inclusive Academy For All Abilities | The Ed Asner Family Center
+title:
 description: >-
-  Join our inclusive academy at The Ed Asner Family Center, combining job training, 
-  adaptive skills, and expressive arts for neurodivergent individuals. Our all-abilities 
-  program fosters growth and development in a supportive environment.
+
 permalink: "{{ navigation.academy_url }}"
 # HERO/Feature Section CTA
 feature_section_cta_heading: "The Academy"
@@ -119,31 +117,31 @@ accordion_mobile_grid_col_num: 1
 accordion_heading: "FREQUENTLY ASKED QUESTIONS"
 accordion_subheading: >-
 accordions:
-  - accordion_title: "Who is eligible for the academy?"
+  - accordion_title: "What is the Academy?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
+      The Academy is a full day adult program for low support need individuals. We provide a unique experience that combines job training classes and life skills as well as 
+      hands on training in the community along with preferred electives like voice over class Art music fitness cooking and improv and animation classes.
     accordion_cta: null
 
-  - accordion_title: "How can I enroll in the academy?"
+  - accordion_title: "What ages does the Academy support?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
+      We support ages 18-35.
     accordion_cta: null
 
-  - accordion_title: "What time of year is the academy?"
+  - accordion_title: "Where do participants go for job training?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      Feel free to sign up to our newsletter below or follow us on social media!
+      The Academy partners with corporations and creative organizations in the community to offer participants a real-world workplace experience. 
+      Through an immersive experience, they gain valuable skills in various aspects of professional life, from day-to-day operations to understanding 
+      corporate culture and more.
     accordion_cta: null
 
-  - accordion_title: "How long is the academy?"
+  - accordion_title: "How do I fund the Academy for my participant?"
     accordion_subtitle: ""
-    accordion_paragraph: |
-      In person enrichments : 10+ <br>
-      Virtual 18+ <br>
-      Summer/ Winter Camps 10+ <br>
-      The Academy 18+
+    accordion_paragraph: >-
+      Our team will work with all perspective participants to find funding solutions for every case, such as self determination funding, regional center funding, and private pay.
     accordion_cta: null
 
 # CTA Banner

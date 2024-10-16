@@ -1,10 +1,7 @@
 # Head
 layout: "layouts/base.liquid"
-title: Inclusive CampED For All Abilities | The Ed Asner Family Center
+title:
 description: >-
-  Join our inclusive CampED at The Ed Asner Family Center, combining job training, 
-  adaptive skills, and expressive arts for neurodivergent individuals. Our all-abilities 
-  program fosters growth and development in a supportive environment.
 permalink: "{{ navigation.camped_url }}"
 # HERO/Feature Section CTA
 feature_section_cta_heading: "CampEd"
@@ -59,7 +56,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: ""
   # Card 7
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/camped-art.avif"
     info_card_title: "Art Class"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -69,7 +66,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: "enrichments_url"
   # Card 1
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/camped-discovery.avif"
     info_card_title: "Discovery Cube"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -78,7 +75,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: "mental_health_url"
     # Card 3
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/camped-beach.avif"
     info_card_title: "Beach Days"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -87,7 +84,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: "mental_health_url"
   # Card 5
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/camped-friendship.avif"
     info_card_title: "Friendship Builders"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -97,7 +94,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: "about_us_url"
   # Card 8
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/camped-music.avif"
     info_card_title: "Music Class"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -107,7 +104,7 @@ info_cards:
     info_card_btn_txt: null
     link_key: "mental_health_url"
   # Card 9
-  - info_card_img: "/assets/img/mental-health.avif"
+  - info_card_img: "/assets/img/camped-dance.avif"
     info_card_title: "Dance Class Partnered with Straight-Up Abilities"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -122,31 +119,30 @@ accordion_mobile_grid_col_num: 1
 accordion_heading: "FREQUENTLY ASKED QUESTIONS"
 accordion_subheading: >-
 accordions:
-  - accordion_title: "Who is eligible for the CampED?"
+  - accordion_title: "What ages does Camp Ed support?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
+      Camp Ed supports ages 10 - 30.
     accordion_cta: null
 
-  - accordion_title: "How can I enroll in the CampED?"
+  - accordion_title: "What is camp Ed?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      The Ed Asner Family Center is a nonprofit. Self-determination or private pay is welcomed.
+      Camp Ed is an inclusive expressive arts based camp that offers enriching activities designed for neurodiverse children, teens, and young adults.
     accordion_cta: null
 
-  - accordion_title: "What time of year is the CampED?"
+  - accordion_title: "What types of activities will be offered?"
     accordion_subtitle: ""
     accordion_paragraph: >-
-      Feel free to sign up to our newsletter below or follow us on social media!
+      We offer a full day of activities including art,music,improv, voice over class , dance
+      Crafts and beach and other exciting field trips!
     accordion_cta: null
 
-  - accordion_title: "How long is the CampED?"
+  - accordion_title: "What does camped cost and do you have scholarships?"
     accordion_subtitle: ""
     accordion_paragraph: |
-      In person enrichments : 10+ <br>
-      Virtual 18+ <br>
-      Summer/ Winter Camps 10+ <br>
-      The CampED 18+
+      CampED runs 10am - 3pm, 5 days per week, at a cost of $900 per week. We accept self determination funding as well as private funding and are 
+      classified under all Regional Centers as Social recreational programs.
     accordion_cta: null
 
 # CTA Banner
@@ -159,9 +155,9 @@ cta_btn_link_key: "contact_url"
 
 # IMG Gallery
 image_gallery:
-  - img_url: "/assets/img/camp.avif"
-  - img_url: "/assets/img/camp2.avif"
-  - img_url: "/assets/img/who-we-are2.avif"
-  - img_url: "/assets/img/funko.avif"
-  - img_url: "/assets/img/volunteer2.avif"
-  - img_url: "/assets/img/volunteer.avif"
+  - img_url: "/assets/img/camped-gallery-1.JPG"
+  - img_url: "/assets/img/camped-gallery-2.JPG"
+  - img_url: "/assets/img/camped-gallery-3.JPG"
+  - img_url: "/assets/img/camped-gallery-4.JPG"
+  - img_url: "/assets/img/camped-gallery-5.JPG"
+  - img_url: "/assets/img/camped-gallery-6.JPG"
