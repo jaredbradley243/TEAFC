@@ -1,10 +1,12 @@
 <li>
-  <img
-    class="aspect-square w-full rounded-2xl object-cover"
-    src="{{team_member_img}}"
-    alt=""
-    {% imageDimensions team_member_img %}
-  >
+  {% if team_member_img %}
+    <img
+      class="aspect-square w-full rounded-2xl object-cover"
+      src="{{team_member_img}}"
+      alt=""
+      {% imageDimensions team_member_img %}
+    >
+  {% endif %}
   <h3 class="mt-6 text-lg font-semibold leading-8 text-gray-700">{{ team_member_name }}</h3>
   <p class="text-base leading-7 text-gray-600">{{ team_member_position }}</p>
   <p class="mt-4 text-base leading-7 text-gray-500">{{ team_member_description }}</p>
