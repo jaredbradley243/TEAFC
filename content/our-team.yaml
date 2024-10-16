@@ -37,12 +37,12 @@ board_members:
     team_member_position: "Board Member"
     team_member_description: ""
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/tom-mcmug.jpg"
     team_member_name: "Tom McAndrew"
     team_member_position: "Board Member"
     team_member_description: ""
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/jill.avif"
     team_member_name: "Jill Harte"
     team_member_position: "Board Member"
     team_member_description: ""
@@ -114,49 +114,51 @@ staff_members:
       craft their own stories.<br>
       <b>Jacqi's Dining Pick</b>: Fabrocchinis in Tarzana is a nice local spot for the best endless garlic focaccia
 
-  # - team_member_img: "/assets/img/team-profile-placeholder.avif"
-  #   team_member_name: "Jared Bradley"
-  #   team_member_position: "Computer Specialist/IT"
-  #   team_member_description: >-
-  #     With a passion for technology and a Bachelor's degree in Electrical Engineering, Jared focuses on making technology accessible and engaging for our participants.
-  #     Emphasizing creativity and individuality, Jared aids students in becoming proficient with digital tools, enabling them to confidently navigate and create in the
-  #     digital world.<br>
-  #     <b>Jared's Dining Pick</b>: More than Waffles, the best place to satisfy his permanent sweet tooth with their signature Oreo waffle topped with vanilla ice cream and chocolate syrup.
+  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+    team_member_name: "Jared Bradley"
+    team_member_position: "Computer Specialist/IT"
+    team_member_description: >-
+      With a passion for technology and a Bachelor's degree in Electrical Engineering, Jared focuses on making technology accessible and engaging for our participants.
+      Emphasizing creativity and individuality, Jared aids students in becoming proficient with digital tools, enabling them to confidently navigate and create in the
+      digital world.<br>
+      <b>Jared's Dining Pick</b>: More than Waffles, the best place to satisfy his permanent sweet tooth with their signature Oreo waffle topped with vanilla ice cream and chocolate syrup.
 
 # MENTAL HEALTH SPECIALISTS
 mental_health_staff_heading: "OUR MENTAL HEALTH STAFF"
 mental_health_staff_subheading: >-
 
 mental_health_staff:
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/chrisa.avif"
     team_member_name: "Chrisa Sadd"
     team_member_position: "Director of Mental Health"
     team_member_description: >-
       A Licensed Marriage and Family Therapist with extensive experience supporting children, teens, and young adults with Autism. Her client-centered approach incorporates 
       family systems, CBT, solution-focused techniques, mindfulness, and somatic therapy.
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/michelle.avif"
     team_member_name: "Michelle Tapia"
     team_member_position: "Licensed Marriage and Family Therapist (LMFT)"
     team_member_description: >-
       Michelle recognizes that trauma and anxiety can be overwhelming but believes in healing's power. She provides a safe space to process experiences, develop coping skills, 
       and build resilience, helping clients find hope and create a healthier future.
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/kathy.avif"
     team_member_name: "Kathy Khorramian"
     team_member_position: "Licensed Marriage and Family Therapist (LMFT)"
     team_member_description: >-
       As a solution-focused therapist, Kathy empowers clients to overcome limiting beliefs and achieve their goals. Utilizing Cognitive Behavioral Therapy and hypnotherapy, 
       she helps clients reframe negative thoughts, tackle career challenges, and develop positive habits for a fulfilling life.
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/meaghan.avif"
     team_member_name: "Meaghan Sanders"
     team_member_position: "Associate Marriage and Family Therapist (AMFT)"
     team_member_description: >-
       Meaghan, an AMFT with 15 years of experience in the special needs community. She is dedicated to providing a safe, non-judgmental therapy environment at 
       The Ed Asner Family Center under the supervision of Chrisa Sadd, LMFT.
 
-  - team_member_img: "/assets/img/team-profile-placeholder.avif"
+  - team_member_img: "/assets/img/blanca.avif"
     team_member_name: "Blanca Arenas"
-    team_member_position: "Life Coach"
+    team_member_position: "Certified Life Coach"
     team_member_description: >-
+      Blanca has a degree in psychology and is currently pursuing her master's in social work. Her passion for this work is deeply personal as she grew up alongside 
+      her younger brother who was born with down syndrome. She aims to make a positive impact in other people's lives.

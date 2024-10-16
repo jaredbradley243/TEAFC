@@ -35,7 +35,7 @@ info_cards:
       The Academy is a full-day arts and media program for special needs adults 18+ with low support needs. Participants explore creative outlets like painting, photography, 
       writing, and media production while gaining valuable job skills through our work program.
     info_card_btn_txt: "Learn More"
-    link_key: "about_us_url"
+    link_key: "academy_url"
   # Card 2
   - info_card_img: "/assets/img/camped_real.avif"
     info_card_title: "CampED"
@@ -44,7 +44,7 @@ info_cards:
       Join CampEd, our inclusive summer camp at The Ed Asner Family Center, where fun and creativity come together! Through expressive arts, games, and engaging activities, 
       campers can explore their interests, build friendships, and enjoy a memorable summer experience.
     info_card_btn_txt: "Learn More"
-    link_key: ""
+    link_key: "camped_url"
   # Card 3
   - info_card_img: "/assets/img/enrichments_real.avif"
     info_card_title: "Enrichments"
