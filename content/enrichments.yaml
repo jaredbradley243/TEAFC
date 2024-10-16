@@ -99,7 +99,7 @@ info_cards:
     link_key: "contact_url"
 
   # Card 12
-  - info_card_img: "/assets/img/volunteer2.avif"
+  - info_card_img: "/assets/img/enrichment-sexed.JPG"
     info_card_title: "Sex Ed 101 (18+)"
     info_card_date_time: ""
     info_card_paragraph: >-
@@ -107,7 +107,7 @@ info_cards:
     link_key: "contact_url"
 
   # Card 13
-  - info_card_img: "/assets/img/volunteer2.avif"
+  - info_card_img: "/assets/img/enrichment-sexed.JPG"
     info_card_title: "Sex Ed 101 (12-17)"
     info_card_date_time: ""
     info_card_paragraph: >-

@@ -145,7 +145,7 @@ accordions:
     accordion_cta: null
 
 # CTA Banner
-cta_img: "/assets/img/join-academy_real.avif"
+cta_img: "/assets/img/join-the-academy.jpg"
 cta_img_alt_tag: ""
 cta_title: "Join The Academy"
 cta_subtitle: >-
