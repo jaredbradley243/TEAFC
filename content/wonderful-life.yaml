@@ -1,0 +1,4 @@
+layout: "layouts/base.liquid"
+title: The Ed Asner Center presents It's a Wonderful Life
+description: >-
+permalink: "{{ navigation.wonderful_life_url }}"
