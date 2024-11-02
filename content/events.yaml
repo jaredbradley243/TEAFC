@@ -30,7 +30,7 @@ event_cards:
     event_card_detail_header2: "Time"
     event_card_detail2: "5:00 PM"
     event_card_detail_header3: "Location"
-    event_card_detail3: "16340 Roscoe Blvd. Van Nuys, CA 91406"
+    event_card_detail3: "Garry Marshall Theatre"
     event_card_btn_txt: "View Event"
     event_card_btn_link_key: "wonderful_life_url"
 
