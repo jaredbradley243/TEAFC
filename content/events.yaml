@@ -7,32 +7,32 @@ event_cards_heading: "UPCOMING EVENTS"
 event_cards_subheading: "Don't miss our upcoming events!"
 event_cards:
   # Card 1
-  - event_card_img: "/assets/img/poker2.avif"
-    event_card_title: "Ed Asner & Friends Celebrity Poker Night"
-    event_card_paragraph: "Join us at Radford Studios for an unforgettable evening of poker, celebrities, and charity!"
-    event_card_hidden_text: null
-    event_card_detail_header1: "Date"
-    event_card_detail1: "06/15/2024"
-    event_card_detail_header2: "Time"
-    event_card_detail2: "6:00 PM"
-    event_card_detail_header3: "Location"
-    event_card_detail3: "4024 Radford Ave, Studio City, CA 91604"
-    event_card_btn_txt: null
-    event_card_btn_link_key: "poker_url"
-  # Card 2
   - event_card_img: "/assets/img/wonderful.png"
     event_card_title: "It's a Wonderful Life"
-    event_card_paragraph: "Join us for the final chance to experience the heartwarming virtual broadcast of It's a Wonderful Life featuring an extraordinary cast."
+    event_card_paragraph: "Join us in celebrating Ed Asner's remarkable legacy with a star-studded table read of the holiday classic <i>It's a Wonderful Life</i>, hosted by Tom Bergeron and featuring the beloved cast of <i>SpongeBob SquarePants</i>."
     event_card_hidden_text: >-
-      Don't miss this opportunity to rent and enjoy before it returns to the vault!
+      <br> Set in the iconic Garry Marshall Theatre on December 14th, this unique performance will transport audiences back to the golden age of radio, using voice acting, sound effects, and music to create vivid scenes in the imagination.
     event_card_detail_header1: "Date"
-    event_card_detail1: "12/14/2024"
+    event_card_detail1: "December 14"
     event_card_detail_header2: "Time"
     event_card_detail2: "5:00 PM"
     event_card_detail_header3: "Location"
-    event_card_detail3: "Garry Marshall Theatre"
+    event_card_detail3: "Garry Marshall Theatre, <br> 4252 W Riverside Dr, Burbank, CA 91505"
     event_card_btn_txt: "View Event"
     event_card_btn_link_key: "wonderful_life_url"
+  # Card 2
+  - event_card_img: "/assets/img/poker2.avif"
+    event_card_title: "Ed Asner & Friends Celebrity Poker Night"
+    event_card_paragraph: "Join us for an unforgettable evening of poker, celebrities, and charity!"
+    event_card_hidden_text: null
+    event_card_detail_header1: "Date"
+    event_card_detail1: "Summer 2025"
+    event_card_detail_header2: "Time"
+    event_card_detail2: "TBD"
+    event_card_detail_header3: "Location"
+    event_card_detail3: "TBD"
+    event_card_btn_txt: null
+    event_card_btn_link_key: "poker_url"
 
 # IMG Gallery
 image_gallery:
