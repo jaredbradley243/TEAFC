@@ -23,14 +23,14 @@
     </div>
     <div class="flex flex-1 items-center justify-center">
       <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
-        <p class="text-center text-sm leading-6 text-gray-900">
+        <p class="text-center leading-6 text-gray-900">
           <strong class="font-semibold">{{ banner.event_title }}</strong>
           {{ banner.svg_separator }}
           {{ banner.description }}
         </p>
         <a
           href="{{ navigation | getByKey: banner.link_key }}"
-          class="button flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+          class="button flex-none rounded-full bg-teafc-orange px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
           {{- banner.cta }}
           <span aria-hidden="true">{{ banner.cta_symbol }}</span>

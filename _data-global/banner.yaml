@@ -7,8 +7,8 @@ event_title: ""
 #     aria-hidden="true">
 #     <circle cx="1" cy="1" r="1" />
 #   </svg>
-description: "12th Annual Ed Asner & Friends Celebrity Poker Night, June 15th!"
-cta: "REGISTER NOW"
+description: "4th Annual <i>It's a Wonderful Life</i> table read, December 14th @ Garry Marshall Theatre!"
+cta: "GET TICKETS NOW"
 cta_symbol: "&rarr;"
-link_key: "404_url"
+link_key: "wonderful_life_url"
 show_banner: true
