@@ -1,10 +1,16 @@
 <!-- Event Details Section -->
 <div class="container-lg">
   <img
-    src="/assets/img/wonderful.png"
+    src="/assets/img/wonderful-life-banner.avif"
     alt="Wonderful Life Banner Image"
-    class="w-full"
-    {% imageDimensions '/assets/img/wonderful.png' %}
+    class="w-full sm:hidden"
+    {% imageDimensions '/assets/img/wonderful-life-banner.avif' %}
+  >
+  <img
+    src="/assets/img/wonderful-life-banner-desktop.avif"
+    alt="Wonderful Life Banner Image"
+    class="hidden w-full sm:block"
+    {% imageDimensions '/assets/img/wonderful-life-banner-desktop.avif' %}
   >
 </div>
 <div class="container-md">
@@ -64,6 +70,7 @@
     </div>
   </div>
 </div>
+<!-- End Event Details Section -->
 
 <!-- Event Description Section -->
 <div class="container-sm flex flex-col gap-8 px-8">
@@ -95,6 +102,7 @@
   </div>
   <!-- End Divider -->
 </div>
+<!-- End Event Description Section -->
 
 <!-- Sponsorship Section -->
 <div class="container-sm">
@@ -177,6 +185,7 @@
     </div>
   </div>
 </div>
+<!-- End Sponsorship Section -->
 
 <!-- Divider -->
 <div class="sm:container-sm hidden sm:block">
@@ -199,7 +208,7 @@
     <div class="flex w-full flex-col justify-center rounded-xl bg-neutral-100 px-7 py-7 sm:w-[calc(50%-0.5rem)] lg:w-72">
       <div class="mb-12 flex-1">
         <div class="mb-2 text-xl font-semibold text-gray-700">INDIVIDUAL</div>
-        <div class="mb-4 text-xl text-gray-600 opacity-85">$50</div>
+        <div class="mb-4 text-xl text-gray-600 opacity-85">$29</div>
       </div>
       <div class="button flex min-h-10 items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
         <a role="button" class="flex h-full w-full items-center justify-center p-2" href="/contact/">Purchase</a>
