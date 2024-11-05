@@ -136,21 +136,13 @@ info_cards:
 
   # Card 12
   - info_card_img: "/assets/img/volunteer2.avif"
-    info_card_title: "Sex Ed 101 (18+)"
+    info_card_title: "Sex Ed 101"
     info_card_date_time: ""
     info_card_paragraph: >-
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
   # Card 13
-  - info_card_img: "/assets/img/volunteer2.avif"
-    info_card_title: "Sex Ed 101 (12-17)"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-    info_card_btn_txt: "Learn More"
-    link_key: "contact_url"
-
-  # Card 15
   - info_card_img: "/assets/img/enrichment-creative-writing.avif"
     info_card_title: "Creative Writing"
     info_card_date_time: ""
@@ -158,7 +150,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 16
+  # Card 14
   - info_card_img: "/assets/img/enrichment-dating-spectrum.avif"
     info_card_title: "Dating Spectrum"
     info_card_date_time: ""
@@ -166,7 +158,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 17
+  # Card 15
   - info_card_img: "/assets/img/enrichment-art.avif"
     info_card_title: "Art"
     info_card_date_time: ""
