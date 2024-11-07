@@ -8,7 +8,7 @@ event_cards_subheading: "Don't miss our upcoming events!"
 event_cards:
   # Card 1
   - event_card_img: "/assets/img/wonderful.png"
-    event_card_title: "It's a Wonderful Life"
+    event_card_title: "<i>It's a Wonderful Life</i> Live Radio Play"
     event_card_paragraph: "Join us in celebrating Ed Asner's remarkable legacy with a star-studded table read of the holiday classic <i>It's a Wonderful Life</i>, hosted by Tom Bergeron and featuring the beloved cast of <i>SpongeBob SquarePants</i>."
     event_card_hidden_text: >-
       <br> Set in the iconic Garry Marshall Theatre on December 14th, this unique performance will transport audiences back to the golden age of radio, using voice acting, sound effects, and music to create vivid scenes in the imagination.
