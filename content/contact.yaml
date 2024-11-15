@@ -25,10 +25,15 @@ office_title1: "Administration/General Inquiries"
 phone_number1: "(818) 302-0712"
 email1: "info@teafc.org"
 # Card 2
-contact_name2: "Chrisa Sadd"
-office_title2: "Mental Health"
+contact_name2: "Luisa Romero"
+office_title2: "Events"
 phone_number2: "(818) 855-2199"
-email2: "chrisa@teafc.org"
+email2: "luisa@teafc.org"
+# Card 2
+contact_name3: "Chrisa Sadd"
+office_title3: "Mental Health"
+phone_number3: "(818) 855-2199"
+email3: "chrisa@teafc.org"
 
 # MAP SECTION
 map_heading1: "VISIT US"
