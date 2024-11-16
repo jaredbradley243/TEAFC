@@ -226,20 +226,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const imgSelector = (eventDescription) => {
       if (!eventDescription) {
         return blueStar;
-      }
-      else if (eventDescription.endsWith("~academy")) {
+      } else if (eventDescription.endsWith("~academy")) {
         return orangeStar;
-      }
-      else if (eventDescription.endsWith("~enrichment")) {
+      } else if (eventDescription.endsWith("~enrichment")) {
         return blueStar;
-      }
-      else if (eventDescription.endsWith("~event")) {
+      } else if (eventDescription.endsWith("~event")) {
         return greenStar;
-      }
-      else {
+      } else {
         return blueStar;
       }
-    }
+    };
 
     const imgPlacer = (events) => {
       events.forEach((event) => {
@@ -254,7 +250,6 @@ document.addEventListener("DOMContentLoaded", function () {
           formattedTime: timedEventStart,
           dateElement: document.querySelector([`[datetime="${eventDate}"]`]),
         };
-
 
         if (eventCell.dateElement) {
           const timedEventEnd = event.end.dateTime;
@@ -287,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "en-US",
             options,
           ).format(new Date(eventDate + "T00:00:00"));
-          
+
           eventCell.eventDescription = eventDescription;
           eventCell.eventDate = eventDate;
           eventCell.startTime = startTime;
@@ -296,8 +291,7 @@ document.addEventListener("DOMContentLoaded", function () {
           eventCell.formattedTime = timedEventStart;
           if (!eventCell.dateElement.nextElementSibling) {
             eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
-          }
-          else {
+          } else {
             const nextElement = eventCell.dateElement.nextElementSibling;
             nextElement.src = purpleStar;
           }
