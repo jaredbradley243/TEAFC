@@ -14,6 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const blueStar = "/assets/img/star-blue.svg";
   const orangeStar = "/assets/img/star-orange.svg";
+  const greenStar = "/assets/img/star-green.svg";
+  const purpleStar = "/assets/img/star-purple.svg";
 
   const prevMonthBtn = document.querySelector("#prevMonth");
   const nextMonthBtn = document.querySelector("#nextMonth");
@@ -221,23 +223,43 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
 
+    const imgSelector = (eventDescription) => {
+      if (!eventDescription) {
+        return blueStar;
+      }
+      else if (eventDescription.endsWith("~academy")) {
+        return orangeStar;
+      }
+      else if (eventDescription.endsWith("~enrichment")) {
+        return blueStar;
+      }
+      else if (eventDescription.endsWith("~event")) {
+        return greenStar;
+      }
+      else {
+        return blueStar;
+      }
+    }
+
     const imgPlacer = (events) => {
       events.forEach((event) => {
+        const eventDescription = event.description;
         const timedEventStart = event.start.dateTime;
         const allDayEvent = event.start.date;
         const eventDate = timedEventStart
           ? new Date(timedEventStart).toLocaleDateString("en-CA")
           : allDayEvent;
-
         const eventCell = {
           name: event.summary,
           formattedTime: timedEventStart,
           dateElement: document.querySelector([`[datetime="${eventDate}"]`]),
         };
+
+
         if (eventCell.dateElement) {
           const timedEventEnd = event.end.dateTime;
           const imgElement = document.createElement("img");
-          imgElement.src = blueStar;
+          imgElement.src = imgSelector(eventDescription);
           imgElement.className = "h-5 w-5";
           imgElement.setAttribute(
             "alt",
@@ -265,7 +287,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "en-US",
             options,
           ).format(new Date(eventDate + "T00:00:00"));
-
+          
+          eventCell.eventDescription = eventDescription;
           eventCell.eventDate = eventDate;
           eventCell.startTime = startTime;
           eventCell.endTime = endTime;
@@ -273,6 +296,10 @@ document.addEventListener("DOMContentLoaded", function () {
           eventCell.formattedTime = timedEventStart;
           if (!eventCell.dateElement.nextElementSibling) {
             eventCell.dateElement.insertAdjacentElement("afterend", imgElement);
+          }
+          else {
+            const nextElement = eventCell.dateElement.nextElementSibling;
+            nextElement.src = purpleStar;
           }
           formattedEvents.push(eventCell);
         }
