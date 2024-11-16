@@ -7,7 +7,7 @@ program_cards_heading: "FULL-TIME PROGRAMS"
 program_cards_subheading: "Our comprehensive programs are designed for immersive, long-term growth, running 5 days a week over 8-12 weeks. Participants engage in multiple classes each day, fostering continuous learning, skill development, and community connection."
 program_cards:
   # Card 1
-  - program_card_img: "/assets/img/join-the-academy.jpg"
+  - program_card_img: "/assets/img/academy-join.avif"
     program_card_title: "The Academy"
     program_card_paragraph: "The Academy is an arts and media-focused program for special needs adults aged 18 and over with low support requirements."
     program_card_hidden_text: >-
