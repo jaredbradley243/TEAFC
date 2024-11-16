@@ -1,9 +1,9 @@
 <!-- Event Details Section -->
 <div class="container-lg">
-  <img src="/assets/img/wonderful-life-mobile.avif" alt="Wonderful Life Banner Image" class="w-full sm:hidden" {%
-    imageDimensions '/assets/img/wonderful-life-mobile.avif' %}>
-  <img src="/assets/img/wonderful-life-desktop.avif" alt="Wonderful Life Banner Image" class="hidden w-full sm:block" {%
-    imageDimensions '/assets/img/wonderful-life-desktop.avif' %}>
+  <img src="/assets/img/wonderful-life-banner-mobile.avif" alt="Wonderful Life Banner Image" class="w-full sm:hidden" {%
+    imageDimensions '/assets/img/wonderful-life-banner-mobile.avif' %}>
+  <img src="/assets/img/wonderful-life-banner-desktop.avif" alt="Wonderful Life Banner Image"
+    class="hidden w-full sm:block" {% imageDimensions '/assets/img/wonderful-life-banner-desktop.avif' %}>
 </div>
 <div class="container-md">
   <div
@@ -67,18 +67,19 @@
 <!-- Event Description Section -->
 <div class="container-sm flex flex-col gap-8 px-8">
   <h1 class="text-3xl font-semibold text-gray-700 sm:text-left sm:text-4xl lg:text-4xl">
-    <i>IT'S A WONDERFUL LIFE</i> LIVE RADIO PLAY
+    <i>IT'S A WONDERFUL LIFE</i> A NIGHT BENEFITING SPECIAL NEEDS FAMILIES
   </h1>
   <p class="text-lg leading-6 text-gray-600">
     Join us in celebrating Ed Asner's remarkable legacy by sponsoring a magical, star-studded live virtual table read of
-    the holiday classic It's A Wonderful Life. Hosted by Tom Bergeron, this special event will feature an incredible
+    the holiday classic <i>It's a Wonderful Life</i>. Hosted by Tom Bergeron, this special event will feature an
+    incredible
     all-star cast, generously donating their talents to support The Ed Asner Family Center, which provides crucial
     resources and a caring community for families of children with special needs. In the past two years, this event has
     been a major sensation, headlined by stars like Pete Davidson and Jason Sudeikis, drawing thousands of fans and
     creating a buzz across social media and press outlets.
     <br>
     <br>
-    This year, we're thrilled to present a special live radio play of the holiday classic It's A Wonderful Life,
+    This year, we're thrilled to present a special live radio play of the holiday classic <i>It's a Wonderful Life</i>,
     featuring the beloved cast of SpongeBob SquarePants. Hosted by Tom Bergeron and set in the iconic Garry Marshall
     Theatre on December 14th, this unique performance will transport audiences back to the golden age of radio, using
     voice acting, sound effects, and music to create vivid scenes in the imagination.
@@ -97,38 +98,41 @@
 <!-- End Event Description Section -->
 
 <div class="container-lg grid grid-cols-3">
-  <img src="/assets/img/wonderful-life-mark.avif" alt="Mark Hamill Bio Pic" {%
+  <img src="/assets/img/wonderful-life-mark.avif" alt="Mark Hamill Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-mark.avif' %}>
 
-  <img src="/assets/img/wonderful-life-tom.avif" alt="Tom Bergeron Bio Pic" {%
+  <img src="/assets/img/wonderful-life-tom.avif" alt="Tom Bergeron Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-tom.avif' %}>
 
-  <img src="/assets/img/wonderful-life-tom-k.avif" alt="Tom Kenny Bio Pic" {%
+  <img src="/assets/img/wonderful-life-tom-k.avif" alt="Tom Kenny Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-tom-k.avif' %}>
 
-  <img src="/assets/img/wonderful-life-clancy.avif" alt="Clancy Brown Bio Pic" {%
+  <img src="/assets/img/wonderful-life-clancy.avif" alt="Clancy Brown Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-clancy.avif' %}>
 
-  <img src="/assets/img/wonderful-life-bill.avif" alt="Bill Fagerbakke Bio Pic" {%
+  <img src="/assets/img/wonderful-life-bill.avif" alt="Bill Fagerbakke Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-bill.avif' %}>
 
-  <img src="/assets/img/wonderful-life-ron.avif" alt="Ron Funches Bio Pic" {%
+  <img src="/assets/img/wonderful-life-ron.avif" alt="Ron Funches Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-ron.avif' %}>
 
-  <img src="/assets/img/wonderful-life-carolyn.avif" alt="Carolyn Lawrence Bio Pic" {%
+  <img src="/assets/img/wonderful-life-carolyn.avif" alt="Carolyn Lawrence Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-carolyn.avif' %}>
 
-  <img src="/assets/img/wonderful-life-rodger.avif" alt="Rodger Bumpass Bio Pic" {%
+  <img src="/assets/img/wonderful-life-rodger.avif" alt="Rodger Bumpass Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-rodger.avif' %}>
 
-  <img src="/assets/img/wonderful-life-mary.avif" alt="Mary Jo Catlett Bio Pic" {%
+  <img src="/assets/img/wonderful-life-mary.avif" alt="Mary Jo Catlett Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-mary.avif' %}>
 
-  <img src="/assets/img/wonderful-life-doug.avif" alt="Doug Lawrence Bio Pic" {%
+  <img src="/assets/img/wonderful-life-doug.avif" alt="Doug Lawrence Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-doug.avif' %}>
 
-  <img src="/assets/img/wonderful-life-jill.avif" alt="Jill Talley Bio Pic" {%
+  <img src="/assets/img/wonderful-life-jill.avif" alt="Jill Talley Bio picture" {%
     imageDimensions '/assets/img/wonderful-life-jill.avif' %}>
+
+  <img src="/assets/img/wonderful-life-joey.avif" alt="Joey King Bio picture" {%
+    imageDimensions '/assets/img/wonderful-life-joey.avif' %}>
 </div>
 
 <!-- Sponsorship Section -->
@@ -157,7 +161,9 @@
       </div>
       <div
         class="button flex min-h-10 w-full items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
-        <a role="button" class="flex h-full w-full items-center justify-center p-2" href="/contact/">Purchase</a>
+        <a role="button" class="flex h-full w-full items-center justify-center p-2"
+          href="https://www.simpletix.com/e/its-a-wonderful-life-a-night-benefiting-s-tickets-194378" target="_blank"
+          aria-label="Link to Wonderful Life event tickets. Opens in new tab.">Purchase</a>
       </div>
     </div>
 
@@ -175,7 +181,9 @@
       </div>
       <div
         class="button flex min-h-10 w-full items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
-        <a role="button" class="flex h-full w-full items-center justify-center p-2" href="/contact/">Purchase</a>
+        <a role="button" class="flex h-full w-full items-center justify-center p-2"
+          href="https://www.simpletix.com/e/its-a-wonderful-life-a-night-benefiting-s-tickets-194378" target="_blank"
+          aria-label="Link to Wonderful Life event tickets. Opens in new tab.">Purchase</a>
       </div>
     </div>
 
@@ -193,7 +201,9 @@
       </div>
       <div
         class="button flex min-h-10 w-full items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
-        <a role="button" class="flex h-full w-full items-center justify-center p-2" href="/contact/">Purchase</a>
+        <a role="button" class="flex h-full w-full items-center justify-center p-2"
+          href="https://www.simpletix.com/e/its-a-wonderful-life-a-night-benefiting-s-tickets-194378" target="_blank"
+          aria-label="Link to Wonderful Life event tickets. Opens in new tab.">Purchase</a>
       </div>
     </div>
 
@@ -209,7 +219,9 @@
       </div>
       <div
         class="button flex min-h-10 w-full items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
-        <a role="button" class="flex h-full w-full items-center justify-center p-2" href="/contact/">Purchase</a>
+        <a role="button" class="flex h-full w-full items-center justify-center p-2"
+          href="https://www.simpletix.com/e/its-a-wonderful-life-a-night-benefiting-s-tickets-194378" target="_blank"
+          aria-label="Link to Wonderful Life event tickets. Opens in new tab.">Purchase</a>
       </div>
     </div>
   </div>
@@ -239,8 +251,9 @@
         <div class="mb-4 text-xl text-gray-600 opacity-85">$29</div>
       </div>
       <div
-        class="button flex min-h-10 items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
-        <a role="button" class="flex h-full w-full items-center justify-center p-2" href="/contact/">Purchase</a>
+        class="flex min-h-10 items-center justify-center rounded-lg border-teafc-orange bg-teafc-orange text-sm font-semibold text-white shadow-sm hover:bg-teafc-orange focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
+        <a role="button" class="flex h-full w-full items-center justify-center p-2 pointer-events-none" href="#">Coming
+          Soon</a>
       </div>
     </div>
   </div>
@@ -255,12 +268,6 @@
   </h2>
 
   <div class="flex justify-center gap-8">
-    <iframe width="1280" height="500" src="https://www.youtube.com/embed/LBP8JL7tYiw"
-      title="“A New Hollywood Tradition” 🤩Thank you Extra for featuring the Center! #encore #performance #ticket"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
     <iframe width="1280" height="500" src="https://www.youtube.com/embed/LBP8JL7tYiw"
       title="“A New Hollywood Tradition” 🤩Thank you Extra for featuring the Center! #encore #performance #ticket"
       frameborder="0"
