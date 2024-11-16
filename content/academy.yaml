@@ -19,8 +19,10 @@ feature_section_cta_feature2_title: ""
 feature_section_cta_feature2_description: ""
 feature_section_cta_btn: "Contact Us To Enroll"
 feature_section_cta_btn_link_key: contact_url
-feature_section_cta_img: /assets/img/funko.avif
+feature_section_cta_img: ""
 feature_section_cta_img_alt: ""
+feature_section_cta_video: "/assets/video/academy-intro-video.mp4"
+feature_section_cta_thumbnail: /assets/img/academy-video-thumbnail.avif
 
 # PARTNERS SECTION
 partners_top_divider: false
@@ -145,7 +147,7 @@ accordions:
     accordion_cta: null
 
 # CTA Banner
-cta_img: "/assets/img/join-the-academy.jpg"
+cta_img: "/assets/img/academy-join.avif"
 cta_img_alt_tag: ""
 cta_title: "Join The Academy"
 cta_subtitle: >-
@@ -155,9 +157,9 @@ cta_btn_link_key: "contact_url"
 
 # IMG Gallery
 image_gallery:
-  - img_url: "/assets/img/camp.avif"
-  - img_url: "/assets/img/camp2.avif"
-  - img_url: "/assets/img/who-we-are2.avif"
-  - img_url: "/assets/img/funko.avif"
-  - img_url: "/assets/img/volunteer2.avif"
-  - img_url: "/assets/img/volunteer.avif"
+  - img_url: "/assets/img/academy-gallery-3.avif"
+  - img_url: "/assets/img/academy-gallery-6.avif"
+  - img_url: "/assets/img/academy-gallery-2.avif"
+  - img_url: "/assets/img/academy-gallery-1.avif"
+  - img_url: "/assets/img/academy-gallery-4.avif"
+  - img_url: "/assets/img/academy-gallery-5.avif"
