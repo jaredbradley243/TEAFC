@@ -18,20 +18,21 @@
             </div>
           </dl>
         </div>
-        <a
-          href="{{ navigation | getByKey:feature_section_cta_btn_link_key }}"
-          class="button mt-8 flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange"
-        >
+        <a href="{{ navigation | getByKey:feature_section_cta_btn_link_key }}"
+          class="button mt-8 flex w-44 justify-center rounded-lg border-teafc-orange bg-teafc-orange py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teafc-orange">
           {{ feature_section_cta_btn }}
         </a>
       </div>
-
-      <img
-        src="{{ feature_section_cta_img }}"
-        alt="{{ feature_section_cta_img_alt }}"
-        class="min-w-full rounded-xl shadow-md ring-1 ring-white/10 lg:row-span-4 lg:w-[32rem] lg:max-w-none"
-        {% imageDimensions feature_section_cta_img %}
-      >
+      {% if feature_section_cta_img != "" %}
+      <img src="{{ feature_section_cta_img }}" alt="{{ feature_section_cta_img_alt }}"
+        class="min-w-full rounded-xl shadow-md ring-1 ring-white/10 lg:row-span-4 lg:w-[32rem] lg:max-w-none" {%
+        imageDimensions feature_section_cta_img %}>
+      {% elsif feature_section_cta_video != "" %}
+      <video controls width="800" height="450" poster="{{ feature_section_cta_thumbnail }}"
+        src="{{ feature_section_cta_video }}"
+        class="min-w-full rounded-xl shadow-md ring-1 ring-white/10 lg:row-span-4 lg:w-[32rem] lg:max-w-none">
+      </video>
+      {% endif %}
     </div>
   </div>
 </div>
