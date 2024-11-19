@@ -97,6 +97,7 @@ insurance_top_divider: true
 insurance_bottom_divider: true
 insurance_title: ""
 insurance_subtitle: >-
+insurance_img_height: 4rem
 insurance:
   # Magellan
   - img: "/assets/img/magellan.svg"

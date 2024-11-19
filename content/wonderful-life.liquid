@@ -135,6 +135,28 @@
     imageDimensions '/assets/img/wonderful-life-jill.avif' %}>
 </div>
 
+<!-- Sponsors -->
+ <!-- Divider -->
+<div class="sm:container-sm hidden sm:block">
+  <div class="h-[0.09375rem] w-full bg-[#b4b4b4] p-0"></div>
+</div>
+<!-- End Divider -->
+{% include 'partials/logo-cloud-container.liquid',
+  logos: sponsors,
+  top_divider: sponsors_top_divider,
+  bottom_divider: sponsors_bottom_divider,
+  title: sponsors_title,
+  subtitle: sponsors_subtitle,
+  grid_cols_sm_num: 2,
+  grid_cols_md_num: 2,
+  grid_cols_lg_num: 4,
+  logo_cloud_col_span_sm: 1,
+  logo_cloud_col_span_lg: 1,
+  logo_img_height: sponsors_img_height
+%}
+<!-- End Sponsors -->
+
+
 <!-- Sponsorship Section -->
 <div class="container-sm">
   <div class="flex flex-col">
