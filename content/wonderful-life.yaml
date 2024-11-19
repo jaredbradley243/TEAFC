@@ -2,3 +2,21 @@ layout: "layouts/base.liquid"
 title: The Ed Asner Center presents It's a Wonderful Life
 description: >-
 permalink: "{{ navigation.wonderful_life_url }}"
+# Sponsor Logos
+sponsors_top_divider: false
+sponsors_bottom_divider: false
+sponsors_title: "Thank You To Our Sponsors"
+sponsors_subtitle: >-
+sponsors_img_height: 14rem
+sponsors:
+  - img: "/assets/img/wonderful-life-bristol-circle.avif"
+    img_alt_tag: ""
+
+  - img: "/assets/img/wonderful-life-dolby.avif"
+    img_alt_tag: ""
+
+  - img: "/assets/img/wonderful-life-trebek-foundation.avif"
+    img_alt_tag: ""
+
+  - img: "/assets/img/wonderful-life-paramount.avif"
+    img_alt_tag: ""
