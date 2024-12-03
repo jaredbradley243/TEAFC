@@ -11,6 +11,13 @@ info_card_subtitle: >-
   Our expressive arts program is designed to help individuals develop new skills, explore their creativity, and express themselves in new and exciting ways.
 info_cards:
   # Card 1
+  - info_card_img: "/assets/img/dating-spectrum.jpg"
+    info_card_title: "Dating Spectrum"
+    info_card_date_time: ""
+    info_card_paragraph: >-
+    info_card_btn_txt: "Learn More"
+    link_key: "contact_url"
+  # Card 2
   - info_card_img: "/assets/img/social-club.jpg"
     info_card_title: "Social Club (18+)"
     info_card_date_time: ""
@@ -26,7 +33,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 6
+  # Card 4
   - info_card_img: "/assets/img/vo_real.avif"
     info_card_title: "Voice over"
     info_card_date_time: ""
@@ -34,7 +41,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 7
+  # Card 5
   - info_card_img: "/assets/img/robotics_real.avif"
     info_card_title: "Robotics"
     info_card_date_time: ""
@@ -42,7 +49,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 8
+  # Card 6
   - info_card_img: "/assets/img/Computers.avif"
     info_card_title: "Computer Gaming"
     info_card_date_time: ""
@@ -50,7 +57,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 9
+  # Card 7
   - info_card_img: "/assets/img/cooking_real.avif"
     info_card_title: "Cooking"
     info_card_date_time: ""
@@ -58,7 +65,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 10
+  # Card 8
   - info_card_img: "/assets/img/enrichment-podcasting.avif"
     info_card_title: "Podcasting"
     info_card_date_time: ""
@@ -66,7 +73,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 2
+  # Card 9
   - info_card_img: "/assets/img/enrichment-music.avif"
     info_card_title: "Music"
     info_card_date_time: ""
@@ -74,7 +81,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 4
+  # Card 10
   - info_card_img: "/assets/img/enrichment-dance.avif"
     info_card_title: "Dance"
     info_card_date_time: ""
@@ -82,7 +89,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 5
+  # Card 11
   - info_card_img: "/assets/img/enrichment-yoga.avif"
     info_card_title: "Yoga"
     info_card_date_time: ""
@@ -90,7 +97,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 11
+  # Card 12
   - info_card_img: "/assets/img/enrichment-friendship.avif"
     info_card_title: "Friendship Builders"
     info_card_date_time: ""
@@ -98,7 +105,7 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 12
+  # Card 13
   - info_card_img: "/assets/img/enrichment-sexed.JPG"
     info_card_title: "Sex Ed 101"
     info_card_date_time: ""
@@ -106,17 +113,9 @@ info_cards:
     info_card_btn_txt: "Learn More"
     link_key: "contact_url"
 
-  # Card 13
+  # Card 14
   - info_card_img: "/assets/img/enrichment-creative-writing.avif"
     info_card_title: "Creative Writing"
-    info_card_date_time: ""
-    info_card_paragraph: >-
-    info_card_btn_txt: "Learn More"
-    link_key: "contact_url"
-
-  # Card 14
-  - info_card_img: "/assets/img/dating-spectrum.jpg"
-    info_card_title: "Dating Spectrum"
     info_card_date_time: ""
     info_card_paragraph: >-
     info_card_btn_txt: "Learn More"
