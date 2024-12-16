@@ -185,14 +185,23 @@
         {{- header.sixth_link_title -}}
       </a>
     </div>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end gap-4">
+      <div class="invisible lg:w-3 xl:w-28"></div>
       <a
         href="{{ navigation | getByKey:header.seventh_link_url }}"
         target="_blank"
-        class="button rounded-md border-2  border-teafc-orange bg-[rgb(255,139,0,0.1)] px-6 py-1 text-sm font-semibold text-teafc-orange"
+        class="button rounded-md border-2 border-teafc-orange bg-[rgb(255,139,0,0.1)] px-6 py-1 text-sm font-semibold text-teafc-orange"
         aria-label="{{ header.seventh_link_aria_label }}"
       >
         {{- header.seventh_link_title -}}
+      </a>
+      <a
+        href="{{ navigation | getByKey:header.eighth_link_url }}"
+        target="_blank"
+        class="button rounded-md border-2 border-teafc-blue bg-teafc-blue px-6 py-1 text-sm font-semibold text-white"
+        aria-label="{{ header.eighth_link_aria_label }}"
+      >
+        {{- header.eighth_link_title -}}
       </a>
     </div>
   </nav>
@@ -353,8 +362,17 @@
         href="{{ navigation | getByKey:header.seventh_link_url }}"
         target="_blank"
         class="-mx-3 mt-6 block rounded-lg border-2 border-teafc-orange bg-[rgb(255,139,0,0.1)] px-3 py-2 text-base font-semibold leading-7 text-teafc-orange"
+        aria-label="{{ header.seventh_link_aria_label }}"
       >
         {{- header.seventh_link_title -}}
+      </a>
+      <a
+        href="{{ navigation | getByKey:header.eighth_link_url }}"
+        target="_blank"
+        class="-mx-3 mt-6 block rounded-lg border-2 border-teafc-blue bg-teafc-blue px-3 py-2 text-base font-semibold leading-7 text-white"
+        aria-label="{{ header.eighth_link_aria_label }}"
+      >
+        {{- header.eighth_link_title -}}
       </a>
     </div>
   </div>
