@@ -44,5 +44,6 @@ seventh_link_url: "donate_url"
 seventh_link_aria_label: "Link to Donate page. Opens in new tab."
 
 eighth_link_title: "Shop"
+eighth_link_title_mobile: "Shop Merch"
 eighth_link_url: "shop_url"
 eighth_link_aria_label: "Link to shop page. Opens in new tab."
